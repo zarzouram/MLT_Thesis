@@ -1,0 +1,40 @@
+import argparse
+
+
+def parse_arguments(configs):
+    parser = argparse.ArgumentParser(
+        description="Universal Dependencies (UD) parsing of Wikidata labels")
+
+    parser.add_argument(
+        "--wiki_path",
+        type=str,
+        default=  # noqa: E251
+        "./data/NLG-examples/abstract-wikipedia/properties/wikidata_properties.json",  # noqa: E501
+        help="Path for the Wikidata dump json file.")
+
+    parser.add_argument(
+        "--parsers",
+        nargs='+',
+        default=["udp"],
+        choices=list(configs["parsers"].keys()),
+        help=  # noqa: E251
+        "Parser to be used. Allowed values are 'udp', and 'stanza'. Pass 'udp' to use UDpipe, 'stanza' to use Stanza and pass 'udp stanze' to use both."  # noqa: E501
+    )
+
+    parser.add_argument(
+        "--langs",
+        nargs='+',
+        default=configs["langs"],
+        choices=configs["langs"],
+        help=  # noqa: E251
+        "Language(s) to be processed. Allowed values are 'ar', and 'en'. Pass 'ar' to process Arabic labels, 'en' to process English labels and 'en ar' to process both languages."  # noqa: E501
+    )
+
+    parser.add_argument("--output_dir",
+                        type=str,
+                        default="./data/conllu",
+                        help="Directory to save conllu files.")
+
+    args = parser.parse_args()
+
+    return parser, args

@@ -3,7 +3,7 @@ import sys
 from traceback import TracebackException
 import requests
 
-from abstracts import RestBase
+from .abstracts import RestBase
 
 
 class UDRest(RestBase):
@@ -27,6 +27,10 @@ class UDRest(RestBase):
 
         return r.json()["result"]
 
+    @classmethod
+    def name(self):
+        return self.__name__
+
 
 if __name__ == "__main__":
     udp_ar = UDRest()
@@ -39,3 +43,4 @@ if __name__ == "__main__":
     }
     conllu_ar = udp_ar.get_process(params=params)
     print(conllu_ar)
+    print(udp_ar.name())
