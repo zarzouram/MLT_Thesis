@@ -1,12 +1,19 @@
 {
-    "wikidata": {
-        "langs": [
-            "ar",
-            "en"
-        ],
-        "parsers": {
-            "udp": "UDRest",
-            "stanza": "Stanza"
+    "langs": [
+        "ar",
+        "en"
+    ],
+    "parsers": {
+        "udp": {
+            "class": "UDPipeRestParser",
+            "params": {
+                "tokenizer": "",
+                "tagger": "",
+                "parser": ""
+            }
+        },
+        "stanza": {
+            "class": "StanzaParser"
         }
     }
 }

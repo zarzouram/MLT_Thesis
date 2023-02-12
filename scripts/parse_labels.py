@@ -1,39 +1,56 @@
+# from collections import defaultdict
+from typing import List
+
 from pathlib import Path
 import json
 
-from data.utils import parse_arguments
-import data.ud_parsers as Parsers
+from utils import parse_arguments
+import parsers_m.ud_parsers as Parsers
 
 if __name__ == "__main__":
 
+    # load configuration file:
+    #  - Define supported languages and parser
     with open("scripts/config.json", "r") as json_file:
-        configs = json.load(json_file)
-    wikiconfigs = configs["wikidata"]
+        configs = json.load(json_file)  # type: dict
 
     # parse arguments
-    _, args = parse_arguments(wikiconfigs)
+    _, args = parse_arguments()
     wikidata_path = Path(args.wiki_path).absolute().resolve()
     output_dir = Path(args.output_dir).resolve().absolute()
     langs = args.langs  # type: str
     parser_names = args.parsers  # type: str
 
-    # open Wikidata json file. Get labels for the respective language and
-    # the entity ID.
-    wikidata = []
+    # check that the choosed languages and parsers are supported
+    parsers_supported = configs['parsers'].keys()
+    langs_supported = configs['langs']
+    assert all([p in parsers_supported for p in parser_names])
+    assert all([ln in langs_supported for ln in langs])
+
+    # - Read json file containing wikidata information.
+    # - Parse each line and store the entity id and its labels in the required
+    #     languages into a dict.
+    #     If a label for a specific language doesn't exist, the label is saved
+    #     as None
+    wikidata: dict[str, List[str]] = {"idx": [], **{lang: [] for lang in langs}}
     with open(wikidata_path, "r", encoding="utf-8") as f:
         for line in f:
             entity = json.loads(line)  # type: dict
             ent_id = entity["id"]  # type: str
-            ent_labels = [(lang, entity["labels"].get(lang, None))
-                          for lang in langs]
-            wikidata.append((ent_id, ent_labels))
+            wikidata["idx"].append(ent_id)
+            for lang in langs:
+                wlabels: str = entity["labels"].get(lang, None)
+                wikidata[lang].append(wlabels)
 
     # initialize parser classes under 'data.ud_parsers' module using parser
-    # names
+    # names in the configs.
     parsers = []  # list of intialized classes
-    parsers_dict =  wikiconfigs["parsers"]  # parser_name to parser_class_name
+    parsers_dict = configs["parsers"]  # map parser_name to parser_class_name
     for parser_name in parser_names:
-        parsers.append(getattr(Parsers, parsers_dict[parser_name])())
+        parsers.append(getattr(Parsers, parsers_dict[parser_name]["class"])())
+
+    # for each language remove records where the labels is None
+
 
 """
 {

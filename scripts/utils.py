@@ -1,7 +1,7 @@
 import argparse
 
 
-def parse_arguments(configs):
+def parse_arguments():
     parser = argparse.ArgumentParser(
         description="Universal Dependencies (UD) parsing of Wikidata labels")
 
@@ -16,7 +16,7 @@ def parse_arguments(configs):
         "--parsers",
         nargs='+',
         default=["udp"],
-        choices=list(configs["parsers"].keys()),
+        # choices=["stanza", "udp"],
         help=  # noqa: E251
         "Parser to be used. Allowed values are 'udp', and 'stanza'. Pass 'udp' to use UDpipe, 'stanza' to use Stanza and pass 'udp stanze' to use both."  # noqa: E501
     )
@@ -24,8 +24,8 @@ def parse_arguments(configs):
     parser.add_argument(
         "--langs",
         nargs='+',
-        default=configs["langs"],
-        choices=configs["langs"],
+        default=["ar", "en"],
+        # choices=["ar", "en"],
         help=  # noqa: E251
         "Language(s) to be processed. Allowed values are 'ar', and 'en'. Pass 'ar' to process Arabic labels, 'en' to process English labels and 'en ar' to process both languages."  # noqa: E501
     )
