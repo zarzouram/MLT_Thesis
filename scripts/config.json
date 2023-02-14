@@ -13,7 +13,12 @@
             }
         },
         "stanza": {
-            "class": "StanzaParser"
+            "class": "StanzaParser",
+            "params": {
+                "tokenizer": "",
+                "tagger": "",
+                "parser": ""
+            }
         }
     }
 }

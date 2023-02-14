@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from .abstracts import AbstractUDParser
+from scripts.parsers_m.abstracts import AbstractUDParser
 
 
 class RestAPIParser(AbstractUDParser):

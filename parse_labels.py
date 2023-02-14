@@ -1,11 +1,14 @@
 # from collections import defaultdict
-from typing import List
+from typing import Dict, List, Type
+from scripts.parsers_m.abstracts import AbstractUDParser
 
 from pathlib import Path
 import json
 
-from utils import parse_arguments
-import parsers_m.ud_parsers as Parsers
+from scripts.utils import parse_arguments
+from scripts.wiki_data.WikiData import WikiData
+from scripts.data_maniplualtion.utils import read_wikidata
+import scripts.parsers_m.ud_parsers as Parsers
 
 if __name__ == "__main__":
 
@@ -27,31 +30,20 @@ if __name__ == "__main__":
     assert all([p in parsers_supported for p in parser_names])
     assert all([ln in langs_supported for ln in langs])
 
-    # - Read json file containing wikidata information.
-    # - Parse each line and store the entity id and its labels in the required
-    #     languages into a dict.
-    #     If a label for a specific language doesn't exist, the label is saved
-    #     as None
-    wikidata: dict[str, List[str]] = {"idx": [], **{lang: [] for lang in langs}}
-    with open(wikidata_path, "r", encoding="utf-8") as f:
-        for line in f:
-            entity = json.loads(line)  # type: dict
-            ent_id = entity["id"]  # type: str
-            wikidata["idx"].append(ent_id)
-            for lang in langs:
-                wlabels: str = entity["labels"].get(lang, None)
-                wikidata[lang].append(wlabels)
-
     # initialize parser classes under 'data.ud_parsers' module using parser
     # names in the configs.
-    parsers = []  # list of intialized classes
-    parsers_dict = configs["parsers"]  # map parser_name to parser_class_name
+    # list of intialized classes
+    parsers: List[Type[AbstractUDParser]] = []
+    params: List[Dict[str, str]] = []
+    parsers_dict = configs["parsers"]  # parsers configs: class_names, params
     for parser_name in parser_names:
         parsers.append(getattr(Parsers, parsers_dict[parser_name]["class"])())
+        params.append(parsers_dict[parser_name]["params"])
 
-    # for each language remove records where the labels is None
-
-
+    # Read and parse wikidata
+    wikidata = WikiData(wikidata_path, langs, read_wikidata)
+    wkdata_parsed = wikidata.parse_data(parsers[0], params[0], langs)
+    print("h")
 """
 {
     "id": "P6",
