@@ -6,14 +6,16 @@
     "parsers": {
         "udp": {
             "class": "UDPipeRestParser",
+            "output_converter": "ConlluProcessor",
             "params": {
-                "tokenizer": "",
+                "tokenizer": "presegmented",
                 "tagger": "",
                 "parser": ""
             }
         },
         "stanza": {
             "class": "StanzaParser",
+            "output_converter": "",
             "params": {
                 "tokenizer": "",
                 "tagger": "",

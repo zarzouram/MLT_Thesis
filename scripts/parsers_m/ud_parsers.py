@@ -3,12 +3,14 @@ from typing import Any, Dict, List, Type, Union
 import sys
 from traceback import TracebackException
 
-import re
+# import re
+from tqdm.auto import tqdm
 
 import requests
 
-from scripts.data_maniplualtion.abstarcts import ParsersOutputProcessor
-from scripts.parsers_m.interfaces import RestAPIParser, LibraryParser
+from data_maniplualtion.abstarcts import ParsersOutputProcessor
+from parsers_m.interfaces import RestAPIParser, LibraryParser
+from utils.utils import split_list
 
 
 class UDPipeRestParser(RestAPIParser):
@@ -23,7 +25,7 @@ class UDPipeRestParser(RestAPIParser):
     def __init__(self):
         super().__init__()
         # max text length in request = 1000
-        self.__regex = re.compile(r'.{,1000}\n', flags=re.S)
+        self.max_len = 1000
 
     @property
     def url(self) -> str:
@@ -32,10 +34,9 @@ class UDPipeRestParser(RestAPIParser):
     def parse(self, texts: List[str], lang: str, params) -> str:
         # parsing the text using UDPipe API
         # Split the list of stings to avoide long request error
-        texts_str = "\n".join(texts)
-        chunks: List[str] = re.findall(self.__regex, texts_str + "\n")
+        chunks = split_list(texts, self.max_len)
         parsed_chuncks = []
-        for chunk in chunks:
+        for chunk in tqdm(chunks, desc=f'Parsing {lang}'):
             chunk = "\n\n".join(chunk.split("\n"))
             parsed_chuncks.append(self.__parse(chunk, lang, params))
         return '\n'.join(parsed_chuncks)
@@ -43,16 +44,17 @@ class UDPipeRestParser(RestAPIParser):
     def __parse(self, text: str, lang: str, params) -> str:
         # implementation of parsing the text using UDPIPE REST API and
         # returning the UD parse conllu in str format
-        print(len(text))
         params["data"] = text
         params["model"] = lang
         try:
-            r = requests.get(url=f"{self.url}/process", params=params)
+            r = requests.get(url=f"{self.url}/process",
+                             params=params,
+                             timeout=60.)
             r.raise_for_status()
 
         except BaseException as e:
-            msg = f"{r.content.decode()}\n\n"
-            msg += "\n".join(TracebackException.from_exception(e).format())
+            # msg = f"{r.content.decode()}\n\n"
+            msg = "\n".join(TracebackException.from_exception(e).format())
             sys.exit(f"{msg}")
 
         return r.json()["result"]
@@ -62,7 +64,7 @@ class UDPipeRestParser(RestAPIParser):
         # model name for the REST API.
         pass
 
-    def convert_output(
+    def _convert_output(
         self, data: Any, conv_obj: Type[ParsersOutputProcessor]
     ) -> Dict[str, List[Union[int, str]]]:
         pass
@@ -90,7 +92,7 @@ class StanzaParser(LibraryParser):
         # model name for the library
         pass
 
-    def convert_output(
+    def _convert_output(
         self, data: Any, conv_obj: Type[ParsersOutputProcessor]
     ) -> Dict[str, List[Union[int, str]]]:
         pass

@@ -1,0 +1,58 @@
+# from collections import defaultdict
+from typing import Dict, List, Type
+from parsers_m.abstracts import AbstractUDParser
+from data_maniplualtion.abstarcts import ParsersOutputProcessor
+
+from pathlib import Path
+import json
+
+from utils.utils import parse_arguments
+from data_maniplualtion.utils import read_wikidata
+
+from wiki_data.WikiData import WikiData
+import parsers_m.ud_parsers as Parsers
+import data_maniplualtion.converters as Converters
+
+if __name__ == "__main__":
+
+    # load configuration file:
+    #  - Define supported languages and parser
+    with open("scripts/config.json", "r") as json_file:
+        configs = json.load(json_file)  # type: dict
+
+    # parse arguments
+    _, args = parse_arguments()
+    wikidata_path = Path(args.wiki_path).absolute().resolve()
+    output_dir = Path(args.output_dir).resolve().absolute()
+    langs = args.langs  # type: str
+    parser_names = args.parsers  # type: str
+
+    # check that the choosed languages and parsers are supported
+    parsers_supported = configs['parsers'].keys()
+    langs_supported = configs['langs']
+    assert all([p in parsers_supported for p in parser_names])
+    assert all([ln in langs_supported for ln in langs])
+
+    # initialize parser classes under 'data.ud_parsers' module using parser
+    # names in the configs.
+    # list of intialized classes
+    parsers: List[Type[AbstractUDParser]] = []
+    converters: List[Type[ParsersOutputProcessor]] = []
+    params: List[Dict[str, str]] = []
+    parsers_dict = configs["parsers"]  # parsers configs: class_names, params
+    for parser_name in parser_names:
+        parsers.append(getattr(Parsers, parsers_dict[parser_name]["class"])())
+        converters.append(
+            getattr(Converters,
+                    parsers_dict[parser_name]["output_converter"])())
+        params.append(parsers_dict[parser_name]["params"])
+
+    # Read and parse wikidata
+    wikidata = WikiData(wikidata_path, langs, read_wikidata)
+    for settings in zip(parsers, parser_names, converters, params):
+        output_dir = str(output_dir / settings[1])
+        wkdata_parsed = wikidata.parse_data(parser_obj=settings[0],
+                                            converter_obj=settings[2],
+                                            params=settings[3],
+                                            langs=langs,
+                                            write_output=(output_dir, "w"))

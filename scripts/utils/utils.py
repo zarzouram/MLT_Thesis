@@ -1,4 +1,6 @@
+from typing import List
 import argparse
+import re
 
 
 def parse_arguments():
@@ -32,9 +34,16 @@ def parse_arguments():
 
     parser.add_argument("--output_dir",
                         type=str,
-                        default="./data/conllu",
+                        default="./outputs/conllu",
                         help="Directory to save conllu files.")
 
     args = parser.parse_args()
 
     return parser, args
+
+
+def split_list(texts: List[str], max_len: int):
+    regex_lenmax = re.compile(rf'.{{,{max_len}}}\n', flags=re.S)
+    texts_str = "\n".join(texts)
+    chunks: List[str] = re.findall(regex_lenmax, texts_str + "\n")
+    return chunks

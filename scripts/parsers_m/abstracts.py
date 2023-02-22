@@ -1,7 +1,7 @@
 from typing import List, Dict, Any, Optional, Type
 from abc import ABC, abstractmethod
 
-from scripts.data_maniplualtion.abstarcts import ParsersOutputProcessor
+from data_maniplualtion.abstarcts import ParsersOutputProcessor
 
 
 class AbstractUDParser(ABC):
@@ -43,7 +43,7 @@ class AbstractUDParser(ABC):
         pass
 
     @abstractmethod
-    def convert_output(
+    def _convert_output(
             self,
             data: Any,
             conv_obj: Type[ParsersOutputProcessor]) -> Dict[str, List[str]]:
