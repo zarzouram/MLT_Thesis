@@ -1,11 +1,11 @@
 from typing import Any, Dict, List, Literal, Optional, Union
 
 import re
-from data_maniplualtion.abstarcts import ParsersOutputProcessor
+from data_maniplualtion.abstarcts import ParsersOutputConverter
 from data_maniplualtion.utils import replace_wlist
 
 
-class ConlluProcessor(ParsersOutputProcessor):
+class UDPipeConverters(ParsersOutputConverter):
 
     def __init__(self):
         super().__init__()

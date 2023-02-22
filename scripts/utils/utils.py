@@ -37,6 +37,11 @@ def parse_arguments():
                         default="./outputs/conllu",
                         help="Directory to save conllu files.")
 
+    parser.add_argument("--db_dir",
+                        type=str,
+                        default="./data/database",
+                        help="Directory to save conllu files.")
+
     args = parser.parse_args()
 
     return parser, args

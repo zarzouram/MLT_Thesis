@@ -2,7 +2,7 @@ from typing import Any, Dict, List, Union
 from abc import ABC, abstractmethod
 
 
-class ParsersOutputProcessor(ABC):
+class ParsersOutputConverter(ABC):
     """
     This is an abstract class for converting data to a dict. It provides a
     basic framework for converting data, but concrete implementations will be

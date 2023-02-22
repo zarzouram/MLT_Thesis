@@ -6,7 +6,7 @@
     "parsers": {
         "udp": {
             "class": "UDPipeRestParser",
-            "output_converter": "ConlluProcessor",
+            "output_converter": "UDPipeConverters",
             "params": {
                 "tokenizer": "presegmented",
                 "tagger": "",

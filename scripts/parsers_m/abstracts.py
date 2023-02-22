@@ -1,7 +1,7 @@
 from typing import List, Dict, Any, Optional, Type
 from abc import ABC, abstractmethod
 
-from data_maniplualtion.abstarcts import ParsersOutputProcessor
+from data_maniplualtion.abstarcts import ParsersOutputConverter
 
 
 class AbstractUDParser(ABC):
@@ -46,7 +46,7 @@ class AbstractUDParser(ABC):
     def _convert_output(
             self,
             data: Any,
-            conv_obj: Type[ParsersOutputProcessor]) -> Dict[str, List[str]]:
+            conv_obj: Type[ParsersOutputConverter]) -> Dict[str, List[str]]:
         """
         Convert the parser output to the dict format using an instance of
         ParsersOutputProcessor

@@ -8,7 +8,7 @@ from tqdm.auto import tqdm
 
 import requests
 
-from data_maniplualtion.abstarcts import ParsersOutputProcessor
+from data_maniplualtion.abstarcts import ParsersOutputConverter
 from parsers_m.interfaces import RestAPIParser, LibraryParser
 from utils.utils import split_list
 
@@ -65,7 +65,7 @@ class UDPipeRestParser(RestAPIParser):
         pass
 
     def _convert_output(
-        self, data: Any, conv_obj: Type[ParsersOutputProcessor]
+        self, data: Any, conv_obj: Type[ParsersOutputConverter]
     ) -> Dict[str, List[Union[int, str]]]:
         pass
 
@@ -93,7 +93,7 @@ class StanzaParser(LibraryParser):
         pass
 
     def _convert_output(
-        self, data: Any, conv_obj: Type[ParsersOutputProcessor]
+        self, data: Any, conv_obj: Type[ParsersOutputConverter]
     ) -> Dict[str, List[Union[int, str]]]:
         pass
 

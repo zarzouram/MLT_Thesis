@@ -1,6 +1,6 @@
 from typing import List, Any, Callable, Dict, Literal, Optional, Tuple, Type
 from parsers_m.abstracts import AbstractUDParser
-from data_maniplualtion.abstarcts import ParsersOutputProcessor
+from data_maniplualtion.abstarcts import ParsersOutputConverter
 
 
 class WikiData:
@@ -35,7 +35,7 @@ class WikiData:
     def parse_data(
             self,
             parser_obj: Type[AbstractUDParser],
-            converter_obj: Type[ParsersOutputProcessor],
+            converter_obj: Type[ParsersOutputConverter],
             params: Dict[str, str],
             langs: List[str] = None,
             write_output: Optional[Tuple[str, Literal["w",

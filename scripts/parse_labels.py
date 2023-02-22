@@ -1,7 +1,7 @@
 # from collections import defaultdict
 from typing import Dict, List, Type
 from parsers_m.abstracts import AbstractUDParser
-from data_maniplualtion.abstarcts import ParsersOutputProcessor
+from data_maniplualtion.abstarcts import ParsersOutputConverter
 
 from pathlib import Path
 import json
@@ -24,6 +24,7 @@ if __name__ == "__main__":
     _, args = parse_arguments()
     wikidata_path = Path(args.wiki_path).absolute().resolve()
     output_dir = Path(args.output_dir).resolve().absolute()
+    db_dir = Path(args.db_dir).resolve().absolute()
     langs = args.langs  # type: str
     parser_names = args.parsers  # type: str
 
@@ -33,12 +34,14 @@ if __name__ == "__main__":
     assert all([p in parsers_supported for p in parser_names])
     assert all([ln in langs_supported for ln in langs])
 
-    # initialize parser classes under 'data.ud_parsers' module using parser
-    # names in the configs.
+    # initialize parser and converter classes using parser names in the
+    # configs. parser classes used to parse wikidata labels generating POS,
+    # XPOS, deprel, lemma, features. converters used to process the output of
+    # paresers
     # list of intialized classes
     parsers: List[Type[AbstractUDParser]] = []
-    converters: List[Type[ParsersOutputProcessor]] = []
-    params: List[Dict[str, str]] = []
+    converters: List[Type[ParsersOutputConverter]] = []
+    params: List[Dict[str, str]] = []  # parsers' parmeters
     parsers_dict = configs["parsers"]  # parsers configs: class_names, params
     for parser_name in parser_names:
         parsers.append(getattr(Parsers, parsers_dict[parser_name]["class"])())
