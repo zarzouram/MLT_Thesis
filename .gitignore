@@ -130,3 +130,6 @@ dmypy.json
 
 # camel-tools
 data/camel-db
+notes/UML
+data/resources/stanza
+notes/visuaize_tree.py

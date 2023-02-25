@@ -1,7 +1,5 @@
-from typing import List, Dict, Any, Optional, Type
+from typing import List, Any, Optional
 from abc import ABC, abstractmethod
-
-from data_maniplualtion.abstarcts import ParsersOutputConverter
 
 
 class AbstractUDParser(ABC):
@@ -12,7 +10,8 @@ class AbstractUDParser(ABC):
     """
 
     @abstractmethod
-    def parse(self, texts: List[str], lang: str, params: Optional[dict]) -> Any:
+    def parse(self, texts: List[str], lang: str,
+              params: Optional[dict]) -> Any:
         """Parse the given text and return the UD parse tree.
 
         Args:
@@ -41,22 +40,3 @@ class AbstractUDParser(ABC):
         str: The model name for the given language.
         """
         pass
-
-    @abstractmethod
-    def _convert_output(
-            self,
-            data: Any,
-            conv_obj: Type[ParsersOutputConverter]) -> Dict[str, List[str]]:
-        """
-        Convert the parser output to the dict format using an instance of
-        ParsersOutputProcessor
-
-        Arg:
-        data (Any): Data to be converted in the parser output format
-        conv_obj (ParsersOutputProcessor): an instance of
-        ParsersOutputProcessor to convert the parser output to the dict format
-
-        Returns:
-        Dict[str, List[str]]: Converted data in a dict
-        """
-    pass

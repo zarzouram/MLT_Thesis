@@ -72,8 +72,8 @@ class WikiData:
             idxs = list(filtered_data.keys())
 
             # parse wiki labels using parser_obj, then process its output
-            parsed_data = parser_obj.parse(labels, lang, params)
-            conllu_data = converter_obj.change_sent_id(parsed_data, idxs)
+            parsed_data = parser_obj.parse(labels, lang)
+            conllu_data = converter_obj.convert(parsed_data, labels, idxs)
 
             # write data to file
             if write_output is not None:

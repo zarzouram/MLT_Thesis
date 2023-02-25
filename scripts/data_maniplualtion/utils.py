@@ -102,7 +102,7 @@ def replace_wlist(pattern: Pattern, list_sub: List[str], text: str) -> str:
         >> print(result)  # 'one two three four five'
     """
     counter_obj = lambda: None  # noqa: E731
-    counter_obj.i = -1
+    counter_obj.i = -1  # counter object
 
     def list_repel(_, counter, list_sub):
         """

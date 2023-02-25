@@ -44,18 +44,20 @@ if __name__ == "__main__":
     params: List[Dict[str, str]] = []  # parsers' parmeters
     parsers_dict = configs["parsers"]  # parsers configs: class_names, params
     for parser_name in parser_names:
-        parsers.append(getattr(Parsers, parsers_dict[parser_name]["class"])())
-        converters.append(
-            getattr(Converters,
-                    parsers_dict[parser_name]["output_converter"])())
-        params.append(parsers_dict[parser_name]["params"])
+        # class names
+        pclass_name = parsers_dict[parser_name]["class"]
+        cclass_name = parsers_dict[parser_name]["output_converter"]
+        param = parsers_dict[parser_name]["params"]  # parser parameters
+        parsers.append(getattr(Parsers, pclass_name)(langs, param))
+        converters.append(getattr(Converters, cclass_name)())
+        params.append(param)
 
     # Read and parse wikidata
     wikidata = WikiData(wikidata_path, langs, read_wikidata)
     for settings in zip(parsers, parser_names, converters, params):
-        output_dir = str(output_dir / settings[1])
+        output_dir_ = str(output_dir / settings[1])
         wkdata_parsed = wikidata.parse_data(parser_obj=settings[0],
                                             converter_obj=settings[2],
                                             params=settings[3],
                                             langs=langs,
-                                            write_output=(output_dir, "w"))
+                                            write_output=(output_dir_, "w"))

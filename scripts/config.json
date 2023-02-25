@@ -15,11 +15,18 @@
         },
         "stanza": {
             "class": "StanzaParser",
-            "output_converter": "",
+            "output_converter": "StanzaConverters",
             "params": {
-                "tokenizer": "",
-                "tagger": "",
-                "parser": ""
+                "common": {
+                    "dir": "data/resources/stanza",
+                    "verbose": false
+                },
+                "ar": {
+                    "processors": "tokenize,mwt,pos,lemma,depparse"
+                },
+                "en": {
+                    "processors": "tokenize,pos,lemma,depparse"
+                }
             }
         }
     }

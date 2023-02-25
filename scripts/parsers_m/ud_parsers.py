@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Type, Union
+from typing import Dict, List, Optional
 
 import sys
 from traceback import TracebackException
@@ -6,9 +6,10 @@ from traceback import TracebackException
 # import re
 from tqdm.auto import tqdm
 
+from itertools import chain
 import requests
+import stanza
 
-from data_maniplualtion.abstarcts import ParsersOutputConverter
 from parsers_m.interfaces import RestAPIParser, LibraryParser
 from utils.utils import split_list
 
@@ -22,28 +23,34 @@ class UDPipeRestParser(RestAPIParser):
 
     _url = "http://lindat.mff.cuni.cz/services/udpipe/api"
 
-    def __init__(self):
+    def __init__(self, langs: Optional[List[str]], params: Optional[dict]):
         super().__init__()
         # max text length in request = 1000
         self.max_len = 1000
+        self.__get_lang_params(langs, params)  # get parameter for each lang
 
     @property
     def url(self) -> str:
         return self._url
 
-    def parse(self, texts: List[str], lang: str, params) -> str:
+    def __get_lang_params(self, langs: List[str], params: dict):
+        # parameters are common for used lang
+        self.params = {lang: params for lang in langs}  # type: Dict[str, dict]
+
+    def parse(self, texts: List[str], lang: str) -> str:
         # parsing the text using UDPipe API
         # Split the list of stings to avoide long request error
         chunks = split_list(texts, self.max_len)
         parsed_chuncks = []
         for chunk in tqdm(chunks, desc=f'Parsing {lang}'):
             chunk = "\n\n".join(chunk.split("\n"))
-            parsed_chuncks.append(self.__parse(chunk, lang, params))
+            parsed_chuncks.append(self.__parse(chunk, lang))
         return '\n'.join(parsed_chuncks)
 
-    def __parse(self, text: str, lang: str, params) -> str:
+    def __parse(self, text: str, lang: str) -> str:
         # implementation of parsing the text using UDPIPE REST API and
         # returning the UD parse conllu in str format
+        params = self.params[lang]
         params["data"] = text
         params["model"] = lang
         try:
@@ -64,11 +71,6 @@ class UDPipeRestParser(RestAPIParser):
         # model name for the REST API.
         pass
 
-    def _convert_output(
-        self, data: Any, conv_obj: Type[ParsersOutputConverter]
-    ) -> Dict[str, List[Union[int, str]]]:
-        pass
-
     @classmethod
     def name(self):
         return self.__name__
@@ -82,19 +84,46 @@ class StanzaParser(LibraryParser):
     `get_model_mapping` methods.
     """
 
-    def parse(self, texts: List[str], lang: str, params):
-        # implementation of parsing the text using the library and returning
-        # the UD parse tree
-        pass
+    def __init__(self, langs: Optional[List[str]], params: Optional[dict]):
+        super().__init__()
+        self.max_len = 2000
+        self.__extract_lang_params(langs, params)
+        self.nlp = {}
+        for lang in langs:
+            nlp = stanza.Pipeline(
+                lang=lang,
+                download_method=None,  # TODO: integrate with params config
+                tokenize_no_ssplit=True,
+                **self.params[lang])
+            self.nlp[lang] = nlp
+
+    def __extract_lang_params(self, langs: str, params: Dict[str, dict]):
+        # combine common parameters if any with
+        if params.get("common", {}):
+            common_params = params["common"]
+            params_lang = {}
+            for lang in langs:
+                params_lang[lang] = {**params[lang], **common_params}
+
+            self.params = params_lang
+        else:
+            self.params = params
+
+    def parse(self, texts: List[str], lang: str):
+        # implementation of parsing the text using the Stanza and returning
+        # the UD parse tree in list of dict object
+        chunks = split_list(texts, self.max_len)
+        parsed_chuncks = []
+        for chunk in tqdm(chunks, desc=f'Parsing {lang}'):
+            chunk = "\n\n".join(chunk.split("\n"))
+            parsed_chuncks.append(self.nlp[lang](chunk))
+
+        parsed_chuncks = [pc.to_dict() for pc in parsed_chuncks]
+        return list(chain.from_iterable(parsed_chuncks))
 
     def get_model_mapping(self, lang: str) -> str:
         # implementation of mapping the language code to the corresponding
         # model name for the library
-        pass
-
-    def _convert_output(
-        self, data: Any, conv_obj: Type[ParsersOutputConverter]
-    ) -> Dict[str, List[Union[int, str]]]:
         pass
 
     @classmethod

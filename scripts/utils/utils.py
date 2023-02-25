@@ -17,7 +17,7 @@ def parse_arguments():
     parser.add_argument(
         "--parsers",
         nargs='+',
-        default=["udp"],
+        default=["stanza", "udp"],
         # choices=["stanza", "udp"],
         help=  # noqa: E251
         "Parser to be used. Allowed values are 'udp', and 'stanza'. Pass 'udp' to use UDpipe, 'stanza' to use Stanza and pass 'udp stanze' to use both."  # noqa: E501
