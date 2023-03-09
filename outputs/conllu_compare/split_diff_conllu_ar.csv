@@ -1,0 +1,4133 @@
+# P212
+# ISBN-13
+1,ISBN,PROPN,0,root
+2,-13[-],NUM[PUNCT],1,dep[punct]
+<none>[3],<none>[13],<none>[NUM],<none>[1],<none>[nummod]
+
+# P218
+# ISO 639-1 code
+1,ISO,PROPN,2[4],nsubj[compound]
+2,639,NUM,0[1],root[nummod]
+3,-[-1],SYM[NUM],4[1],case[nummod]
+4,1[code],NUM[NOUN],2[0],nmod[root]
+5[<none>],code[<none>],NOUN[<none>],2[<none>],nmod[<none>]
+
+# P220
+# ISO 639-3 code
+1,ISO,PROPN,2[4],nsubj[compound]
+2,639,NUM,0[1],root[nummod]
+3,-[-3],SYM[NUM],4[1],case[nummod]
+4,3[code],NUM[NOUN],2[0],nmod[root]
+5[<none>],code[<none>],NOUN[<none>],2[<none>],nmod[<none>]
+
+# P269
+# IdRef ID
+1,Id[IdRef],NOUN[PROPN],3[2],compound
+2,Ref[ID],NOUN[PROPN],3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P297
+# ISO 3166-1 alpha-2 code
+1,ISO,PROPN,2[0],compound[root]
+2,3166,NUM,0[1],root[nummod]
+3,-[-1],SYM[NUM],4[1],case[nummod]
+4,1[alpha],NUM[NOUN],2[7],nmod[compound]
+5,alpha[-],NOUN[PUNCT],2[4],appos[punct]
+6,-[2],SYM[NUM],8[4],case[nummod]
+7,2[code],NUM[NOUN],8[1],nummod[appos]
+8[<none>],code[<none>],NOUN[<none>],5[<none>],nmod[<none>]
+
+# P298
+# ISO 3166-1 alpha-3 code
+1,ISO,PROPN,2[0],compound[root]
+2,3166,NUM,0[1],root[nummod]
+3,-[-1],SYM[NUM],4[1],case[nummod]
+4,1[alpha],NUM[NOUN],2[6],nmod[compound]
+5,alpha[-3],NOUN[NUM],2[6],appos[nummod]
+6,-[code],SYM[NOUN],8[1],case[list]
+7[<none>],3[<none>],NUM[<none>],8[<none>],nummod[<none>]
+8[<none>],code[<none>],NOUN[<none>],5[<none>],nmod[<none>]
+
+# P299
+# ISO 3166-1 numeric code
+1,ISO,PROPN,2[5],compound
+2,3166,NUM,0[1],root[nummod]
+3,-[-1],SYM[NUM],4[1],case[nummod]
+4,1[numeric],NUM[ADJ],2[5],nmod[amod]
+5,numeric[code],ADJ[NOUN],6[0],amod[root]
+6[<none>],code[<none>],NOUN[<none>],2[<none>],nmod[<none>]
+
+# P301
+# category's main topic
+1[1-2],category[category's],NOUN[_],4[_],nmod:poss[_]
+2[1],'s[category],PART[NOUN],1[4],case[nmod:poss]
+3[2],main['s],ADJ[PART],4[1],amod[case]
+4[3],topic[main],NOUN[ADJ],0[4],root[amod]
+<none>[4],<none>[topic],<none>[NOUN],<none>[0],<none>[root]
+
+# P304
+# page (s)
+1,page(s[page],NOUN,0,root
+2,)[(],PUNCT,1,punct
+<none>[3],<none>[s],<none>[ADJ],<none>[1],<none>[amod]
+<none>[4],<none>[)],<none>[PUNCT],<none>[1],<none>[punct]
+
+# P368
+# Sandbox-CommonsMediaFile
+1,Sandbox-CommonsMediaFile[Sandbox],X[NOUN],0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[3],<none>[CommonsMediaFile],<none>[PROPN],<none>[1],<none>[appos]
+
+# P493
+# ICD-9
+1,ICD-9[ICD],PROPN,0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[3],<none>[9],<none>[NUM],<none>[1],<none>[nummod]
+
+# P494
+# ICD-10
+1,ICD,PROPN,0,root
+2,-10[-],NUM[PUNCT],1,dep[punct]
+<none>[3],<none>[10],<none>[NUM],<none>[1],<none>[nummod]
+
+# P527
+# has part (s)
+1,has,VERB,0,root
+2,part(s[part],NOUN,1,obj
+3,)[(],PUNCT,1[2],punct
+<none>[4],<none>[s],<none>[ADJ],<none>[2],<none>[amod]
+<none>[5],<none>[)],<none>[PUNCT],<none>[2],<none>[punct]
+
+# P578
+# Sandbox-TimeValue
+1,Sandbox[Sandbox-],NOUN,0[2],root[compound]
+2,-[TimeValue],PUNCT[PROPN],1[0],punct[root]
+3[<none>],TimeValue[<none>],PROPN[<none>],1[<none>],flat[<none>]
+
+# P626
+# Sandbox-GeoCoordinateValue
+1,Sandbox,NOUN,0,root
+2,-GeoCoordinateValue[-],X[PUNCT],1,flat[punct]
+<none>[3],<none>[GeoCoordinateValue],<none>[PROPN],<none>[1],<none>[appos]
+
+# P663
+# DSM-IV classification
+1,DSM,PROPN,3,compound
+2,-IV[-],NUM[PUNCT],3,nummod[punct]
+3,classification[IV],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[classification],<none>[NOUN],<none>[0],<none>[root]
+
+# P673
+# eMedicine ID
+1,e[eMedicine],NOUN[PROPN],3[2],compound
+2,Medicine[ID],NOUN[PROPN],3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P694
+# replaced synonym (for nom. nov.)
+1,replaced,VERB,2,amod
+2,synonym,NOUN,0,root
+3,(,PUNCT,5[6],punct
+4,for,ADP,5[6],case
+5,nom.,NOUN,2[6],nmod[compound]
+6,nov.[nov],PROPN[NOUN],5[2],nmod:tmod[nmod]
+7,)[.],PUNCT,5[2],punct
+<none>[8],<none>[)],<none>[PUNCT],<none>[2],<none>[punct]
+
+# P713
+"# Nickel-Strunz '10th ed', review of (9th ed/ 2009 update)"
+1,Nickel,PROPN,0[3],root[compound]
+2,-,PUNCT,1[3],punct
+3,Strunz,PROPN,1[8],flat[compound]
+4,',PUNCT,6,punct
+5,10th,ADJ,6,amod
+6[6-7],"ed[ed',]",NOUN[_],1[_],list[_]
+7[6],'[ed],PUNCT[NOUN],6[8],punct[compound]
+8[7],",[',]",PUNCT,9[6],punct
+9[8],review,NOUN,1[0],parataxis[root]
+10[9],of,ADP,15[14],case
+11[10],(,PUNCT,15[14],punct
+12[11],9th,ADJ,15[12],amod
+13[12],ed/,NOUN,15[14],compound
+14[13],2009,NUM,15[12],compound[nummod]
+15[14],update,NOUN,9[8],nmod
+16[15],),PUNCT,15[14],punct
+
+# P716
+# JPL Small-Body Database SPK-ID
+1,JPL,PROPN,5,compound
+2,Small,ADJ,4,amod
+3,-,PUNCT,4,punct
+4,Body,NOUN,5,compound
+5,Database,NOUN,0,root
+6,SPK-ID[SPK],NOUN,5[8],appos[compound]
+<none>[7],<none>[-],<none>[PUNCT],<none>[8],<none>[punct]
+<none>[8],<none>[ID],<none>[NOUN],<none>[5],<none>[appos]
+
+# P773
+# ISO 3166-3
+1,ISO,PROPN,2[0],compound[root]
+2,3166-3[3166],NUM,0[1],root[nummod]
+<none>[3],<none>[-3],<none>[NUM],<none>[1],<none>[list]
+
+# P910
+# topic's main category
+1[1-2],topic[topic's],NOUN[_],4[_],nmod:poss[_]
+2[1],'s[topic],PART[NOUN],1[4],case[nmod:poss]
+3[2],main['s],ADJ[PART],4[1],amod[case]
+4[3],category[main],NOUN[ADJ],0[4],root[amod]
+<none>[4],<none>[category],<none>[NOUN],<none>[0],<none>[root]
+
+# P957
+# ISBN-10
+1,ISBN,PROPN,0,root
+2,-10[-],NUM[PUNCT],1,dep[punct]
+<none>[3],<none>[10],<none>[NUM],<none>[1],<none>[nummod]
+
+# P990
+# audio recording of the subject's spoken voice
+1,audio,ADJ[NOUN],2,amod[compound]
+2,recording,NOUN,0,root
+3,of,ADP,8[7],case
+4,the,DET,5,det
+5,subject[subject's],NOUN,8[7],nmod:poss[compound]
+6,'s[spoken],PART[VERB],5[7],case[amod]
+7,spoken[voice],VERB[NOUN],8[2],amod[nmod]
+8[<none>],voice[<none>],NOUN[<none>],2[<none>],nmod[<none>]
+
+# P1021
+# KldB-2010 occupation code
+1,KldB[KldB-2010],PROPN[NOUN],4[0],compound[root]
+2,-2010[occupation],NUM[NOUN],4[3],nummod[compound]
+3,occupation[code],NOUN,4[1],compound[appos]
+4[<none>],code[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1023
+# SBC-2010 occupation code
+1,SBC[SBC-2010],PROPN,5[3],compound
+2,-[occupation],PUNCT[NOUN],1[3],punct[compound]
+3,2010[code],NUM[NOUN],1[0],nmod:tmod[root]
+4[<none>],occupation[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],code[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1029
+# crew member (s)
+1,crew,NOUN,2,compound
+2,member(s[member],NOUN,0,root
+3,)[(],PUNCT,2,punct
+<none>[4],<none>[s],<none>[ADJ],<none>[2],<none>[amod]
+<none>[5],<none>[)],<none>[PUNCT],<none>[2],<none>[punct]
+
+# P1052
+# Portuguese Job Code CPP-2010
+1,Portuguese,ADJ,2[3],amod
+2,Job,PROPN[NOUN],4[3],compound
+3,Code,PROPN[NOUN],4[0],compound[root]
+4,CPP[CPP-2010],NOUN,0[3],root[appos]
+5[<none>],-[<none>],PUNCT[<none>],4[<none>],punct[<none>]
+6[<none>],2010[<none>],NUM[<none>],4[<none>],nmod:tmod[<none>]
+
+# P1069
+# Statistics Denmarks classification of occupation (DISCO-08)
+1,Statistics,NOUN[PROPN],3[2],compound
+2,Denmarks,NOUN[PROPN],3,compound
+3,classification,NOUN,0,root
+4,of,ADP,5,case
+5,occupation,NOUN,3,nmod
+6,(,PUNCT,7,punct
+7,DISCO,PROPN,3,appos
+8,-[-08],SYM[NUM],9[7],case[nummod]
+9,08[)],NUM[PUNCT],7,nmod[punct]
+10[<none>],)[<none>],PUNCT[<none>],7[<none>],punct[<none>]
+
+# P1070
+# PlantList-ID
+1,PlantList,X[NOUN],0[3],root[compound]
+2,-ID[-],PROPN[PUNCT],1[3],flat[punct]
+<none>[3],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P1088
+# Mohs' hardness
+1[1-2],Mohs[Mohs'],PROPN[_],3[_],nmod:poss[_]
+2[1],'[Mohs],PART[PROPN],1[3],case[nmod:poss]
+3[2],hardness['],NOUN[PART],0[1],root[case]
+<none>[3],<none>[hardness],<none>[NOUN],<none>[0],<none>[root]
+
+# P1127
+# isospin z-component
+1,isospin,NOUN,2,compound
+2,z-component[z-],NOUN,0[3],root[compound]
+<none>[3],<none>[component],<none>[NOUN],<none>[0],<none>[root]
+
+# P1151
+# topic's main Wikimedia portal
+1[1-2],topic[topic's],NOUN[_],5[_],nmod:poss[_]
+2[1],'s[topic],PART[NOUN],1[5],case[nmod:poss]
+3[2],main['s],ADJ[PART],5[1],amod[case]
+4[3],Wikimedia[main],PROPN[ADJ],5,compound[amod]
+5[4],portal[Wikimedia],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[portal],<none>[NOUN],<none>[0],<none>[root]
+
+# P1204
+# Wikimedia portal's main topic
+1,Wikimedia,PROPN,2,compound
+2[2-3],portal[portal's],NOUN[_],5[_],nmod:poss[_]
+3[2],'s[portal],PART[PROPN],2[5],case[nmod:poss]
+4[3],main['s],ADJ[PART],5[2],amod[case]
+5[4],topic[main],NOUN[ADJ],0[5],root[amod]
+<none>[5],<none>[topic],<none>[NOUN],<none>[0],<none>[root]
+
+# P1214
+# Riksdagen person-ID
+1,Riksdagen,PROPN,0,root
+2,person-ID[person],NOUN,1[4],flat[compound]
+<none>[3],<none>[-],<none>[PUNCT],<none>[4],<none>[punct]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P1248
+# KulturNav-ID
+1,KulturNav-ID[KulturNav],X[PROPN],0[3],root[compound]
+<none>[2],<none>[-],<none>[PUNCT],<none>[3],<none>[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P1282
+# OpenStreetMap tag or key
+1,OpenStreetMap[OpenStreet],PROPN,2,compound
+2,tag[Map],NOUN,0[3],root[compound]
+3,or[tag],CCONJ[NOUN],4[0],cc[root]
+4,key[or],NOUN[CCONJ],2[5],conj[cc]
+<none>[5],<none>[key],<none>[NOUN],<none>[3],<none>[conj]
+
+# P1293
+# Royal Aero Club Aviator's Certificate ID
+1,Royal,ADJ,2[3],amod
+2,Aero,PROPN,3,compound
+3,Club,PROPN,7[6],compound
+4,Aviator[Aviator's],NOUN[PROPN],7[6],nmod:poss[compound]
+5,'s[Certificate],PART[PROPN],4[6],case[compound]
+6,Certificate[ID],NOUN[PROPN],7[0],compound[root]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1424
+# topic's main template
+1[1-2],topic[topic's],NOUN[_],4[_],nmod:poss[_]
+2[1],'s[topic],PART[NOUN],1[4],case[nmod:poss]
+3[2],main['s],ADJ[PART],4[1],amod[case]
+4[3],template[main],NOUN[ADJ],0[4],root[amod]
+<none>[4],<none>[template],<none>[NOUN],<none>[0],<none>[root]
+
+# P1450
+# Sandbox-Monolingual text
+1,Sandbox[Sandbox-Monolingual],NOUN[ADJ],3[2],compound[amod]
+2,-[text],PUNCT[NOUN],1[0],punct[root]
+3[<none>],Monolingual[<none>],ADJ[<none>],4[<none>],amod[<none>]
+4[<none>],text[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1483
+# kulturnoe-nasledie.ru ID
+1,kulturnoe[kulturnoe-nasledie.ru],PROPN,3[2],compound
+2,-nasledie.ru[ID],NOUN[PROPN],3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1615
+# CLARA-ID
+1,CLARA-ID[CLARA],PROPN,0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[3],<none>[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[1],<none>[flat]
+
+# P1690
+# ICD-10-PCS
+1,ICD,PROPN,0,root
+2,-10[-],NUM[PUNCT],1,dep[punct]
+3,-PCS[10],NOUN[NUM],1,appos[nummod]
+<none>[4],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[5],<none>[PCS],<none>[NOUN],<none>[1],<none>[appos]
+
+# P1692
+# ICD-9-CM
+1,ICD-9-CM[ICD],PROPN,0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[3],<none>[9],<none>[NUM],<none>[1],<none>[nummod]
+<none>[4],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[5],<none>[CM],<none>[NOUN],<none>[1],<none>[appos]
+
+# P1825
+# Baseball-Reference.com major league player ID
+1,Baseball[Baseball-Reference.com],NOUN[X],3[0],compound[root]
+2,-[major],PUNCT[ADJ],1[3],punct[amod]
+3,Reference.com[league],PROPN[NOUN],7[5],compound
+4,major[player],ADJ[NOUN],5,amod[compound]
+5,league[ID],NOUN,7[1],compound[appos]
+6[<none>],player[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1826
+# Baseball-Reference.com minor & foreign league player ID
+1,Baseball[Baseball-Reference.com],NOUN[X],3[0],compound[root]
+2,-[minor],PUNCT[ADJ],1[7],punct[amod]
+3,Reference.com[&],NOUN[CCONJ],9[5],compound[cc]
+4,minor[foreign],ADJ,9[5],amod
+5,&[league],CCONJ[NOUN],7[2],cc[conj]
+6,foreign[player],ADJ[NOUN],7,amod[compound]
+7,league[ID],NOUN,9[1],compound[appos]
+8[<none>],player[<none>],NOUN[<none>],9[<none>],compound[<none>]
+9[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1878
+# Vox-ATypI classification
+1,Vox,PROPN,3[0],compound[root]
+2,-ATypI[-],PROPN[PUNCT],3[1],compound[punct]
+3,classification[ATypI],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[classification],<none>[NOUN],<none>[1],<none>[appos]
+
+# P1901
+# BALaT person/organisation id
+1,BALaT,PROPN,2[0],compound[root]
+2,person[person/],NOUN,5[1],compound[appos]
+3,/[organisation],SYM[NOUN],4,cc[compound]
+4,organisation[id],NOUN,5[1],compound[appos]
+5[<none>],id[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P1934
+# Animator.ru film ID
+1,Animator[Animator.ru],NOUN[PROPN],2[0],compound[root]
+2,.ru[film],PROPN[NOUN],4[3],compound
+3,film[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P2037
+# GitHub username
+1,GitHub[Git],PROPN,2,compound
+2,username[Hub],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[username],<none>[NOUN],<none>[0],<none>[root]
+
+# P2061
+# aspect ratio (W:H)
+1,aspect,NOUN,2,compound
+2,ratio,NOUN,0,root
+3,(,PUNCT,5[4],punct
+4,W:[W:H],SYM,5[2],compound[appos]
+5,H[)],NOUN[PUNCT],2[4],appos[punct]
+6[<none>],)[<none>],PUNCT[<none>],5[<none>],punct[<none>]
+
+# P2115
+# NDF-RT ID
+1,NDF,PROPN,3[4],compound
+2,-RT[-],PUNCT,3,punct
+3,ID[RT],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P2170
+# Hansard (2006–March 2016) ID
+1,Hansard,PROPN,0,root
+2,(,PUNCT,3,punct
+3,2006,NUM,1,nmod:tmod[appos]
+4,–March[–],PROPN[SYM],5,compound[case]
+5,2016[March],NUM[PROPN],3,nmod:tmod[nmod]
+6,)[2016],PUNCT[NUM],3[5],punct[nummod]
+7,ID[)],NOUN[PUNCT],1[3],appos[punct]
+<none>[8],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P2190
+# C-SPAN person ID
+1,C-[C],PROPN,2[5],compound
+2,SPAN[-],PROPN[PUNCT],4[3],compound[punct]
+3,person[SPAN],NOUN[PROPN],4[1],compound[flat]
+4,ID[person],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P2255
+# Debrett's People of Today ID
+1[1-2],Debrett[Debrett's],PROPN[_],3[_],nmod:poss[_]
+2[1],'s[Debrett],PART[PROPN],1[3],case[nmod:poss]
+3[2],People['s],NOUN[PART],0[1],root[case]
+4[3],of[People],ADP[NOUN],6[0],case[root]
+5[4],Today[of],NOUN[ADP],6[5],compound[case]
+6[5],ID[Today],NOUN,3,nmod
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[nmod]
+
+# P2264
+# Mix'n'match catalog ID
+1,Mix[Mix'n'],VERB[NOUN],0[2],root[compound]
+2,'n[match],SYM[NOUN],1[4],dep[compound]
+3,'[catalog],PUNCT[NOUN],1[4],punct[compound]
+4,match[ID],NOUN,6[0],compound[root]
+5[<none>],catalog[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],1[<none>],obj[<none>]
+
+# P2273
+# HAdW member ID
+1,HAdW[HAd],PROPN[VERB],3[0],compound[root]
+2,member[W],NOUN[PROPN],3[4],compound
+3,ID[member],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[obj]
+
+# P2298
+# NSDAP membership number (1925–1945)
+1,NSDAP,PROPN,3,compound
+2,membership,NOUN,3,compound
+3,number,NOUN,0,root
+4,(,PUNCT,5,punct
+5,1925[1925–1945],NUM,3,nmod:tmod[appos]
+6,–1945[)],NUM[PUNCT],5,dep[punct]
+7[<none>],)[<none>],PUNCT[<none>],5[<none>],punct[<none>]
+
+# P2355
+# UNESCO Atlas of the World's Languages in Danger ID
+1,UNESCO,PROPN,2,compound
+2,Atlas,PROPN,0,root
+3,of,ADP,7,case
+4,the,DET,5,det
+5[5-6],World[World's],PROPN[_],7[_],nmod:poss[_]
+6[5],'s[World],PART[PROPN],5[7],case[nmod:poss]
+7[6],Languages['s],PROPN[PART],2[5],nmod[case]
+8[7],in[Languages],ADP[PROPN],10[2],case[nmod]
+9[8],Danger[in],PROPN[ADP],10,compound[case]
+10[9],ID[Danger],NOUN,7[10],nmod[compound]
+<none>[10],<none>[ID],<none>[NOUN],<none>[7],<none>[nmod]
+
+# P2428
+# RePEc Short-ID
+1,RePEc,NOUN[PROPN],0[4],root[compound]
+2,Short,ADJ,1[4],amod
+3,-ID[-],NOUN[PUNCT],1[4],appos[punct]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P2431
+# Thyssen-Bornemisza artist ID
+1,Thyssen-Bornemisza[Thyssen],PROPN,3,compound
+2,artist[-],NOUN[PUNCT],3,compound[punct]
+3,ID[Bornemisza],NOUN[PROPN],0,root
+<none>[4],<none>[artist],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[3],<none>[list]
+
+# P2463
+# elibrary.ru organisation ID
+1,elibrary[elibrary.ru],NOUN[X],2[0],compound[root]
+2,.ru[organisation],NOUN,4[3],compound
+3,organisation[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P2489
+# hram.by ID
+1,hram[hram.by],NOUN,3[2],compound
+2,.by[ID],NUM[PROPN],3[0],nummod[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P2512
+# series spin-off
+1,series,NOUN,2[3],compound
+2,spin-off[spin-],NOUN,0[3],root[compound]
+<none>[3],<none>[off],<none>[NOUN],<none>[0],<none>[root]
+
+# P2540
+# Aarne–Thompson–Uther Tale Type Index
+1,Aarne–Thompson–Uther[Aarne],PROPN,4[0],compound[root]
+2,Tale[–],NOUN[PUNCT],3[1],compound[punct]
+3,Type[Thompson],NOUN[PROPN],4[1],compound[appos]
+4,Index[–],NOUN[PUNCT],0[1],root[punct]
+<none>[5],<none>[Uther],<none>[ADJ],<none>[8],<none>[amod]
+<none>[6],<none>[Tale],<none>[PROPN],<none>[8],<none>[compound]
+<none>[7],<none>[Type],<none>[NOUN],<none>[8],<none>[compound]
+<none>[8],<none>[Index],<none>[NOUN],<none>[1],<none>[appos]
+
+# P2574
+# National-Football-Teams.com player ID
+1,National[National-Football-Teams.com],ADJ[X],7[0],amod[root]
+2,-[player],PUNCT[NOUN],1[3],punct[compound]
+3,Football[ID],NOUN,5[1],compound[appos]
+4[<none>],-[<none>],PUNCT[<none>],5[<none>],punct[<none>]
+5[<none>],Teams.com[<none>],PROPN[<none>],1[<none>],conj[<none>]
+6[<none>],player[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P2648
+# CQ Ranking men's race ID
+1,CQ,PROPN[NOUN],5[2],compound
+2,Ranking,NOUN,3[0],compound[root]
+3[3-4],men's,NOUN[_],5[_],compound[_]
+4[3],race[men],NOUN,5[6],compound[nmod:poss]
+5[4],ID['s],NOUN[PART],0[3],root[case]
+<none>[5],<none>[race],<none>[NOUN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[2],<none>[obj]
+
+# P2649
+# CQ Ranking men's team URL
+1,CQ,PROPN[NOUN],2,compound
+2,Ranking,NOUN,5[0],compound[root]
+3[3-4],men's,NOUN[_],4[_],compound[_]
+4[3],team[men],NOUN,5[6],compound[nmod:poss]
+5[4],URL['s],NOUN[PART],0[3],root[case]
+<none>[5],<none>[team],<none>[NOUN],<none>[6],<none>[compound]
+<none>[6],<none>[URL],<none>[NOUN],<none>[2],<none>[appos]
+
+# P2670
+# has part (s) of the class
+1,has,VERB,0,root
+2,part(s[part],NOUN,1,obj
+3,)[(],PUNCT,1[2],punct
+4,of[s],ADP[ADJ],6[2],case[amod]
+5,the[)],DET[PUNCT],6[2],det[punct]
+6,class[of],NOUN[ADP],2[8],nmod[case]
+<none>[7],<none>[the],<none>[DET],<none>[8],<none>[det]
+<none>[8],<none>[class],<none>[NOUN],<none>[2],<none>[nmod]
+
+# P2708
+# CQ Ranking women's race ID
+1,CQ,PROPN[NOUN],3[2],compound
+2,Ranking,NOUN[VERB],3[0],compound[root]
+3[3-4],women[women's],NOUN[_],6[_],nmod:poss[_]
+4[3],'s[women],PART[NOUN],3[6],case[nmod:poss]
+5[4],race['s],NOUN[PART],6[3],compound[case]
+6[5],ID[race],NOUN,0[6],root[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[2],<none>[obj]
+
+# P2717
+# no-observed-adverse-effect level
+1,no[no-observed],ADV[ADJ],3[6],advmod[amod]
+2,-,PUNCT,1[6],punct
+3,observed[adverse],VERB[ADJ],8[5],amod
+4,-,PUNCT,3[5],punct
+5,adverse[effect],ADJ[NOUN],7[6],amod[compound]
+6,-[level],PUNCT[NOUN],7[0],punct[root]
+7[<none>],effect[<none>],NOUN[<none>],8[<none>],compound[<none>]
+8[<none>],level[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P2750
+# Photographers’ Identities Catalog ID
+1[1-2],Photographers[Photographers’],NOUN[_],5[_],nmod:poss[_]
+2[1],’[Photographers],PART[NOUN],1[3],case[nmod:poss]
+3[2],Identities[’],NOUN[PART],5[1],compound[case]
+4[3],Catalog[Identities],NOUN,5[0],compound[root]
+5[4],ID[Catalog],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[3],<none>[appos]
+
+# P2765
+# blue-style.com ID
+1,blue[blue-style.com],ADJ[X],3[2],amod[compound]
+2,-style.com[ID],X[NOUN],3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P2771
+# D-U-N-S number
+1,D,PROPN,7[0],compound[root]
+2,-U[-],PROPN[PUNCT],1,flat[punct]
+3,-[U],PUNCT[PROPN],4[6],punct[compound]
+4[4-5],N[-N-S],PROPN[_],1[_],flat[_]
+5[4],-[-N],PUNCT[SYM],6,punct[compound]
+6[5],S[-s],PROPN[PART],1,flat[case]
+7[6],number,NOUN,0[1],root[appos]
+
+# P2773
+# FIS cross-country skier ID
+1,FIS,PROPN,2[6],compound
+2,cross-country[cross],NOUN,4,compound
+3,skier[-],NOUN[PUNCT],4,compound[punct]
+4,ID[country],NOUN,0[6],root[compound]
+<none>[5],<none>[skier],<none>[NOUN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P2814
+# P-number
+1,P-number[P-],NOUN,0[2],root[compound]
+<none>[2],<none>[number],<none>[NOUN],<none>[0],<none>[root]
+
+# P2848
+# Wi-Fi access
+1,Wi,PROPN[NOUN],3,compound
+2,-Fi[-],PROPN[PUNCT],3,compound[punct]
+3,access[Fi],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[access],<none>[NOUN],<none>[0],<none>[root]
+
+# P2880
+# NIOSHTIC-2 ID
+1,NIOSHTIC,PROPN,3[4],compound
+2,-2[-],NUM[PUNCT],3[1],nummod[punct]
+3,ID[2],NOUN[NUM],0[1],root[nummod]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P2908
+# SecondHandSongs work ID
+1,SecondHandSongs[SecondHand],PROPN,2,nsubj[compound]
+2,work[Songs],VERB[NOUN],0,root
+3,ID[work],NOUN,2[4],obj[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[2],<none>[appos]
+
+# P2909
+# SecondHandSongs artist ID
+1,SecondHandSongs[SecondHand],NOUN[PROPN],3[2],compound
+2,artist[Songs],NOUN[PROPN],3[0],compound[root]
+3,ID[artist],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[2],<none>[appos]
+
+# P2926
+# InterPro ID
+1,InterPro[Inter],NOUN[ADP],2[3],compound[case]
+2,ID[Pro],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P2930
+# INSPIRE-HEP author ID
+1,INSPIRE-HEP[INSPIRE],ADJ[NOUN],3,amod[compound]
+2,author[-],NOUN[PUNCT],3,compound[punct]
+3,ID[HEP],NOUN[PROPN],0[5],root[compound]
+<none>[4],<none>[author],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P2941
+# Munk's Roll ID
+1[1-2],Munk[Munk's],PROPN[_],4[_],nmod:poss[_]
+2[1],'s[Munk],PART[PROPN],1[4],case[nmod:poss]
+3[2],Roll['s],NOUN[PART],4[1],compound[case]
+4[3],ID[Roll],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P3074
+# Grace's Guide ID
+1[1-2],Grace[Grace's],PROPN[_],4[_],nmod:poss[_]
+2[1],'s[Grace],PART[PROPN],1[4],case[nmod:poss]
+3[2],Guide['s],NOUN[PART],4[1],compound[case]
+4[3],ID[Guide],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P3143
+# elFilm film ID
+1,el[elFilm],PROPN,2[3],compound
+2,Film[film],NOUN,4[3],compound
+3,film[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3144
+# elFilm person ID
+1,el[elFilm],PROPN,4[0],compound[root]
+2,Film[person],NOUN,3,compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3151
+# iNaturalist taxon ID
+1,i[iNaturalist],PRON[NOUN],4[0],compound[root]
+2,Naturalist[taxon],ADJ[NOUN],4[3],amod[compound]
+3,taxon[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3314
+# 365Chess.com player ID
+1,365[365Chess.com],NUM[X],4[0],nummod[root]
+2,Chess.com[player],NOUN,3,compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3322
+# Vlinderstichting-ID
+1,Vlinderstichting,X[PROPN],0[3],root[compound]
+2,-ID[-],PROPN[PUNCT],1[3],flat[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P3325
+# student register of the University of Helsinki ID (1853–1899)
+1,student,NOUN,2,compound
+2,register,NOUN,0,root
+3,of,ADP,5,case
+4,the,DET,5,det
+5,University,PROPN,2,nmod
+6,of,ADP,8[7],case
+7,Helsinki,PROPN,8[5],compound[nmod]
+8,ID,PROPN[NOUN],5[2],nmod
+9,(,PUNCT,10,punct
+10,1853[1853–1899],NUM,2[8],nmod:tmod[appos]
+11,–1899[)],NUM[PUNCT],10,dep[punct]
+12[<none>],)[<none>],PUNCT[<none>],10[<none>],punct[<none>]
+
+# P3375
+# GECD Firmen-ID
+1,GECD,X[PROPN],0,root
+2,Firmen-ID[Firmen],PROPN,1[4],flat[compound]
+<none>[3],<none>[-],<none>[PUNCT],<none>[4],<none>[punct]
+<none>[4],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P3426
+# ArbetSam ID
+1,ArbetSam[Arbet],PROPN,2[0],compound[root]
+2,ID[Sam],NOUN[PROPN],0[1],root[flat]
+<none>[3],<none>[ID],<none>[PROPN],<none>[1],<none>[flat]
+
+# P3444
+# eBird taxon ID
+1,e[eBird],NOUN[PROPN],4[3],compound
+2,Bird[taxon],NOUN,4[3],compound
+3,taxon[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3460
+# colonel-in-chief
+1,colonel,NOUN,3[0],compound[root]
+2,-,PUNCT,1,punct
+3,in-[in],ADJ[ADP],4[5],amod[case]
+4,chief[-],NOUN[PUNCT],0[5],root[punct]
+<none>[5],<none>[chief],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P3538
+# Fussballdaten.de player ID
+1,Fussballdaten[Fussballdaten.de],PROPN[X],0,root
+2,.de[player],NUM[NOUN],1[3],dep[compound]
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P3561
+# Pro-Football-Reference.com player ID
+1,Pro-Football[Pro-Football-Reference.com],NOUN[X],3[0],compound[root]
+2,-[player],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],player[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3598
+# Hockey-Reference.com player ID
+1,Hockey[Hockey-Reference.com],NOUN[X],3[0],compound[root]
+2,-[player],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],player[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3619
+# Ski-DB skier ID
+1,Ski,PROPN[NOUN],2[3],compound
+2,-DB[-],PROPN[PUNCT],4[3],compound[punct]
+3,skier[DB],NOUN[PROPN],4[5],compound
+4,ID[skier],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P3660
+# FootballFacts.ru player ID
+1,FootballFacts[FootballFacts.ru],VERB[PROPN],4[0],amod[root]
+2,.ru[player],NOUN,3,compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3665
+# L'Équipe football player ID
+1,L'Équipe[L'],PROPN,4[5],compound
+2,football[Équipe],NOUN[PROPN],3[5],compound
+3,player[football],NOUN,4,compound
+4,ID[player],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3673
+# film-documentaire.fr film ID
+1,film[film-documentaire.fr],NOUN[X],3[0],compound[root]
+2,-[film],PUNCT[NOUN],1[3],punct[compound]
+3,documentaire.fr[ID],NOUN,5[1],compound[appos]
+4[<none>],film[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3696
+# Sports-Reference.com college basketball player ID
+1,Sports[Sports-Reference.com],NOUN[X],3[0],compound[root]
+2,-[college],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[basketball],NOUN,7[5],compound
+4,college[player],NOUN,7[5],compound
+5,basketball[ID],NOUN,6[1],compound[appos]
+6[<none>],player[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3697
+# Sports-Reference.com college football player ID
+1,Sports[Sports-Reference.com],NOUN[X],3[0],compound[root]
+2,-[college],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[football],NOUN,7[5],compound
+4,college[player],NOUN,7[5],compound
+5,football[ID],NOUN,6[1],compound[appos]
+6[<none>],player[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3761
+# IPv4 routing prefix
+1,IP[IPv4],NOUN,2[3],compound
+2,v4[routing],PROPN[NOUN],4[3],compound
+3,routing[prefix],NOUN,4[0],compound[root]
+4[<none>],prefix[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P3765
+# All-Athletics.com ID (archived)
+1,All[All-Athletics.com],DET[X],3[0],det[root]
+2,-[ID],PUNCT[NOUN],1,punct[appos]
+3,Athletics.com[(],PROPN[PUNCT],4,compound[punct]
+4,ID[archived],NOUN[VERB],0[2],root[appos]
+5,([)],PUNCT,6[4],punct
+6[<none>],archived[<none>],VERB[<none>],4[<none>],parataxis[<none>]
+7[<none>],)[<none>],PUNCT[<none>],6[<none>],punct[<none>]
+
+# P3769
+# It's Rugby player ID
+1[1-2],It[It's],PRON[_],5[_],nsubj[_]
+2[1],'s[It],AUX[PRON],5,cop[nsubj]
+3[2],Rugby['s],NOUN[AUX],4[5],compound[cop]
+4[3],player[Rugby],NOUN[PROPN],5[4],compound
+5[4],ID[player],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3783
+# Christie's object ID
+1[1-2],Christie[Christie's],PROPN[_],4[_],nmod:poss[_]
+2[1],'s[Christie],PART[PROPN],1[4],case[nmod:poss]
+3[2],object['s],NOUN[PART],4[1],compound[case]
+4[3],ID[object],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3810
+# Parks.it ID
+1,Parks[Parks.it],NOUN[PROPN],0[2],root[compound]
+2,.it[ID],SYM[PROPN],3[0],cc[root]
+3[<none>],ID[<none>],NOUN[<none>],1[<none>],conj[<none>]
+
+# P3826
+# Welsh Rugby Union men's player ID
+1,Welsh,ADJ,3,amod
+2,Rugby,PROPN,3,compound
+3,Union,PROPN,6[4],compound
+4[4-5],men's,NOUN[_],6[_],compound[_]
+5[4],player[men],NOUN,6[7],compound[nmod:poss]
+6[5],ID['s],NOUN[PART],0[4],root[case]
+<none>[6],<none>[player],<none>[NOUN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3848
+# Irish Rugby Football Union men's player ID
+1,Irish,ADJ,2[4],amod
+2,Rugby,PROPN[ADJ],4,compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,7[5],compound
+5[5-6],men's,NOUN[_],7[_],compound[_]
+6[5],player[men],NOUN,7[8],compound[nmod:poss]
+7[6],ID['s],NOUN[PART],0[5],root[case]
+<none>[7],<none>[player],<none>[NOUN],<none>[8],<none>[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3877
+# HappyCow restaurant ID
+1,HappyCow[Happy],NOUN[ADJ],3[2],compound[amod]
+2,restaurant[Cow],NOUN[PROPN],3[4],compound
+3,ID[restaurant],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3929
+# V&A item ID
+1,V&A[V&],PROPN[NOUN],3[2],compound
+2,item[A],NOUN,3[4],compound
+3,ID[item],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P3930
+# Rallye-info.com driver or co-driver ID
+1,Rallye[Rallye-info.com],PROPN[X],3[0],compound[root]
+2,-[driver],PUNCT[NOUN],1,punct[compound]
+3,info.com[or],PROPN[CCONJ],4[5],compound[cc]
+4,driver[co-driver],NOUN,0[5],root[compound]
+5,or[ID],CCONJ[NOUN],7[2],cc[conj]
+6[<none>],co-driver[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],4[<none>],conj[<none>]
+
+# P4124
+# Who's Who in France biography ID
+1[1-2],Who[Who's],PRON[_],0[_],root[_]
+2[1],'s[Who],AUX[PRON],1[0],cop[root]
+3[2],Who['s],PRON[AUX],1,nsubj[cop]
+4[3],in[Who],ADP[PRON],7[1],case[nsubj]
+5[4],France[in],PROPN[ADP],7[5],compound[case]
+6[5],biography[France],NOUN[PROPN],7,compound
+7[6],ID[biography],NOUN,3[7],nmod[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[1],<none>[obl]
+
+# P4170
+# America's National Parks store ID
+1[1-2],America[America's],PROPN[_],6[_],nmod:poss[_]
+2[1],'s[America],PART[PROPN],1[6],case[nmod:poss]
+3[2],National['s],ADJ[PART],4[1],amod[case]
+4[3],Parks[National],PROPN[ADJ],6[4],compound[amod]
+5[4],store[Parks],NOUN[PROPN],6[5],compound
+6[5],ID[store],NOUN,0[6],root[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4172
+# America's Byways road ID
+1[1-2],America[America's],PROPN[_],5[_],nmod:poss[_]
+2[1],'s[America],PART[PROPN],1[3],case[nmod:poss]
+3[2],Byways['s],PROPN[PART],5[1],compound[case]
+4[3],road[Byways],NOUN[PROPN],5,compound
+5[4],ID[road],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4186
+# Australian Women's Register ID
+1,Australian,ADJ,2,amod
+2[2-3],Women[Women's],PROPN[_],5[_],nmod:poss[_]
+3[2],'s[Women],PART[NOUN],2[5],case[nmod:poss]
+4[3],Register['s],NOUN[PART],5[2],compound[case]
+5[4],ID[Register],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4200
+# Christie's creator ID
+1[1-2],Christie[Christie's],PROPN[_],4[_],nmod:poss[_]
+2[1],'s[Christie],PART[PROPN],1[4],case[nmod:poss]
+3[2],creator['s],NOUN[PART],4[1],compound[case]
+4[3],ID[creator],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4223
+# Treccani's Enciclopedia Italiana ID
+1[1-2],Treccani's,PROPN[_],2[_],compound[_]
+2[1],Enciclopedia[Treccani],PROPN,4[5],compound[nmod:poss]
+3[2],Italiana['s],PROPN[PART],4[1],compound[case]
+4[3],ID[Enciclopedia],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[Italiana],<none>[PROPN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P4229
+# ICD-10-CM
+1,ICD,PROPN,0,root
+2,-10-CM[-],NUM[PUNCT],1,list[punct]
+<none>[3],<none>[10],<none>[NUM],<none>[5],<none>[nummod]
+<none>[4],<none>[-],<none>[PUNCT],<none>[5],<none>[punct]
+<none>[5],<none>[CM],<none>[NOUN],<none>[1],<none>[appos]
+
+# P4262
+# Footoféminin.fr player ID
+1,Footoféminin.fr[Footoféminin],PROPN,2[0],compound[root]
+2,player[.],NOUN[PUNCT],3[1],compound[punct]
+3,ID[fr],NOUN[PROPN],0[5],root[compound]
+<none>[4],<none>[player],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P4264
+# LinkedIn organization ID
+1,Linked[LinkedIn],VERB[PROPN],0[3],root[compound]
+2,In[organization],ADP[NOUN],4[3],case[compound]
+3,organization[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],obl[<none>]
+
+# P4285
+# Theses.fr person ID
+1,Theses[Theses.fr],NOUN[PROPN],0[3],root[compound]
+2,.fr[person],PUNCT[NOUN],4[3],punct[compound]
+3,person[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P4336
+# Lloyd's Register Ship ID
+1[1-2],Lloyd[Lloyd's],PROPN[_],5[_],nmod:poss[_]
+2[1],'s[Lloyd],PART[PROPN],1[3],case[nmod:poss]
+3[2],Register['s],NOUN[PART],5[1],compound[case]
+4[3],Ship[Register],NOUN[PROPN],5[0],compound[root]
+5[4],ID[Ship],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[3],<none>[appos]
+
+# P4337
+# digitised page from Lloyd's Register of Ships from 1930 to 1945
+1,digitised,VERB,2,amod
+2,page,NOUN,0,root
+3,from,ADP,6,case
+4[4-5],Lloyd[Lloyd's],PROPN[_],6[_],nmod:poss[_]
+5[4],'s[Lloyd],PART[PROPN],4[6],case[nmod:poss]
+6[5],Register['s],PROPN[PART],2[4],nmod[case]
+7[6],of[Register],ADP[PROPN],8[2],case[nmod]
+8[7],Ships[of],PROPN[ADP],6[8],nmod[case]
+9[8],from[Ships],ADP[PROPN],10[6],case[nmod]
+10[9],1930[from],NUM[ADP],2[10],nmod[case]
+11[10],to[1930],ADP[NUM],12[2],case[nmod]
+12[11],1945[to],NUM[ADP],10[12],nmod[case]
+<none>[12],<none>[1945],<none>[NUM],<none>[10],<none>[nmod]
+
+# P4372
+# iPatrimônio ID
+1,i[iPatrimônio],PRON[PROPN],3[2],compound
+2,Patrimônio[ID],PROPN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4377
+# Women's Sports Foundation ID
+1[1-2],Women[Women's],NOUN[_],5[_],nmod:poss[_]
+2[1],'s[Women],PART[NOUN],1[5],case[nmod:poss]
+3[2],Sports['s],PROPN[PART],4[1],compound[case]
+4[3],Foundation[Sports],PROPN[NOUN],5[4],compound
+5[4],ID[Foundation],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4381
+# Soccerdonna player ID
+1[1-2],Soccerdonna,PROPN[_],2[_],compound[_]
+2[1],player[Soccerdon],NOUN[PROPN],3[0],compound[root]
+3[2],ID[na],NOUN[ADP],0[4],root[case]
+<none>[3],<none>[player],<none>[NOUN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P4391
+# The-Sports.org athlete ID
+1,The[The-Sports.org],DET[PROPN],4[0],det[root]
+2,-Sports.org[athlete],PROPN[NOUN],4[3],compound
+3,athlete[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4398
+# Canada's Sports Hall of Fame athlete ID
+1[1-2],Canada[Canada's],PROPN[_],8[_],nmod:poss[_]
+2[1],'s[Canada],PART[PROPN],1[8],case[nmod:poss]
+3[2],Sports['s],PROPN[PART],4[1],compound[case]
+4[3],Hall[Sports],PROPN,8[4],compound
+5[4],of[Hall],ADP[PROPN],6[8],case[compound]
+6[5],Fame[of],PROPN[ADP],4[6],nmod[case]
+7[6],athlete[Fame],NOUN[PROPN],8[4],compound[nmod]
+8[7],ID[athlete],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4402
+# Women's Collegiate Tennis Hall of Fame ID
+1[1-2],Women[Women's],NOUN[_],8[_],nmod:poss[_]
+2[1],'s[Women],PART[PROPN],1[5],case[nmod:poss]
+3[2],Collegiate['s],ADJ[PART],5[1],amod[case]
+4[3],Tennis[Collegiate],PROPN[ADJ],5,compound[amod]
+5[4],Hall[Tennis],PROPN,8[5],compound
+6[5],of[Hall],ADP[PROPN],7[0],case[root]
+7[6],Fame[of],PROPN[ADP],5[7],nmod[case]
+8[7],ID[Fame],NOUN[PROPN],0[5],root[nmod]
+<none>[8],<none>[ID],<none>[PROPN],<none>[5],<none>[nmod]
+
+# P4408
+# sports.ru athlete ID
+1,sports[sports.ru],NOUN[PROPN],2[0],compound[root]
+2,.ru[athlete],NOUN,4[3],compound
+3,athlete[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4410
+# Women's Basketball Hall of Fame ID
+1[1-2],Women[Women's],NOUN[_],7[_],nmod:poss[_]
+2[1],'s[Women],PART[NOUN],1[7],case[nmod:poss]
+3[2],Basketball['s],PROPN[PART],4[1],compound[case]
+4[3],Hall[Basketball],PROPN,7[4],compound
+5[4],of[Hall],ADP[PROPN],6[7],case[compound]
+6[5],Fame[of],PROPN[ADP],4[6],nmod[case]
+7[6],ID[Fame],NOUN[PROPN],0[4],root[nmod]
+<none>[7],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P4558
+# SNCZI-IPE dam ID
+1,SNCZI,PROPN,4[0],compound[root]
+2,-IPE[-],PROPN[PUNCT],4[1],compound[punct]
+3,dam[IPE],NOUN[PROPN],4[5],compound
+4,ID[dam],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P4568
+# SNCZI-IPE reservoir ID
+1,SNCZI,PROPN,4[5],compound
+2,-IPE[-],PROPN[PUNCT],4[1],compound[punct]
+3,reservoir[IPE],NOUN[PROPN],4[5],compound
+4,ID[reservoir],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4618
+# AUSNUT 2011–13 Food Group ID
+1,AUSNUT,PROPN,0,root
+2,2011[2011–13],NUM,1,nmod:tmod[nummod]
+3,–13[Food],NUM[NOUN],2[4],nummod[compound]
+4,Food[Group],NOUN,5,compound
+5,Group[ID],NOUN,6[1],compound[appos]
+6[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P4696
+# CIQUAL2017 ID
+1,CIQUAL2017[CIQUA],NOUN[PROPN],2[3],compound
+2,ID[L2017],NOUN,0[3],root[compound]
+<none>[3],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4706
+# Ent'revues ID
+1,Ent[Ent'revues],PROPN,2,compound
+2,'revues[ID],NOUN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4725
+# C-SPAN organization ID
+1,C-[C],PROPN,2[3],compound
+2,SPAN[-],PROPN[PUNCT],4[3],compound[punct]
+3,organization[SPAN],NOUN[PROPN],4[5],compound
+4,ID[organization],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4728
+# uBio ID
+1,uBio[u],PROPN,2[3],compound
+2,ID[Bio],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P4751
+# Sports-Reference.com college basketball coach ID
+1,Sports[Sports-Reference.com],NOUN[X],3[0],compound[root]
+2,-[college],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[basketball],NOUN,7[5],compound
+4,college[coach],NOUN,7[5],compound
+5,basketball[ID],NOUN,7[1],compound[appos]
+6[<none>],coach[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4789
+# Who's Who UK ID
+1[1-2],Who[Who's],PRON[_],0[_],root[_]
+2[1],'s[Who],AUX[PRON],1[0],cop[root]
+3[2],Who['s],PRON[AUX],5[1],compound[cop]
+4[3],UK[Who],PROPN[PRON],5[1],compound[nsubj]
+5[4],ID[UK],NOUN[PROPN],1[5],nsubj[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[nsubj]
+
+# P4790
+# Basketball-Reference.com international player ID
+1,Basketball[Basketball-Reference.com],NOUN[X],3[0],compound[root]
+2,-[international],PUNCT[ADJ],1[4],punct[amod]
+3,Reference.com[player],NOUN,6[4],compound
+4,international[ID],ADJ[NOUN],6[1],amod[appos]
+5[<none>],player[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4795
+# Basketball-Reference.com referee ID
+1,Basketball[Basketball-Reference.com],NOUN[X],3[0],compound[root]
+2,-[referee],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[ID],NOUN,5[1],compound[appos]
+4[<none>],referee[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4824
+# org-id.guide ID
+1,org[org-id.guide],PROPN[NOUN],3[2],compound
+2,-id.guide[ID],NOUN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4836
+# Irish Rugby Football Union women's player ID
+1,Irish,ADJ,2[4],amod
+2,Rugby,PROPN[ADJ],5[4],compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,5,compound
+5[5-6],women[women's],NOUN[_],8[_],nmod:poss[_]
+6[5],'s[women],PART[NOUN],5[8],case[nmod:poss]
+7[6],player['s],NOUN[PART],8[5],compound[case]
+8[7],ID[player],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4896
+# 3D model
+1,3D[3],NOUN[NUM],2,compound[nummod]
+2,model[D],NOUN,0[3],root[compound]
+<none>[3],<none>[model],<none>[NOUN],<none>[0],<none>[root]
+
+# P4920
+# England Rugby men's player ID
+1,England,PROPN,5[2],compound
+2,Rugby,PROPN,3,compound
+3[3-4],men's,NOUN[_],5[_],compound[_]
+4[3],player[men],NOUN,5[6],compound[nmod:poss]
+5[4],ID['s],NOUN[PART],0[3],root[case]
+<none>[5],<none>[player],<none>[NOUN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4922
+# Rugby Football Union women's sevens player ID
+1,Rugby,PROPN[ADJ],3,compound[amod]
+2,Football,PROPN,3,compound
+3,Union,PROPN,4,compound
+4[4-5],women[women's],NOUN[_],8[_],nmod:poss[_]
+5[4],'s[women],PART[NOUN],4[8],case[nmod:poss]
+6[5],sevens['s],NOUN[PART],7[4],compound[case]
+7[6],player[sevens],NOUN,8,compound
+8[7],ID[player],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4923
+# Rugby Football Union men's sevens player ID
+1,Rugby,PROPN[ADJ],3,compound[amod]
+2,Football,PROPN,3,compound
+3,Union,PROPN,7[4],compound
+4[4-5],men's,NOUN[_],7[_],compound[_]
+5[4],sevens[men],NOUN,7[8],compound[nmod:poss]
+6[5],player['s],NOUN[PART],7[4],compound[case]
+7[6],ID[sevens],NOUN,0[8],root[compound]
+<none>[7],<none>[player],<none>[NOUN],<none>[8],<none>[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4925
+# Rugby Football Union women's player ID
+1,Rugby,PROPN[ADJ],4[3],compound[amod]
+2,Football,PROPN,3,compound
+3,Union,PROPN,4,compound
+4[4-5],women[women's],NOUN[_],7[_],nmod:poss[_]
+5[4],'s[women],PART[NOUN],4[7],case[nmod:poss]
+6[5],player['s],NOUN[PART],7[4],compound[case]
+7[6],ID[player],NOUN,0[7],root[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4937
+# Japan Rugby Football Union men's player ID
+1,Japan,PROPN,2[4],compound
+2,Rugby,PROPN[ADJ],7[4],compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,7[5],compound
+5[5-6],men's,NOUN[_],7[_],compound[_]
+6[5],player[men],NOUN,7[8],compound[nmod:poss]
+7[6],ID['s],NOUN[PART],0[5],root[case]
+<none>[7],<none>[player],<none>[NOUN],<none>[8],<none>[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4938
+# Japan Rugby Football Union women's player ID
+1,Japan,PROPN,2[4],compound
+2,Rugby,PROPN[ADJ],5[4],compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,5,compound
+5[5-6],women[women's],NOUN[_],8[_],nmod:poss[_]
+6[5],'s[women],PART[NOUN],5[8],case[nmod:poss]
+7[6],player['s],NOUN[PART],8[5],compound[case]
+8[7],ID[player],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4940
+# Japan Rugby Football Union women's sevens player ID
+1,Japan,PROPN,2[4],compound
+2,Rugby,PROPN[ADJ],5[4],compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,5,compound
+5[5-6],women[women's],NOUN[_],9[_],nmod:poss[_]
+6[5],'s[women],PART[NOUN],5[9],case[nmod:poss]
+7[6],sevens['s],NOUN[PART],8[5],compound[case]
+8[7],player[sevens],NOUN,9,compound
+9[8],ID[player],NOUN,0[9],root[compound]
+<none>[9],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4941
+# Japan Rugby Football Union men's sevens player ID
+1,Japan,PROPN,2[4],compound
+2,Rugby,PROPN[ADJ],8[4],compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,5,compound
+5[5-6],men's,NOUN[_],8[_],compound[_]
+6[5],sevens[men],PROPN[NOUN],7[9],compound[nmod:poss]
+7[6],player['s],NOUN[PART],8[5],compound[case]
+8[7],ID[sevens],NOUN,0[9],root[compound]
+<none>[8],<none>[player],<none>[NOUN],<none>[9],<none>[compound]
+<none>[9],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4949
+# Irish Rugby Football Union men's sevens player ID
+1,Irish,ADJ,2[4],amod
+2,Rugby,PROPN[ADJ],5[4],compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,5,compound
+5[5-6],men's,NOUN[_],8[_],compound[_]
+6[5],sevens[men],PROPN[NOUN],7[9],compound[nmod:poss]
+7[6],player['s],NOUN[PART],8[5],compound[case]
+8[7],ID[sevens],NOUN,0[9],root[compound]
+<none>[8],<none>[player],<none>[NOUN],<none>[9],<none>[compound]
+<none>[9],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4950
+# Irish Rugby Football Union women's sevens player ID
+1,Irish,ADJ,2[4],amod
+2,Rugby,PROPN[ADJ],4,compound[amod]
+3,Football,PROPN,4,compound
+4,Union,PROPN,5,compound
+5[5-6],women[women's],NOUN[_],9[_],nmod:poss[_]
+6[5],'s[women],PART[NOUN],5[9],case[nmod:poss]
+7[6],sevens['s],NOUN[PART],8[5],compound[case]
+8[7],player[sevens],NOUN,9,compound
+9[8],ID[player],NOUN,0[9],root[compound]
+<none>[9],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4959
+# paris.fr lieux ID
+1,paris[paris.fr],PROPN,5[0],compound[root]
+2,.[lieux],PUNCT[NOUN],1[3],punct[compound]
+3,fr[ID],NOUN[PROPN],5[1],compound[appos]
+4[<none>],lieux[<none>],PROPN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P4974
+# Scottish Rugby Union men's player ID
+1,Scottish,ADJ,3,amod
+2,Rugby,PROPN[ADJ],3,compound[amod]
+3,Union,PROPN,6[4],compound
+4[4-5],men's,NOUN[_],6[_],compound[_]
+5[4],player[men],NOUN,6[7],compound[nmod:poss]
+6[5],ID['s],NOUN[PART],0[4],root[case]
+<none>[6],<none>[player],<none>[NOUN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4975
+# Scottish Rugby Union men's sevens player ID
+1,Scottish,ADJ,3,amod
+2,Rugby,PROPN[ADJ],3,compound[amod]
+3,Union,PROPN,7[4],compound
+4[4-5],men's,NOUN[_],7[_],compound[_]
+5[4],sevens[men],NOUN,7[8],compound[nmod:poss]
+6[5],player['s],NOUN[PART],7[4],compound[case]
+7[6],ID[sevens],NOUN,0[8],root[compound]
+<none>[7],<none>[player],<none>[NOUN],<none>[8],<none>[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4976
+# Scottish Rugby Union women's player ID
+1,Scottish,ADJ,3,amod
+2,Rugby,PROPN[ADJ],3,compound[amod]
+3,Union,PROPN,4,compound
+4[4-5],women[women's],NOUN[_],7[_],nmod:poss[_]
+5[4],'s[women],PART[NOUN],4[7],case[nmod:poss]
+6[5],player['s],NOUN[PART],7[4],compound[case]
+7[6],ID[player],NOUN,0[7],root[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4982
+# Women’s Elite Rugby player ID
+1[1-2],Women[Women’s],NOUN[_],6[_],nmod:poss[_]
+2[1],’s[Women],PART[NOUN],1[6],case[nmod:poss]
+3[2],Elite[’s],ADJ[PART],6[1],amod[case]
+4[3],Rugby[Elite],PROPN[ADJ],5[6],compound[amod]
+5[4],player[Rugby],NOUN[PROPN],6[5],compound
+6[5],ID[player],NOUN,0[6],root[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P4987
+# Scottish Rugby Union women's sevens player ID
+1,Scottish,ADJ,3,amod
+2,Rugby,PROPN[ADJ],3,compound[amod]
+3,Union,PROPN,4,compound
+4[4-5],women[women's],NOUN[_],8[_],nmod:poss[_]
+5[4],'s[women],PART[NOUN],4[8],case[nmod:poss]
+6[5],sevens['s],NOUN[PART],7[4],compound[case]
+7[6],player[sevens],NOUN,8,compound
+8[7],ID[player],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P5013
+# Welsh Rugby Union women's player ID
+1,Welsh,ADJ,3,amod
+2,Rugby,PROPN,3,compound
+3,Union,PROPN,4,compound
+4[4-5],women[women's],NOUN[_],7[_],nmod:poss[_]
+5[4],'s[women],PART[NOUN],4[7],case[nmod:poss]
+6[5],player['s],NOUN[PART],7[4],compound[case]
+7[6],ID[player],NOUN,0[7],root[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P5014
+# Welsh Rugby Union men's sevens player ID
+1,Welsh,ADJ,3,amod
+2,Rugby,PROPN,3,compound
+3,Union,PROPN,4,compound
+4[4-5],men's,NOUN[_],7[_],compound[_]
+5[4],sevens[men],PROPN[NOUN],6[8],compound[nmod:poss]
+6[5],player['s],NOUN[PART],7[4],compound[case]
+7[6],ID[sevens],NOUN,0[8],root[compound]
+<none>[7],<none>[player],<none>[NOUN],<none>[8],<none>[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P5067
+# non-operating temperature
+1,non-operating[non],ADJ[ADV],2,amod[advmod]
+2,temperature[-operating],NOUN[VERB],0[3],root[amod]
+<none>[3],<none>[temperature],<none>[NOUN],<none>[0],<none>[root]
+
+# P5148
+# e-MEC entry
+1,e-MEC[e],PROPN,2[3],compound
+2,entry[-],NOUN[PUNCT],0[3],root[punct]
+<none>[3],<none>[MEC],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[entry],<none>[NOUN],<none>[0],<none>[root]
+
+# P5156
+# Norwegian war sailor register ship-ID
+1,Norwegian,ADJ,2[4],amod
+2,war,NOUN,3[4],compound
+3,sailor,NOUN,5[4],compound
+4,register,NOUN,5[0],compound[root]
+5,ship,NOUN,0[7],root[compound]
+6,-ID[-],NOUN[PUNCT],5[7],appos[punct]
+<none>[7],<none>[ID],<none>[NOUN],<none>[4],<none>[appos]
+
+# P5165
+# Norsk pop- og rockleksikon ID
+1,Norsk,PROPN[ADJ],5[6],compound[amod]
+2,pop-[pop],X[NOUN],5[6],compound
+3,og[-],PROPN[PUNCT],5[2],compound[punct]
+4,rockleksikon[og],PROPN[CCONJ],5,compound[cc]
+5,ID[rockleksikon],NOUN,0[2],root[conj]
+<none>[6],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P5175
+# Univ-droit jurist ID
+1,Univ[Univ-],PROPN[ADJ],4,compound[amod]
+2,-droit[droit],ADJ[NOUN],4,amod[compound]
+3,jurist,NOUN,4,compound
+4,ID,NOUN,0,root
+
+# P5200
+# eBird hotspot ID
+1,e[eBird],PROPN,4[3],compound
+2,Bird[hotspot],NOUN[PROPN],4[3],compound
+3,hotspot[ID],NOUN[PROPN],4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5222
+# National Women's Soccer League player ID
+1,National,ADJ,2,amod
+2[2-3],Women[Women's],PROPN[_],7[_],nmod:poss[_]
+3[2],'s[Women],PART[PROPN],2[7],case[nmod:poss]
+4[3],Soccer['s],PROPN[PART],5[2],compound[case]
+5[4],League[Soccer],PROPN,7[5],compound
+6[5],player[League],NOUN[PROPN],7,compound
+7[6],ID[player],NOUN,0[7],root[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P5224
+# OlimpBase Women's Chess Olympiad player ID
+1,OlimpBase,PROPN,2,compound
+2[2-3],Women's,PROPN[_],6[_],compound[_]
+3[2],Chess[Women],NOUN[PROPN],6[7],compound[nmod:poss]
+4[3],Olympiad['s],NOUN[PART],6[2],compound[case]
+5[4],player[Chess],NOUN[PROPN],6[5],compound
+6[5],ID[Olympiad],NOUN[PROPN],0[7],root[compound]
+<none>[6],<none>[player],<none>[NOUN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P5356
+# Laut.de artist ID
+1,Laut[Laut.de],PROPN,4[0],compound[root]
+2,.de[artist],PROPN[NOUN],4[3],compound
+3,artist[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5431
+# setlist.fm artist ID
+1,setlist[setlist.fm],NOUN,2[0],compound[root]
+2,.fm[artist],NOUN,4[3],compound
+3,artist[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5432
+# setlist.fm venue ID
+1,setlist[setlist.fm],NOUN,2[0],compound[root]
+2,.fm[venue],NOUN,4[3],compound
+3,venue[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5440
+# Elysee.fr president ID
+1,Elysee[Elysee.fr],PROPN,5[3],compound
+2,.[president],PUNCT[NOUN],1[3],punct[compound]
+3,fr[ID],PROPN,5[0],compound[root]
+4[<none>],president[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5476
+# LegaBasket.it player ID
+1,LegaBasket[LegaBasket.it],PROPN,4[3],compound
+2,.it[player],PROPN[NOUN],4[3],compound
+3,player[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5491
+# BD Gest' author ID
+1,BD,PROPN,5[2],nmod:poss[compound]
+2,Gest[Gest'],PROPN,1[0],flat[root]
+3,'[author],PART[NOUN],1[4],case[compound]
+4,author[ID],NOUN,5[2],compound[appos]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5492
+# EDIT16 catalogue author ID
+1,EDIT16[EDIT],PROPN,2[0],compound[root]
+2,catalogue[16],NOUN[NUM],4[1],compound[nummod]
+3,author[catalogue],NOUN,4[1],compound[appos]
+4,ID[author],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P5493
+# EDIT16 catalogue printer ID
+1,EDIT16[EDIT],PROPN,2[0],compound[root]
+2,catalogue[16],NOUN[NUM],4[1],compound[nummod]
+3,printer[catalogue],NOUN,4[5],compound
+4,ID[printer],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P5545
+# Paris Faculty of Letters professor ID (1809–1908)
+1,Paris,PROPN,2,compound
+2,Faculty,PROPN,6[5],compound
+3,of,ADP,4,case
+4,Letters,PROPN,2,nmod
+5,professor,NOUN,6[0],compound[root]
+6,ID,NOUN[PROPN],0[5],root[appos]
+7,(,PUNCT,8,punct
+8,1809[1809–],NUM,6,nmod:tmod[appos]
+9,–1908[1908],NUM,8,dep[nummod]
+10,),PUNCT,8,punct
+
+# P5579
+# flight-report.com Airline identifier
+1,flight[flight-report.com],NOUN[X],3[0],compound[root]
+2,-[Airline],PUNCT[NOUN],1[3],punct[compound]
+3,report.com[identifier],NOUN,5[1],compound[appos]
+4[<none>],Airline[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],identifier[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5587
+# Libris-URI
+1,Libris-URI[Libris],PROPN,0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[3],<none>[URI],<none>[PROPN],<none>[1],<none>[appos]
+
+# P5593
+# Poisson's ratio
+1[1-2],Poisson[Poisson's],PROPN[_],3[_],nmod:poss[_]
+2[1],'s[Poisson],PART[PROPN],1[3],case[nmod:poss]
+3[2],ratio['s],NOUN[PART],0[1],root[case]
+<none>[3],<none>[ratio],<none>[NOUN],<none>[0],<none>[root]
+
+# P5599
+# Inventory of Quebec's Places of Worship ID
+1,Inventory,NOUN[PROPN],0,root
+2,of,ADP,5,case
+3[3-4],Quebec[Quebec's],PROPN[_],5[_],nmod:poss[_]
+4[3],'s[Quebec],PART[PROPN],3[5],case[nmod:poss]
+5[4],Places['s],PROPN[PART],1[3],nmod[case]
+6[5],of[Places],ADP[PROPN],8[1],case[nmod]
+7[6],Worship[of],PROPN[ADP],8,compound[case]
+8[7],ID[Worship],NOUN[PROPN],5[8],nmod[compound]
+<none>[8],<none>[ID],<none>[PROPN],<none>[5],<none>[nmod]
+
+# P5612
+# LegaBasket.it coach ID
+1,LegaBasket[LegaBasket.it],PROPN,4[3],compound
+2,.it[coach],PROPN[NOUN],4[3],compound
+3,coach[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5628
+# Football.it female player ID
+1,Football[Football.it],NOUN[PROPN],2[0],compound[root]
+2,.it[female],PROPN[ADJ],5[4],compound[amod]
+3,female[player],ADJ[NOUN],5[4],amod[compound]
+4,player[ID],NOUN,5[1],compound[appos]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5644
+# World Rugby Women's World Cup player ID
+1,World,PROPN,2,compound
+2,Rugby,PROPN,3,compound
+3[3-4],Women[Women's],PROPN[_],8[_],nmod:poss[_]
+4[3],'s[Women],PART[PROPN],3[8],case[nmod:poss]
+5[4],World['s],PROPN[PART],6[3],compound[case]
+6[5],Cup[World],PROPN,8[6],compound
+7[6],player[Cup],NOUN[PROPN],8,compound
+8[7],ID[player],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P5683
+# iNaturalist observation ID
+1,i[iNaturalist],PRON[NOUN],4[3],compound
+2,Naturalist[observation],ADJ[NOUN],4[3],amod[compound]
+3,observation[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5769
+# editor-in-chief
+1,editor,NOUN,3[0],compound[root]
+2,-,PUNCT,1,punct
+3,in-[in],ADJ[ADP],4[5],amod[case]
+4,chief[-],NOUN[PUNCT],0[5],root[punct]
+<none>[5],<none>[chief],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P5770
+# Animator.ru person ID
+1,Animator[Animator.ru],NOUN[PROPN],4[0],compound[root]
+2,.ru[person],PROPN[NOUN],4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5777
+# CoinMarketCap cryptocurrency ID
+1,CoinMarketCap[CoinMarket],PROPN,3[2],compound
+2,cryptocurrency[Cap],NOUN,3[0],compound[root]
+3,ID[cryptocurrency],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[2],<none>[appos]
+
+# P5786
+# Moviepilot.de film ID
+1,Moviepilot[Moviepilot.de],NOUN[PROPN],4[3],compound
+2,.de[film],X[NOUN],4[3],compound
+3,film[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5790
+# Skijumping.pl jumper ID
+1,Skijumping[Skijumping.pl],PROPN,4[3],compound
+2,.pl[jumper],NOUN,4[3],compound
+3,jumper[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5851
+# Ex-USSR internal airport code
+1,Ex,PROPN[ADJ],0[3],root[amod]
+2,-USSR[-],PROPN[PUNCT],1[3],flat[punct]
+3,internal[USSR],ADJ[PROPN],5[6],amod[compound]
+4,airport[internal],NOUN[ADJ],5[6],compound[amod]
+5,code[airport],NOUN,1[6],appos[compound]
+<none>[6],<none>[code],<none>[NOUN],<none>[0],<none>[root]
+
+# P5891
+# Bpk-ID
+1,Bpk,PROPN,0[3],root[compound]
+2,-ID[-],PROPN[PUNCT],1[3],flat[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P5918
+# Sprockhoff-ID
+1,Sprockhoff,PROPN,0[3],root[compound]
+2,-ID[-],PROPN[PUNCT],1[3],flat[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P5925
+# Moviepilot.de series ID
+1,Moviepilot[Moviepilot.de],PROPN,4[0],compound[root]
+2,.de[series],PROPN[NOUN],4[3],compound
+3,series[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5958
+# Women's Japan Basketball League ID
+1[1-2],Women[Women's],NOUN[_],6[_],nmod:poss[_]
+2[1],'s[Women],PART[NOUN],1[6],case[nmod:poss]
+3[2],Japan['s],PROPN[PART],6[1],compound[case]
+4[3],Basketball[Japan],PROPN,5,compound
+5[4],League[Basketball],PROPN,6[5],compound
+6[5],ID[League],NOUN[PROPN],0[6],root[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P5987
+# Indiancine.ma film ID
+1,Indiancine[Indiancine.ma],PROPN,5[3],compound
+2,.[film],PUNCT[NOUN],1[3],punct[compound]
+3,ma[ID],NOUN,5[0],compound[root]
+4[<none>],film[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P5989
+# Indiancine.ma person ID
+1,Indiancine[Indiancine.ma],PROPN,5[0],compound[root]
+2,.[person],PUNCT[NOUN],1[3],punct[compound]
+3,ma[ID],NOUN,4[1],compound[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6020
+# d'Art d'Art ! ID
+1,d'Art[d'],PROPN[X],2[3],compound
+2,d'Art[Art],PROPN[NOUN],0[3],root[compound]
+3,![d'Art],PUNCT[NOUN],2[0],punct[root]
+4,ID[!],NOUN[PUNCT],2[3],appos[punct]
+<none>[5],<none>[ID],<none>[PROPN],<none>[3],<none>[parataxis]
+
+# P6041
+# John J. Audubon's Birds of America ID
+1,John,PROPN,0[5],root[nmod:poss]
+2,J.,PROPN,1,flat
+3[3-4],Audubon[Audubon's],PROPN[_],1[_],flat[_]
+4[3],'s[Audubon],PART[PROPN],1,case[flat]
+5[4],Birds['s],PROPN[PART],8[1],compound[case]
+6[5],of[Birds],ADP[NOUN],7[0],case[root]
+7[6],America[of],PROPN[ADP],5[8],nmod[case]
+8[7],ID[America],NOUN[PROPN],1[8],nmod[compound]
+<none>[8],<none>[ID],<none>[PROPN],<none>[5],<none>[nmod]
+
+# P6043
+# Espèces Envahissantes Outre-mer ID
+1,Espèces,X[NOUN],4[0],punct[root]
+2,Envahissantes,NOUN,4[1],compound[appos]
+3,Outre-mer[Outre],NOUN[ADJ],4[5],compound[amod]
+4,ID[-],NOUN[PUNCT],0[5],root[punct]
+<none>[5],<none>[mer],<none>[NOUN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P6102
+# Schleswig-Holstein cultural heritage object ID
+1,Schleswig[Schleswig-Holstein],PROPN,3[5],compound
+2,-[cultural],PUNCT[ADJ],1[3],punct[amod]
+3,Holstein[heritage],PROPN[NOUN],7[5],compound
+4,cultural[object],ADJ[NOUN],5,amod[compound]
+5,heritage[ID],NOUN,7[0],compound[root]
+6[<none>],object[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6124
+# Sotheby's person ID
+1,Sotheby[Sotheby's],PROPN,4[3],nmod:poss[compound]
+2,'s[person],PART[NOUN],1[3],case[compound]
+3,person[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6154
+# r-hockey.ru person ID
+1,r[r-hockey.ru],AUX[PROPN],5[0],cop[root]
+2,-hockey[person],PROPN[NOUN],4[3],compound
+3,.ru[ID],PUNCT[NOUN],4[1],punct[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6155
+# Sotheby's Museum Network ID
+1,Sotheby[Sotheby's],PROPN,5[3],nmod:poss[compound]
+2,'s[Museum],PART[PROPN],1[4],case[compound]
+3,Museum[Network],PROPN,4,compound
+4,Network[ID],PROPN,5[0],compound[root]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6170
+# System16 identifier
+1,System16[System],NOUN,2[3],compound
+2,identifier[16],NOUN[NUM],0[1],root[nummod]
+<none>[3],<none>[identifier],<none>[NOUN],<none>[0],<none>[root]
+
+# P6176
+# Cal-IPC ID
+1,Cal,PROPN,3[0],compound[root]
+2,-IPC[-],PROPN[PUNCT],3[1],compound[punct]
+3,ID[IPC],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P6223
+# L'Encyclopédie philosophique ID
+1,L'Encyclopédie[L'],X[PROPN],3[4],compound
+2,philosophique[Encyclopédie],X[PROPN],3[4],compound
+3,ID[philosophique],NOUN[ADJ],0[4],root[amod]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P6319
+# Italian Footballers' Association player ID
+1,Italian,ADJ,2,amod
+2[2-3],Footballers[Footballers'],PROPN[_],6[_],nmod:poss[_]
+3[2],'[Footballers],PART[PROPN],2[4],case[nmod:poss]
+4[3],Association['],PROPN[PART],6[2],compound[case]
+5[4],player[Association],NOUN[PROPN],6,compound
+6[5],ID[player],NOUN,0[6],root[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6321
+# Teams.by player ID
+1,Teams[Teams.by],NOUN,4[3],compound
+2,.by[player],NUM[NOUN],1[3],dep[compound]
+3,player[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6367
+# Bahamut Gamer's Community ACG Database ID
+1,Bahamut,PROPN,2,compound
+2[2-3],Gamer[Gamer's],PROPN[_],7[_],nmod:poss[_]
+3[2],'s[Gamer],PART[PROPN],2[4],case[nmod:poss]
+4[3],Community['s],NOUN[PART],7[2],compound[case]
+5[4],ACG[Community],PROPN,7,compound
+6[5],Database[ACG],NOUN[PROPN],7,compound
+7[6],ID[Database],NOUN,0[7],root[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6376
+# Psyl'list species ID
+1,Psyl'list[Psyl'],NOUN,2,compound
+2,species[list],NOUN,3[0],compound[root]
+3,ID[species],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[2],<none>[obj]
+
+# P6391
+# U-DISE code
+1,U,NOUN[PROPN],3,compound
+2,-DISE[-],X[PUNCT],3,compound[punct]
+3,code[DISE],NOUN,0[4],root[compound]
+<none>[4],<none>[code],<none>[NOUN],<none>[0],<none>[root]
+
+# P6398
+# iTunes movie ID
+1,i[iTunes],PRON[NOUN],4[3],compound
+2,Tunes[movie],NOUN,4[3],compound
+3,movie[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6404
+# Treccani's Dizionario di Storia ID
+1[1-2],Treccani's,PROPN[_],0[_],root[_]
+2[1],Dizionario[Treccani],PROPN,1[3],flat[nmod:poss]
+3[2],di['s],PROPN[PART],5[1],compound[case]
+4[3],Storia[Dizionario],PROPN,5[0],compound[root]
+5[4],ID[di],NOUN[PROPN],1[6],appos[compound]
+<none>[5],<none>[Storia],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[nmod]
+
+# P6410
+# LevskiSofia.info coach ID
+1,LevskiSofia[LevskiSofia.info],PROPN,4[0],compound[root]
+2,.info[coach],PROPN[NOUN],4[3],compound
+3,coach[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6411
+# LevskiSofia.info player ID
+1,LevskiSofia[LevskiSofia.info],PROPN,4[0],compound[root]
+2,.info[player],PROPN[NOUN],4[3],compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6416
+# sport-strana.ru article ID
+1,sport[sport-strana.ru],NOUN,3[0],compound[root]
+2,-[article],PUNCT[NOUN],1[3],punct[compound]
+3,strana[ID],PROPN[NOUN],6[1],compound[appos]
+4[<none>],.ru[<none>],PROPN[<none>],6[<none>],compound[<none>]
+5[<none>],article[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6421
+# infosport.ru person ID
+1,infosport[infosport.ru],PROPN,4[0],compound[root]
+2,.ru[person],PROPN[NOUN],4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6432
+# Alexander–Briggs notation
+1,Alexander–Briggs[Alexander],PROPN,2[0],compound[root]
+2,notation[–],NOUN[PUNCT],0[1],root[punct]
+<none>[3],<none>[Briggs],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[notation],<none>[NOUN],<none>[1],<none>[appos]
+
+# P6461
+# Rock's Backpages artist ID
+1[1-2],Rock[Rock's],NOUN[_],5[_],nmod:poss[_]
+2[1],'s[Rock],PART[PROPN],1[3],case[nmod:poss]
+3[2],Backpages['s],NOUN[PART],5[1],compound[case]
+4[3],artist[Backpages],NOUN[PROPN],5[0],compound[root]
+5[4],ID[artist],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[3],<none>[appos]
+
+# P6462
+# Rock's Backpages author ID
+1[1-2],Rock[Rock's],NOUN[_],5[_],nmod:poss[_]
+2[1],'s[Rock],PART[PROPN],1[3],case[nmod:poss]
+3[2],Backpages['s],PROPN[PART],5[1],compound[case]
+4[3],author[Backpages],NOUN[PROPN],5[0],compound[root]
+5[4],ID[author],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[3],<none>[appos]
+
+# P6463
+# Rock's Backpages publication ID
+1[1-2],Rock[Rock's],NOUN[_],5[_],nmod:poss[_]
+2[1],'s[Rock],PART[NOUN],1[3],case[nmod:poss]
+3[2],Backpages['s],PROPN[PART],5[1],compound[case]
+4[3],publication[Backpages],NOUN,5,compound
+5[4],ID[publication],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6519
+# ISO 639-3 Change Request ID
+1,ISO,PROPN,0[6],root[compound]
+2,639,NUM,1,dep[nummod]
+3,-[-3],PUNCT[NUM],2[1],punct[nummod]
+4,3[Change],NUM[NOUN],5,nummod[compound]
+5,Change[Request],NOUN,7[6],compound
+6,Request[ID],NOUN,7[0],compound[root]
+7[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P6527
+# V.League men's player ID
+1,V.League,PROPN,2,compound
+2[2-3],men's,NOUN[_],4[_],compound[_]
+3[2],player[men],NOUN,4[5],compound[nmod:poss]
+4[3],ID['s],NOUN[PART],0[2],root[case]
+<none>[4],<none>[player],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6528
+# V.League women's player ID
+1,V.League,PROPN,2,compound
+2[2-3],women[women's],NOUN[_],5[_],nmod:poss[_]
+3[2],'s[women],PART[NOUN],2[5],case[nmod:poss]
+4[3],player['s],NOUN[PART],5[2],compound[case]
+5[4],ID[player],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6547
+# career plus-minus rating
+1,career,NOUN,2[4],compound
+2,plus-[plus],NOUN[CCONJ],4,compound[cc]
+3,minus[-minus],ADJ[PUNCT],4[1],amod[conj]
+4,rating,NOUN,0,root
+
+# P6592
+# OpenStreetMap zoom level
+1,OpenStreetMap[OpenStreet],PROPN,3[2],compound
+2,zoom[Map],NOUN,3[0],compound[root]
+3,level[zoom],NOUN,0[4],root[compound]
+<none>[4],<none>[level],<none>[NOUN],<none>[2],<none>[appos]
+
+# P6596
+# a-tremasov.ru biography ID
+1,a[a-tremasov.ru],DET[NOUN],4[0],det[root]
+2,-tremasov.ru[biography],NOUN,4[3],compound
+3,biography[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6598
+# flgr-results.ru athlete ID
+1,flgr[flgr-results.ru],NOUN,3[0],compound[root]
+2,-[athlete],PUNCT[NOUN],1[3],punct[compound]
+3,results[ID],NOUN,0[1],root[appos]
+4[<none>],.ru[<none>],NOUN[<none>],6[<none>],compound[<none>]
+5[<none>],athlete[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],3[<none>],conj[<none>]
+
+# P6603
+# film-documentaire.fr author ID
+1,film[film-documentaire.fr],NOUN[X],6[0],compound[root]
+2,-[author],PUNCT[NOUN],1[3],punct[compound]
+3,documentaire[ID],X[NOUN],5[1],compound[appos]
+4[<none>],.fr[<none>],PUNCT[<none>],5[<none>],punct[<none>]
+5[<none>],author[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6615
+# Kicker.de player ID (former scheme)
+1,Kicker[Kicker.de],NOUN[PROPN],4[0],compound[root]
+2,.de[player],PUNCT[NOUN],1[3],punct[compound]
+3,player[ID],NOUN,4[1],compound[appos]
+4,ID[(],NOUN[PUNCT],0[6],root[punct]
+5,([former],PUNCT[ADJ],7[6],punct[amod]
+6,former[scheme],ADJ[NOUN],7[3],amod[appos]
+7,scheme[)],NOUN[PUNCT],4[6],appos[punct]
+8[<none>],)[<none>],PUNCT[<none>],7[<none>],punct[<none>]
+
+# P6624
+# FSkate.ru skater ID
+1,FSkate[FSkate.ru],PROPN,4[3],compound
+2,.ru[skater],PROPN[NOUN],4[3],compound
+3,skater[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6634
+# LinkedIn personal profile ID
+1,Linked[LinkedIn],VERB[PROPN],0[4],root[compound]
+2,In[personal],ADP[ADJ],5[3],case[amod]
+3,personal[profile],ADJ[NOUN],5[4],amod[compound]
+4,profile[ID],NOUN,5[0],compound[root]
+5[<none>],ID[<none>],NOUN[<none>],1[<none>],obl[<none>]
+
+# P6646
+# JMdictDB ID
+1,JMdictDB[JMdict],NOUN[PROPN],2[0],compound[root]
+2,ID[DB],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P6663
+# Utpictura18 artwork ID
+1,Utpictura18[Utpictura],PROPN,3[0],compound[root]
+2,artwork[18],NOUN[NUM],3[1],compound[nummod]
+3,ID[artwork],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P6690
+# CNV-SP ID
+1,CNV-SP[CNV],PROPN,2[4],compound
+2,ID[-],NOUN[PUNCT],0[4],root[punct]
+<none>[3],<none>[SP],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6699
+# Yu-Gi-Oh! TCG cards ID
+1,Yu,PROPN,0[5],root[compound]
+2,-,PUNCT,3[5],punct
+3,Gi-Oh[Gi],PROPN,1[5],flat[compound]
+4,![-],PUNCT,1[5],punct
+5,TCG[Oh],PROPN[INTJ],7[9],compound
+6,cards[!],NOUN[PUNCT],7[5],compound[punct]
+7,ID[TCG],NOUN,1[8],appos[compound]
+<none>[8],<none>[cards],<none>[NOUN],<none>[9],<none>[compound]
+<none>[9],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6712
+# precedes word-initial
+1,precedes,VERB,0,root
+2,word[word-],NOUN,4[3],compound
+3,-[initial],PUNCT[NOUN],4[1],punct[obj]
+4[<none>],initial[<none>],ADJ[<none>],1[<none>],obj[<none>]
+
+# P6721
+# K10plus PPN ID
+1,K10[K10plus],NOUN[PROPN],4[3],compound
+2,plus[PPN],CCONJ[PROPN],3,cc[compound]
+3,PPN[ID],NOUN,1[0],conj[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6722
+# FemBio ID
+1,FemBio[Fem],PROPN,2[3],compound
+2,ID[Bio],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P6739
+# Smotrim.ru actor profile ID
+1,Smotrim[Smotrim.ru],PROPN,0,root
+2,.ru[actor],PROPN[NOUN],1[3],flat[compound]
+3,actor[profile],NOUN,5[4],compound
+4,profile[ID],NOUN,5[1],compound[appos]
+5[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P6766
+# Who's on First ID
+1[1-2],Who[Who's],PRON[_],5[_],nsubj[_]
+2[1],'s[Who],AUX[PRON],5,cop[nsubj]
+3[2],on['s],ADP[AUX],5,case[cop]
+4[3],First[on],ADJ[ADP],5,amod[case]
+5[4],ID[First],NOUN[ADJ],0[5],root[amod]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6784
+# Harper's author ID
+1[1-2],Harper[Harper's],PROPN[_],4[_],nmod:poss[_]
+2[1],'s[Harper],PART[PROPN],1[4],case[nmod:poss]
+3[2],author['s],NOUN[PART],4[1],compound[case]
+4[3],ID[author],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P6790
+# f-number
+1,f-number[f],NOUN,0[2],root[compound]
+<none>[2],<none>[-number],<none>[NOUN],<none>[0],<none>[root]
+
+# P6836
+# Pro-Football-Reference.com coach ID
+1,Pro-Football[Pro-Football-Reference.com],NOUN[X],3[0],compound[root]
+2,-[coach],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[ID],NOUN,5[1],compound[appos]
+4[<none>],coach[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P6936
+# Who's Who of American Comic Books ID
+1[1-2],Who[Who's],PRON[_],0[_],root[_]
+2[1],'s[Who],AUX[PRON],1[0],cop[root]
+3[2],Who['s],PRON[AUX],1,nsubj[cop]
+4[3],of[Who],ADP[PRON],8[1],case[nsubj]
+5[4],American[of],ADJ[ADP],6[8],amod[case]
+6[5],Comic[American],NOUN[ADJ],7[8],compound[amod]
+7[6],Books[Comic],NOUN[ADJ],8[7],compound[amod]
+8[7],ID[Books],NOUN[PROPN],3[8],nmod[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[3],<none>[nmod]
+
+# P6998
+# iTunes movie collection ID
+1,i[iTunes],PRON[NOUN],5[4],nsubj[compound]
+2,Tunes[movie],NOUN,5[3],compound
+3,movie[collection],NOUN,4,compound
+4,collection[ID],NOUN,5[0],compound[root]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7002
+# Handball123 player ID
+1,Handball123[Handball],PROPN[NOUN],2[4],compound
+2,player[123],NOUN[NUM],3[1],compound[nummod]
+3,ID[player],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7040
+# NosDéputés.fr identifiant
+1,NosDéputés.fr[NosDéputés],X[PROPN],2[0],goeswith[root]
+2,identifiant[.],NOUN[PUNCT],0[1],root[punct]
+<none>[3],<none>[fr],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[identifiant],<none>[NOUN],<none>[1],<none>[parataxis]
+
+# P7046
+# HOV-ID
+1,HOV-ID[HOV],PROPN,0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[3],<none>[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P7060
+# NosSénateurs.fr identifier
+1,NosSénateurs,NOUN[PROPN],0,root
+2,.fr[.],PUNCT,1,punct
+3,identifier[fr],NOUN[PROPN],1[4],appos[compound]
+<none>[4],<none>[identifier],<none>[NOUN],<none>[1],<none>[appos]
+
+# P7063
+# U. S. Supreme Court docket number
+1,U.[U],PROPN,6[5],compound
+2,S.[.],PROPN[PUNCT],6[1],compound[punct]
+3,Supreme[S.],ADJ[PROPN],4[5],amod[compound]
+4,Court[Supreme],PROPN[ADJ],6[5],compound[amod]
+5,docket[Court],NOUN[PROPN],6[7],compound
+6,number[docket],NOUN,0[7],root[compound]
+<none>[7],<none>[number],<none>[NOUN],<none>[0],<none>[root]
+
+# P7085
+# TikTok username
+1,TikTok[Tik],PROPN[NOUN],2,compound
+2,username[Tok],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[username],<none>[NOUN],<none>[0],<none>[root]
+
+# P7105
+# LezWatch.TV actor ID
+1,LezWatch[LezWatch.TV],PROPN,0[3],root[compound]
+2,.TV[actor],PROPN[NOUN],1[3],flat[compound]
+3,actor[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P7106
+# LezWatch.TV character ID
+1,LezWatch[LezWatch.TV],PROPN,4[3],compound
+2,.TV[character],PROPN[NOUN],4[3],compound
+3,character[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7107
+# LezWatch.TV show ID
+1,LezWatch[LezWatch.TV],PROPN,4[2],compound
+2,.TV[show],PROPN[NOUN],4[3],compound
+3,show[ID],NOUN[PROPN],4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7109
+# Acharts.co artist ID
+1,Acharts[Acharts.co],NOUN[PROPN],4[0],compound[root]
+2,.co[artist],PROPN[NOUN],4[3],compound
+3,artist[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7111
+# 08euro.Ru person ID
+1,08euro[08euro.Ru],NOUN[PROPN],5[0],compound[root]
+2,.[person],PUNCT[NOUN],1[3],punct[compound]
+3,Ru[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7113
+# Euro04.Ru person ID
+1,Euro04[Euro04.Ru],NUM[PROPN],5[0],nummod[root]
+2,.[person],PUNCT[NOUN],1[3],punct[compound]
+3,Ru[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7114
+# Gazeta.Ru Euro 2012 person ID
+1,Gazeta[Gazeta.Ru],PROPN,7[0],compound[root]
+2,.[Euro],PUNCT[PROPN],1[5],punct[compound]
+3,Ru[2012],PROPN[NUM],7[2],compound[nummod]
+4,Euro[person],PROPN[NOUN],7[5],compound
+5,2012[ID],NUM[NOUN],7[1],compound[appos]
+6[<none>],person[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7115
+# WorldCup10.Ru person ID
+1,WorldCup10[WorldCup10.Ru],PROPN,5[0],compound[root]
+2,.[person],PUNCT[NOUN],1[3],punct[compound]
+3,Ru[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7132
+# ComingSoon.it film ID
+1,ComingSoon[ComingSoon.it],PROPN,4[3],compound
+2,.it[film],PROPN[NOUN],4[3],compound
+3,film[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7138
+# Acharts.co chart ID
+1,Acharts[Acharts.co],NOUN[PROPN],2[0],compound[root]
+2,.co[chart],NOUN,4[3],compound
+3,chart[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7143
+# Acharts.co album ID
+1,Acharts[Acharts.co],PROPN,4[0],compound[root]
+2,.co[album],PROPN[NOUN],4[3],compound
+3,album[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7146
+# Rollerstory.net skater ID
+1,Rollerstory[Rollerstory.net],PROPN[X],4[0],compound[root]
+2,.net[skater],NOUN,4[3],compound
+3,skater[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7161
+# Kinsky–Halm Catalogue
+1,Kinsky,PROPN,3[0],compound[root]
+2,–Halm[–],PROPN[PUNCT],3[1],compound[punct]
+3,Catalogue[Halm],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[Catalogue],<none>[PROPN],<none>[1],<none>[parataxis]
+
+# P7166
+# Acharts.co song ID
+1,Acharts[Acharts.co],NOUN[PROPN],4[0],compound[root]
+2,.co[song],PROPN[NOUN],4[3],compound
+3,song[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7192
+# TuneIn artist ID
+1,Tune[TuneIn],VERB[PROPN],0[3],root[compound]
+2,In[artist],ADP[NOUN],4[3],case[compound]
+3,artist[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],obl[<none>]
+
+# P7197
+# OpenWeatherMap city ID
+1,OpenWeatherMap[OpenWeather],PROPN,3[2],compound
+2,city[Map],NOUN,3[0],compound[root]
+3,ID[city],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[2],<none>[appos]
+
+# P7207
+# Moly.hu book ID
+1,Moly[Moly.hu],PROPN,4[0],compound[root]
+2,.hu[book],NOUN,4[3],compound
+3,book[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7231
+# eStudánky ID
+1,e[eStudánky],NOUN[PROPN],3[2],compound
+2,Studánky[ID],PROPN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7291
+# L-number
+1,L-number[L],PROPN[NOUN],0,root
+<none>[2],<none>[-],<none>[PUNCT],<none>[1],<none>[punct]
+<none>[3],<none>[number],<none>[NOUN],<none>[1],<none>[appos]
+
+# P7307
+# TOP500 System ID
+1,TOP500[TOP],NUM[ADJ],3[2],nummod[amod]
+2,System[500],NOUN[NUM],3[4],compound[nummod]
+3,ID[System],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7317
+# iHeart artist ID
+1,i[iHeart],PRON[PROPN],4[3],compound
+2,Heart[artist],NOUN,3,compound
+3,artist[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7324
+# iHeart podcast ID
+1,i[iHeart],PRON[PROPN],4[3],compound
+2,Heart[podcast],NOUN,3,compound
+3,podcast[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7337
+# Wi-Fi Certification ID
+1,Wi,PROPN,2[3],compound
+2,-Fi[-],NOUN[PUNCT],4[3],compound[punct]
+3,Certification[Fi],NOUN[PROPN],4[5],compound
+4,ID[Certification],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7363
+# ISSN-L
+1,ISSN,PROPN,0,root
+2,-L[-],PUNCT,1,punct
+<none>[3],<none>[L],<none>[PROPN],<none>[1],<none>[appos]
+
+# P7397
+# 247Sports ID
+1,247Sports[247],PROPN[NUM],2[3],compound[nummod]
+2,ID[Sports],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7416
+# folio (s)
+1,folio(s[folio],NOUN,0,root
+2,)[(],PUNCT,1,punct
+<none>[3],<none>[s],<none>[ADJ],<none>[1],<none>[amod]
+<none>[4],<none>[)],<none>[PUNCT],<none>[1],<none>[punct]
+
+# P7421
+# line (s)
+1,line(s[line],NOUN,0,root
+2,)[(],PUNCT,1,punct
+<none>[3],<none>[s],<none>[ADJ],<none>[1],<none>[amod]
+<none>[4],<none>[)],<none>[PUNCT],<none>[1],<none>[punct]
+
+# P7453
+# 90minut.pl team ID
+1,90[90minut.pl],NUM[PROPN],2[0],nummod[root]
+2,minut.pl[team],NOUN,3,compound
+3,team[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7457
+# creator's signature
+1,creator[creator's],NOUN,3[2],nmod:poss[compound]
+2,'s[signature],PART[NOUN],1[0],case[root]
+3[<none>],signature[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7466
+# Edvard Munch's correspondence person ID
+1,Edvard,PROPN,6[4],nmod:poss
+2[2-3],Munch[Munch's],PROPN[_],1[_],flat[_]
+3[2],'s[Munch],PART[PROPN],1,case[flat]
+4[3],correspondence['s],NOUN[PART],6[1],compound[case]
+5[4],person[correspondence],NOUN,6[0],compound[root]
+6[5],ID[person],NOUN,0[6],root[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[4],<none>[appos]
+
+# P7471
+# iNaturalist place ID
+1,i[iNaturalist],PRON[NOUN],4[3],compound
+2,Naturalist[place],ADJ[NOUN],4[3],amod[compound]
+3,place[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7476
+# iFixit teardown ID
+1,i[iFixit],PRON[PROPN],4[3],compound
+2,Fixit[teardown],NOUN,4[3],compound
+3,teardown[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7490
+# Teams.by team ID
+1,Teams[Teams.by],NOUN,0,root
+2,.by[team],SYM[NOUN],4[3],dep[compound]
+3,team[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P7491
+# Austrian Parliament 1848–1918 ID
+1,Austrian,ADJ,2,amod
+2,Parliament,PROPN[NOUN],5[0],compound[root]
+3,1848[1848–1918],NUM,2,nmod:tmod[nummod]
+4,–1918[ID],NUM[NOUN],5[2],nummod[appos]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7545
+# askArt person ID
+1,ask[askArt],VERB[NOUN],0[3],root[compound]
+2,Art[person],NOUN,4[3],compound
+3,person[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],obj[<none>]
+
+# P7552
+# Finnish Biodiversity Information Facility's Species List ID
+1,Finnish,ADJ,4,amod
+2,Biodiversity,NOUN[PROPN],4,compound
+3,Information,NOUN[PROPN],4,compound
+4[4-5],Facility[Facility's],PROPN[_],8[_],nmod:poss[_]
+5[4],'s[Facility],PART[PROPN],4[8],case[nmod:poss]
+6[5],Species['s],NOUN[PART],8[4],compound[case]
+7[6],List[Species],NOUN[PROPN],8[7],compound
+8[7],ID[List],NOUN[PROPN],0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7587
+# eFloraSA ID
+1,e[eFloraSA],NOUN[PROPN],3[2],compound
+2,FloraSA[ID],PROPN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7590
+# eBay username
+1,e[eBay],PROPN,2,compound
+2,Bay[username],PROPN[NOUN],3[0],compound[root]
+3[<none>],username[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7620
+# Treccani's Enciclopedia dei Papi ID
+1[1-2],Treccani's,PROPN[_],5[_],compound[_]
+2[1],Enciclopedia[Treccani],PROPN,5[3],compound[nmod:poss]
+3[2],dei['s],PROPN[PART],5[1],compound[case]
+4[3],Papi[Enciclopedia],PROPN,5[0],compound[root]
+5[4],ID[dei],NOUN[PROPN],0[6],root[compound]
+<none>[5],<none>[Papi],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[appos]
+
+# P7622
+# TheGamesDB game ID
+1,The[TheGames],DET[PROPN],4,det[compound]
+2,GamesDB[DB],PROPN,4,compound
+3,game,NOUN,4,compound
+4,ID,NOUN,0,root
+
+# P7623
+# TheGamesDB platform ID
+1,TheGamesDB[TheGames],PROPN,3[4],compound
+2,platform[DB],NOUN[PROPN],3[4],compound
+3,ID[platform],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7634
+# TheGamesDB developer ID
+1,The[TheGamesDB],DET[PROPN],4[3],det[compound]
+2,GamesDB[developer],PROPN[NOUN],4[3],compound
+3,developer[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7652
+# Germany06.Ru person ID
+1,Germany06[Germany06.Ru],PROPN,5[0],compound[root]
+2,.[person],PUNCT[NOUN],1[3],punct[compound]
+3,Ru[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7695
+# e-WV: The West Virginia Encyclopedia ID
+1,e-[e],PROPN,0,root
+2,WV[-],PROPN[PUNCT],1,flat[punct]
+3,:[WV],PUNCT[PROPN],8[1],punct[appos]
+4,The[:],DET[PUNCT],8[1],det[punct]
+5,West[The],PROPN[DET],8[9],compound[det]
+6,Virginia[West],PROPN,8[7],compound
+7,Encyclopedia[Virginia],NOUN[PROPN],8[9],compound
+8,ID[Encyclopedia],NOUN[PROPN],1[9],appos[compound]
+<none>[9],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P7771
+# PersonalData.IO ID
+1,PersonalData[PersonalData.IO],PROPN,0[2],root[compound]
+2,.IO[ID],ADP[NOUN],3[0],case[root]
+3[<none>],ID[<none>],NOUN[<none>],1[<none>],nmod[<none>]
+
+# P7783
+# J-GLOBAL ID
+1,J-GLOBAL[J],PROPN,2[0],compound[root]
+2,ID[-],NOUN[PUNCT],0[1],root[punct]
+<none>[3],<none>[GLOBAL],<none>[ADJ],<none>[4],<none>[amod]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P7789
+# Ten-Bruggencatenummer
+1,Ten[Ten-Bruggencatenummer],NUM[PROPN],2[0],nummod[root]
+2[<none>],-Bruggencatenummer[<none>],PROPN[<none>],0[<none>],root[<none>]
+
+# P7802
+# D-MSX ID
+1,D-MSX[D],PROPN,2[0],compound[root]
+2,ID[-],NOUN[PUNCT],0[1],root[punct]
+<none>[3],<none>[MSX],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P7807
+# ICD-11 (foundation)
+1,ICD,PROPN,0,root
+2,-[-11],PUNCT[NUM],3[1],punct[nummod]
+3,11[(],NUM[PUNCT],1[4],dep[punct]
+4,([foundation],PUNCT[NOUN],5[1],punct[appos]
+5,foundation[)],NOUN[PUNCT],1[4],parataxis[punct]
+6[<none>],)[<none>],PUNCT[<none>],5[<none>],punct[<none>]
+
+# P7808
+# kino-teatr.ru person ID
+1,kino[kino-teatr.ru],PROPN[NOUN],6[0],compound[root]
+2,-[person],PUNCT[NOUN],1[3],punct[compound]
+3,teatr[ID],PROPN[NOUN],1,flat[appos]
+4[<none>],.ru[<none>],PROPN[<none>],6[<none>],compound[<none>]
+5[<none>],person[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P7878
+# Soccerdonna team ID
+1[1-2],Soccerdonna,PROPN[_],3[_],compound[_]
+2[1],team[Soccerdon],NOUN[PROPN],3[0],compound[root]
+3[2],ID[na],NOUN[ADP],0[4],root[case]
+<none>[3],<none>[team],<none>[NOUN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P7897
+# TI-99/4A Videogame House ID
+1,TI,PROPN,0,root
+2,-,PUNCT,3[1],punct
+3,99[99/4],NUM,1,dep[nummod]
+4,/[A],PUNCT[DET],5[7],punct[det]
+5,4A[Videogame],NOUN,1[6],conj[compound]
+6,Videogame[House],NOUN,8[7],compound
+7,House[ID],NOUN,8[1],compound[appos]
+8[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P7900
+# Monument Atlas Objekt-ID
+1,Monument,NOUN,2,compound
+2,Atlas,PROPN,0,root
+3,Objekt,PROPN[NOUN],2,flat[compound]
+4,-ID[-],PROPN[PUNCT],2[5],appos[punct]
+<none>[5],<none>[ID],<none>[NOUN],<none>[2],<none>[appos]
+
+# P7948
+# GreatSchools ID
+1,GreatSchools[Great],NOUN[ADJ],2,compound[amod]
+2,ID[Schools],NOUN,0[3],root[compound]
+<none>[3],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P7976
+# stargate-wiki.de article
+1,stargate[stargate-wiki.de],NOUN[X],3[0],compound[root]
+2,-[article],PUNCT[NOUN],3[1],punct[appos]
+3[<none>],wiki[<none>],NOUN[<none>],0[<none>],root[<none>]
+4[<none>],.de[<none>],X[<none>],5[<none>],case[<none>]
+5[<none>],article[<none>],NOUN[<none>],3[<none>],appos[<none>]
+
+# P7978
+# Decine21 film ID
+1,Decine21[Decine],NOUN[PROPN],3[0],compound[root]
+2,film[21],NOUN[NUM],3[1],compound[nummod]
+3,ID[film],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P7993
+# Treccani's Dizionario di Filosofia ID
+1[1-2],Treccani's,PROPN[_],5[_],compound[_]
+2[1],Dizionario[Treccani],PROPN,5[3],compound[nmod:poss]
+3[2],di['s],NOUN[PART],5[1],compound[case]
+4[3],Filosofia[Dizionario],PROPN,5[0],compound[root]
+5[4],ID[di],NOUN[ADP],0[6],root[case]
+<none>[5],<none>[Filosofia],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[nmod]
+
+# P7996
+# EH.Net Encyclopedia of Economic and Business History ID
+1,EH[EH.Net],INTJ[PROPN],4[2],discourse[compound]
+2,.[Encyclopedia],PUNCT[PROPN],1[0],punct[root]
+3,Net[of],ADJ[ADP],4[8],amod[case]
+4,Encyclopedia[Economic],NOUN[ADJ],0[8],root[amod]
+5,of[and],ADP[CCONJ],10[6],case[cc]
+6,Economic[Business],ADJ[NOUN],10[4],amod[conj]
+7,and[History],CCONJ[NOUN],8,cc[compound]
+8,Business[ID],NOUN,6[2],conj[nmod]
+9[<none>],History[<none>],NOUN[<none>],10[<none>],compound[<none>]
+10[<none>],ID[<none>],NOUN[<none>],4[<none>],nmod[<none>]
+
+# P8009
+# IM channel URL
+1[1-2],IM,NOUN[_],3[_],compound[_]
+2[1],channel[I],NOUN[PRON],3[4],compound[nsubj]
+3[2],URL[M],NOUN[AUX],0[4],root[compound]
+<none>[3],<none>[channel],<none>[NOUN],<none>[4],<none>[compound]
+<none>[4],<none>[URL],<none>[PROPN],<none>[0],<none>[root]
+
+# P8042
+# PC Games Database.de game ID
+1,PC,NOUN[PROPN],2,compound
+2,Games,NOUN[PROPN],3,compound
+3,Database[Database.de],NOUN[PROPN],0,root
+4,.de[game],PUNCT[NOUN],3[5],punct[compound]
+5,game[ID],NOUN[PROPN],6[3],compound[appos]
+6[<none>],ID[<none>],NOUN[<none>],3[<none>],appos[<none>]
+
+# P8079
+# elibrary.ru person ID
+1,elibrary[elibrary.ru],NOUN[X],4[0],compound[root]
+2,.ru[person],NOUN,4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8098
+# Biographical Dictionary of Architects in Canada 1800-1950 ID
+1,Biographical,ADJ,2,amod
+2,Dictionary,PROPN,0,root
+3,of,ADP,4,case
+4,Architects,PROPN,2,nmod
+5,in,ADP,6,case
+6,Canada,PROPN,2[4],nmod
+7,1800[1800-],NUM,2,nmod:tmod
+8,-[1950],SYM[NUM],9,case[nummod]
+9,1950[ID],NUM[PROPN],10[2],compound[appos]
+10[<none>],ID[<none>],NOUN[<none>],2[<none>],nmod[<none>]
+
+# P8134
+# Soccerdonna coach ID
+1[1-2],Soccerdonna,PROPN[_],3[_],compound[_]
+2[1],coach[Soccerdon],NOUN[PROPN],3[0],compound[root]
+3[2],ID[na],NOUN[ADP],0[4],root[case]
+<none>[3],<none>[coach],<none>[NOUN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P8147
+# National-Football-Teams.com club ID
+1,National[National-Football-Teams.com],ADJ[X],7[0],amod[root]
+2,-[club],PUNCT[NOUN],1[3],punct[compound]
+3,Football[ID],NOUN,5[1],compound[appos]
+4[<none>],-[<none>],PUNCT[<none>],5[<none>],punct[<none>]
+5[<none>],Teams.com[<none>],PROPN[<none>],1[<none>],conj[<none>]
+6[<none>],club[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8148
+# re:publica speaker ID
+1,re,ADP,4[5],case
+2,:publica[:],NOUN[PUNCT],4[5],compound[punct]
+3,speaker[publica],NOUN,4[5],compound
+4,ID[speaker],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P8165
+# Maryland's National Register Properties ID
+1[1-2],Maryland[Maryland's],PROPN[_],6[_],nmod:poss[_]
+2[1],'s[Maryland],PART[PROPN],1[6],case[nmod:poss]
+3[2],National['s],ADJ[PART],4[1],amod[case]
+4[3],Register[National],PROPN[ADJ],5[4],compound[amod]
+5[4],Properties[Register],PROPN,6[5],compound
+6[5],ID[Properties],NOUN[PROPN],0[6],root[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8172
+# Sejm-Wielki.pl profile ID
+1,Sejm[Sejm-Wielki.pl],PROPN[X],3[0],compound[root]
+2,-[profile],PUNCT[NOUN],1[3],punct[compound]
+3,Wielki.pl[ID],PROPN[NOUN],5[1],compound[appos]
+4[<none>],profile[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8173
+# Extratime.ie player ID
+1,Extratime[Extratime.ie],NOUN[PROPN],4[0],compound[root]
+2,.ie[player],NOUN,4[3],compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8236
+# LiederNet song cycle ID
+1,LiederNet[Lieder],PROPN[NOUN],2,compound
+2,song[Net],NOUN[PROPN],4[0],compound[root]
+3,cycle[song],NOUN,4,compound
+4,ID[cycle],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[2],<none>[list]
+
+# P8244
+# Mediaqueer.ca artist ID
+1,Mediaqueer[Mediaqueer.ca],PROPN[X],4[0],compound[root]
+2,.ca[artist],PROPN[NOUN],4[3],compound
+3,artist[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8249
+# MDAH's HRI ID
+1[1-2],MDAH's,PROPN[_],3[_],compound[_]
+2[1],HRI[MDah],NOUN[PROPN],3[4],compound[nmod:poss]
+3[2],ID['s],NOUN[PART],0[1],root[case]
+<none>[3],<none>[HRI],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8254
+# PC Games Database.de company ID
+1,PC,PROPN,2,compound
+2,Games,PROPN,3,compound
+3,Database[Database.de],NOUN[PROPN],0,root
+4,.de[company],PROPN[NOUN],6[5],compound
+5,company[ID],NOUN,6[3],compound[appos]
+6[<none>],ID[<none>],NOUN[<none>],3[<none>],appos[<none>]
+
+# P8401
+# TheFreeDictionary medical term ID
+1,The[TheFreeDictionary],DET[PROPN],5[4],det[compound]
+2,FreeDictionary[medical],PROPN[ADJ],5[3],compound[amod]
+3,medical[term],ADJ[NOUN],4,amod[compound]
+4,term[ID],NOUN,5[0],compound[root]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8405
+# People's Representative Council of Indonesia ID
+1[1-2],People[People's],NOUN[_],4[_],nmod:poss[_]
+2[1],'s[People],PART[NOUN],1[4],case[nmod:poss]
+3[2],Representative['s],PROPN[PART],4[1],compound[case]
+4[3],Council[Representative],PROPN,0[4],root[compound]
+5[4],of[Council],ADP[PROPN],7[0],case[root]
+6[5],Indonesia[of],PROPN[ADP],7,compound[case]
+7[6],ID[Indonesia],NOUN[PROPN],4[7],nmod[compound]
+<none>[7],<none>[ID],<none>[PROPN],<none>[4],<none>[nmod]
+
+# P8430
+# Wien Kulturgut: Kunstwerke im öffentlichen Raum ID
+1,Wien,PROPN,0[2],root[compound]
+2,Kulturgut,PROPN,1[0],flat[root]
+3,:,PUNCT,1[2],punct
+4,Kunstwerke,PROPN[NOUN],8[2],compound[appos]
+5[5-6],im,PROPN[_],8[_],compound[_]
+6[5],öffentlichen[i],PROPN[PRON],8[9],compound[nsubj]
+7[6],Raum[m],PROPN[AUX],8[9],compound[cop]
+8[7],ID[öffentlichen],NOUN[ADJ],1[8],appos[amod]
+<none>[8],<none>[Raum],<none>[PROPN],<none>[9],<none>[compound]
+<none>[9],<none>[ID],<none>[PROPN],<none>[4],<none>[appos]
+
+# P8467
+# Wiki-Rennes ID
+1,Wiki,PROPN,3,compound
+2,-Rennes[-],PROPN[PUNCT],3,compound[punct]
+3,ID[Rennes],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8544
+# Frauen in Bewegung 1848–1938 ID
+1,Frauen,PROPN,0,root
+2,in,ADP,3,case
+3,Bewegung,PROPN,1,nmod
+4,1848[1848–1938],NUM,1,nmod:tmod[nummod]
+5,–1938[ID],NUM[NOUN],6[1],nummod[appos]
+6[<none>],ID[<none>],NOUN[<none>],1[<none>],parataxis[<none>]
+
+# P8575
+"# Encyclopaedia of Architects, Vienna 1770–1945 ID"
+1,Encyclopaedia,PROPN,0,root
+2,of,ADP,3,case
+3,Architects,PROPN,1,nmod
+4,",",PUNCT,5[1],punct
+5,Vienna,PROPN,1,appos
+6,1770,NUM,5,nmod:tmod[nummod]
+7,–1945[–],NUM[SYM],8[9],nummod[case]
+8,ID[1945],NOUN[NUM],1[9],appos[nummod]
+<none>[9],<none>[ID],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P8579
+# Firefox Add-ons URL slug
+1,Firefox,PROPN,4[6],compound
+2,Add-ons[Add],PROPN[VERB],4[6],compound
+3,URL[-],NOUN[PUNCT],4[2],compound[punct]
+4,slug[ons],NOUN,0[2],root[compound]
+<none>[5],<none>[URL],<none>[NOUN],<none>[6],<none>[compound]
+<none>[6],<none>[slug],<none>[NOUN],<none>[0],<none>[root]
+
+# P8589
+# Carl-Maria-von-Weber-Gesamtausgabe ID
+1,Carl,PROPN,0,root
+2,-,PUNCT,1,punct
+3,Maria-von[Maria-von-Weber-Gesamtausgabe],PROPN[X],1,flat
+4,-[ID],PUNCT[PROPN],5[1],punct[appos]
+5[<none>],Weber[<none>],PROPN[<none>],1[<none>],flat[<none>]
+6[<none>],-Gesamtausgabe[<none>],PROPN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P8610
+# e-GOV law ID
+1,e,PROPN,4[3],compound
+2,-GOV[-],PROPN[PUNCT],1[3],flat[punct]
+3,law[GOV],NOUN[PROPN],4[5],compound
+4,ID[law],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P8619
+# BD Gest' series ID
+1,BD,PROPN,5[2],nmod:poss[compound]
+2,Gest[Gest'],PROPN,1[4],flat[compound]
+3,'[series],PART[NOUN],1[4],case[compound]
+4,series[ID],NOUN,5[0],compound[root]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8633
+# Re-Member ID
+1,Re-Member[Re],ADJ[ADP],2[3],amod[case]
+2,ID[-Member],NOUN,0[3],root[compound]
+<none>[3],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P8637
+# L'Officiel des spectacles ID
+1,L'Officiel[L'],PROPN[NOUN],4[2],compound
+2,des[Officiel],X[NOUN],1[0],flat[root]
+3,spectacles[des],NOUN,4[5],compound
+4,ID[spectacles],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[2],<none>[appos]
+
+# P8647
+# Library of Congress Children's Subject Headings ID
+1,Library,NOUN[PROPN],0[8],root[compound]
+2,of,ADP,8[3],case
+3,Congress,PROPN,4[1],compound[nmod]
+4[4-5],Children[Children's],NOUN[_],8[_],nmod:poss[_]
+5[4],'s[Children],PART[PROPN],4[8],case[nmod:poss]
+6[5],Subject['s],NOUN[PART],8[4],compound[case]
+7[6],Headings[Subject],NOUN[PROPN],8[7],compound
+8[7],ID[Headings],NOUN[PROPN],1[8],nmod[compound]
+<none>[8],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8658
+# Syro-Malabar Catholic Church ID
+1,Syro-Malabar[Syro-],PROPN,4,compound[amod]
+2,Catholic[Malabar],ADJ[PROPN],3[5],amod[compound]
+3,Church[Catholic],PROPN[ADJ],4,compound[amod]
+4,ID[Church],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8662
+# Les Roses cultivées à L'Haÿ en 1902 ID
+1,Les,PROPN[DET],0[2],root[det]
+2,Roses,PROPN[NOUN],1[0],flat[root]
+3,cultivées,PROPN[VERB],1[2],list[acl]
+4,à,PROPN[ADP],1[6],flat[case]
+5,L'Haÿ[L'],PROPN,1[6],flat[compound]
+6,en[Haÿ],ADP[PROPN],8[3],case[obl]
+7,1902[en],NUM[ADP],8[9],compound[case]
+8,ID[1902],NOUN[NUM],1[9],nmod[nummod]
+<none>[9],<none>[ID],<none>[PROPN],<none>[3],<none>[obl]
+
+# P8678
+# Slovník českých nakladatelství 1848-1949 person ID
+1,Slovník,PROPN,0,root
+2,českých,PROPN,1[3],flat[compound]
+3,nakladatelství,PROPN,1,list[appos]
+4,1848[1848-],NUM,1[3],nmod:tmod
+5,-[1949],PUNCT[NUM],1[4],punct[nummod]
+6,1949[person],NUM[NOUN],8[7],compound
+7,person[ID],NOUN,8[3],compound[appos]
+8[<none>],ID[<none>],NOUN[<none>],1[<none>],list[<none>]
+
+# P8698
+# Turkey's Culture Portal ID
+1[1-2],Turkey[Turkey's],PROPN[_],5[_],nmod:poss[_]
+2[1],'s[Turkey],PART[PROPN],1[5],case[nmod:poss]
+3[2],Culture['s],PROPN[PART],5[1],compound[case]
+4[3],Portal[Culture],PROPN,5[4],compound
+5[4],ID[Portal],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8720
+# xHamster pornstar ID
+1,x[xHamster],PUNCT[PROPN],4[3],punct[compound]
+2,Hamster[pornstar],NOUN[PROPN],3,compound
+3,pornstar[ID],NOUN[PROPN],4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8734
+# O*NET OnLine code
+1,O*NET[O*],PROPN[INTJ],3[2],compound
+2,OnLine[NET],ADJ[PROPN],3[4],amod[compound]
+3,code[OnLine],NOUN,0[4],root[compound]
+<none>[4],<none>[code],<none>[NOUN],<none>[0],<none>[root]
+
+# P8756
+# Sports-Reference.com college basketball box score ID
+1,Sports[Sports-Reference.com],NOUN[X],3[0],compound[root]
+2,-[college],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[basketball],NOUN,8[6],compound
+4,college[box],NOUN,8[6],compound
+5,basketball[score],NOUN,6,compound
+6,box[ID],NOUN,8[1],compound[appos]
+7[<none>],score[<none>],NOUN[<none>],8[<none>],compound[<none>]
+8[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8761
+# Sports-Reference.com college football school ID
+1,Sports[Sports-Reference.com],NOUN[X],3[0],compound[root]
+2,-[college],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[football],NOUN,7[5],compound
+4,college[school],NOUN,7[5],compound
+5,football[ID],NOUN,6[1],compound[appos]
+6[<none>],school[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8771
+# Vélib' Métropole station ID
+1,Vélib[Vélib'],PROPN,5[2],nmod:poss[compound]
+2,'[Métropole],PART[PROPN],1[0],case[root]
+3,Métropole[station],PROPN[NOUN],5[4],compound
+4,station[ID],NOUN,5[2],compound[appos]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8803
+# stolpersteine-berlin.de Stolperstein identifier
+1,stolpersteine[stolpersteine-berlin.de],PROPN[X],5[0],compound[root]
+2,-[Stolperstein],PUNCT[PROPN],1[3],punct[compound]
+3,berlin.de[identifier],PROPN[NOUN],1,flat[appos]
+4[<none>],Stolperstein[<none>],PROPN[<none>],5[<none>],compound[<none>]
+5[<none>],identifier[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8804
+# stolpersteine-hamburg.de Stolperstein identifier
+1,stolpersteine[stolpersteine-hamburg.de],PROPN[X],4[0],compound[root]
+2,-hamburg.de[Stolperstein],X[PROPN],4[3],compound
+3,Stolperstein[identifier],PROPN[NOUN],1,flat[appos]
+4[<none>],identifier[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8807
+# stolpersteine-bremen.de Stolperstein identifier
+1,stolpersteine[stolpersteine-bremen.de],PROPN[X],5[0],compound[root]
+2,-[Stolperstein],PUNCT[PROPN],1[3],punct[compound]
+3,bremen.de[identifier],X[NOUN],1,flat[appos]
+4[<none>],Stolperstein[<none>],PROPN[<none>],5[<none>],compound[<none>]
+5[<none>],identifier[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8825
+# Sports-Reference.com college basketball school ID
+1,Sports[Sports-Reference.com],NOUN[X],3[0],compound[root]
+2,-[college],PUNCT[NOUN],1[3],punct[compound]
+3,Reference.com[basketball],NOUN,7[5],compound
+4,college[school],NOUN,7[5],compound
+5,basketball[ID],NOUN,6[1],compound[appos]
+6[<none>],school[<none>],NOUN[<none>],7[<none>],compound[<none>]
+7[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8849
+# CONOR.BG ID
+1,CONOR[CONOR.BG],PROPN,3[2],compound
+2,.BG[ID],PROPN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8853
+# Musica Brasilis composer ID
+1,Musica,PROPN,4[5],compound[nmod:poss]
+2[2-3],Brasilis,PROPN[_],4[_],compound[_]
+3[2],composer[Brasili],NOUN[PROPN],4[1],compound[flat]
+4[3],ID[s],NOUN[PART],0[1],root[case]
+<none>[4],<none>[composer],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P8908
+# CINE21 film ID
+1,CINE21[CINE],PROPN,3[0],compound[root]
+2,film[21],NOUN[NUM],3[1],compound[nummod]
+3,ID[film],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P8912
+# Kicker.de player ID (actual scheme)
+1,Kicker[Kicker.de],NOUN[PROPN],4[0],compound[root]
+2,.de[player],PUNCT[NOUN],1[3],punct[compound]
+3,player[ID],NOUN,4[1],compound[appos]
+4,ID[(],NOUN[PUNCT],0[6],root[punct]
+5,([actual],PUNCT[ADJ],7[6],punct[amod]
+6,actual[scheme],ADJ[NOUN],7[3],amod[appos]
+7,scheme[)],NOUN[PUNCT],4[6],appos[punct]
+8[<none>],)[<none>],PUNCT[<none>],7[<none>],punct[<none>]
+
+# P8923
+# SMB-digital ID
+1,SMB[SMB-],PROPN[ADJ],3,compound[amod]
+2,-digital[digital],ADJ,3,amod
+3,ID,NOUN,0,root
+
+# P8928
+# Filmstriben film-ID
+1,Filmstriben,NOUN[PROPN],2[0],compound[root]
+2,film,NOUN,0[4],root[compound]
+3,-ID[-],PROPN[PUNCT],2[4],appos[punct]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P8936
+# CollEx-Persée ID
+1,CollEx,PROPN,3[4],compound
+2,-Persée[-],PROPN[PUNCT],3[4],compound[punct]
+3,ID[Persée],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P8969
+# CINE21 person ID
+1,CINE21[CINE],PROPN,2[0],compound[root]
+2,person[21],NOUN[NUM],3[1],compound[nummod]
+3,ID[person],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P8985
+# Dizionario bio-bibliografico dei bibliotecari italiani del XX secolo ID
+1,Dizionario,X[PROPN],0[4],root[compound]
+2,bio-bibliografico[bio],X,1[4],flat[compound]
+3,dei[-],X[PUNCT],1[4],flat[punct]
+4,bibliotecari[bibliografico],X[NOUN],1[0],flat[root]
+5,italiani[dei],X[ADJ],1[7],flat[amod]
+6,del[bibliotecari],X[ADJ],1[7],flat[amod]
+7,XX[italiani],X[PROPN],1[4],flat[compound]
+8,secolo[del],X[ADJ],1[11],flat[amod]
+9,ID[XX],NOUN[PROPN],1[10],list[compound]
+<none>[10],<none>[secolo],<none>[NOUN],<none>[11],<none>[compound]
+<none>[11],<none>[ID],<none>[PROPN],<none>[4],<none>[appos]
+
+# P8991
+# ALA-LC romanization
+1,ALA,PROPN,3,compound
+2,-LC[-],PROPN[PUNCT],3,compound[punct]
+3,romanization[LC],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[romanization],<none>[NOUN],<none>[0],<none>[root]
+
+# P8992
+# 1914-1918-Online ID
+1,1914,NUM,0,root
+2,-1918[-],NUM[SYM],1[3],dep[case]
+3,-[1918],PUNCT[NUM],1,punct[nmod]
+4,Online[-Online],ADJ,5,amod
+5,ID,NOUN,1,appos
+
+# P8995
+# Lumières.Lausanne ID
+1,Lumières[Lumières.],PROPN,4[0],compound[root]
+2,.[Lausanne],PUNCT[PROPN],1[3],punct[compound]
+3,Lausanne[ID],PROPN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P8999
+# Lexikon zum Literatur- und Kulturbetrieb im Österreich der Zwischenkriegszeit ID
+1,Lexikon,PROPN,0,root
+2,zum,X[PROPN],1,flat
+3,Literatur,PROPN,1,flat[appos]
+4,-,PUNCT,5[3],punct
+5,und,X[CCONJ],1[6],flat[cc]
+6,Kulturbetrieb,PROPN,1[3],flat[conj]
+7[7-8],im,PROPN[_],1[_],flat[_]
+8[7],Österreich[i],PROPN[PRON],11[9],compound[nsubj]
+9[8],der[m],PROPN[AUX],11[9],compound[cop]
+10[9],Zwischenkriegszeit[Österreich],PROPN,11[1],compound[appos]
+11[10],ID[der],NOUN[ADP],1[12],list[case]
+<none>[11],<none>[Zwischenkriegszeit],<none>[PROPN],<none>[12],<none>[compound]
+<none>[12],<none>[ID],<none>[PROPN],<none>[1],<none>[nmod]
+
+# P9025
+# Mitre ATT&CK ID
+1,Mitre,PROPN[ADJ],3[5],compound
+2,ATT&CK[ATT],NOUN[PROPN],3[5],compound
+3,ID[&],NOUN[CCONJ],0[4],root[cc]
+<none>[4],<none>[CK],<none>[PROPN],<none>[2],<none>[conj]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P9027
+# e-GEDSH ID
+1,e-GEDSH[e],NOUN[PROPN],2[0],compound[root]
+2,ID[-GEDSH],NOUN[PROPN],0[3],root[compound]
+<none>[3],<none>[ID],<none>[PROPN],<none>[1],<none>[flat]
+
+# P9036
+# I professori dell'Università di Pavia (1859-1961) ID
+1,I,PRON,2,nsubj[det]
+2,professori,VERB[NOUN],0,root
+3,dell[dell'],PROPN,2[4],obj[compound]
+4,'[Università],PUNCT[PROPN],3[2],punct[appos]
+5,Università[di],PROPN[ADP],3[6],flat[case]
+6,di[Pavia],PROPN,3[4],flat[nmod]
+7,Pavia[(],PROPN[PUNCT],5[8],flat[punct]
+8,([1859-],PUNCT[NUM],9[4],punct[appos]
+9,1859[1961],NUM,3[8],nmod:tmod[nummod]
+10,-[)],SYM[PUNCT],11[8],case[punct]
+11,1961[ID],NUM[PROPN],9[4],nmod[appos]
+12[<none>],)[<none>],PUNCT[<none>],9[<none>],punct[<none>]
+13[<none>],ID[<none>],NOUN[<none>],2[<none>],parataxis[<none>]
+
+# P9083
+"# 45cat 7 "" release ID"
+1,45[45cat],NUM[NOUN],2[0],nummod[root]
+2,cat[7],NOUN[NUM],6[1],compound[nummod]
+3,"7[""]",NUM[PUNCT],2[1],nummod[punct]
+4,"""[release]",PUNCT[NOUN],3[5],punct[compound]
+5,release[ID],NOUN,6[1],compound[appos]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9100
+# GitHub topic
+1,GitHub[Git],PROPN[NOUN],2[3],compound
+2,topic[Hub],NOUN,0[3],root[compound]
+<none>[3],<none>[topic],<none>[NOUN],<none>[0],<none>[root]
+
+# P9116
+# Musica Brasilis score ID
+1,Musica,PROPN,2[5],compound[nmod:poss]
+2[2-3],Brasilis,PROPN[_],3[_],nsubj[_]
+3[2],score[Brasili],VERB[PROPN],0[1],root[flat]
+4[3],ID[s],NOUN[PART],3[1],obj[case]
+<none>[4],<none>[score],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P9166
+# Curling.fi player ID
+1,Curling[Curling.fi],NOUN[PROPN],5[3],compound
+2,.[player],PUNCT[NOUN],1[3],punct[compound]
+3,fi[ID],NOUN,4[0],compound[root]
+4[<none>],player[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9168
+# Hauts-de-France Inventory identifier
+1,Hauts,PROPN,5,compound
+2,-,PUNCT,1[5],punct
+3,de-France[de],PROPN,1[5],flat[compound]
+4,Inventory[-],NOUN[PUNCT],5,compound[punct]
+5,identifier[France],NOUN[PROPN],0[7],root[compound]
+<none>[6],<none>[Inventory],<none>[NOUN],<none>[7],<none>[compound]
+<none>[7],<none>[identifier],<none>[NOUN],<none>[0],<none>[root]
+
+# P9182
+# uta-net.com song ID
+1,uta[uta-net.com],X,4[0],dep[root]
+2,-net.com[song],X[NOUN],4[3],compound
+3,song[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9183
+# uta-net.com artist ID
+1,uta[uta-net.com],X,4[0],dep[root]
+2,-net.com[artist],X[NOUN],4[3],compound
+3,artist[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9257
+# CPC-PR ID
+1,CPC-PR[CPC],PROPN[NOUN],2[0],compound[root]
+2,ID[-],NOUN[PUNCT],0[1],root[punct]
+<none>[3],<none>[PR],<none>[NOUN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P9261
+# Oklahoma's NRHP ID
+1[1-2],Oklahoma's,PROPN[_],2[_],compound[_]
+2[1],NRHP[Oklahoma],PROPN,3[4],compound[nmod:poss]
+3[2],ID['s],NOUN[PART],0[1],root[case]
+<none>[3],<none>[NRHP],<none>[PROPN],<none>[4],<none>[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P9284
+# GB1900 ID
+1,GB1900[GB],NUM[PROPN],2[0],nummod[root]
+2,ID[1900],NOUN[NUM],0[3],root[nummod]
+<none>[3],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P9303
+# svoyak.info player ID
+1,svoyak[svoyak.info],PROPN,4[0],compound[root]
+2,.info[player],NOUN,3,compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9336
+# Das wissenschaftliche Bibellexikon im Internet ID
+1,Das,X[PROPN],2[3],compound
+2,wissenschaftliche,X[PROPN],0[3],root[compound]
+3,Bibellexikon,PROPN,2[0],flat[root]
+4[4-5],im,NOUN[_],6[_],compound[_]
+5[4],Internet[i],NOUN[PRON],6[7],compound
+6[5],ID[m],NOUN,2[7],list[compound]
+<none>[6],<none>[Internet],<none>[PROPN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[3],<none>[list]
+
+# P9337
+# Keratsini-Drapetsona libraries' catalogue authority ID
+1,Keratsini,PROPN,4[3],compound
+2,-[-Drapetsona],PUNCT[PROPN],1[3],punct[compound]
+3[3-4],Drapetsona[libraries'],PROPN[_],4[_],compound[_]
+4[3],libraries,NOUN,8[7],nmod:poss
+5[4],',PART,4[3],case
+6[5],catalogue,NOUN,8[6],compound
+7[6],authority,NOUN,8[7],compound
+8[7],ID,NOUN,0,root
+
+# P9355
+# Slovník českých filosofů ID
+1,Slovník,PROPN,5[4],compound
+2,českých,NOUN[ADJ],5[4],compound[amod]
+3,filosof[filosofů],NOUN[PROPN],5[4],compound
+4,ů[ID],NOUN[PROPN],5[0],compound[root]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9409
+# American University of Beirut's Libraries title ID
+1,American,ADJ,2,amod
+2,University,PROPN,0[6],root[nmod:poss]
+3,of,ADP,8[4],case
+4[4-5],Beirut[Beirut's],PROPN[_],8[_],nmod:poss[_]
+5[4],'s[Beirut],PART[PROPN],4[2],case[nmod]
+6[5],Libraries['s],PROPN[PART],8[4],compound[case]
+7[6],title[Libraries],NOUN[PROPN],8[0],compound[root]
+8[7],ID[title],NOUN,2[8],nmod[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[6],<none>[appos]
+
+# P9428
+# Humanitāro zinātņu virtuālā enciklopēdija concept ID
+1,Humanitāro,X[NOUN],0[2],root[compound]
+2,zinātņu,X[NOUN],1[4],flat[compound]
+3,virtuālā,X[ADJ],2[4],flat[amod]
+4,enciklop[enciklopēdija],X[NOUN],2[0],flat[root]
+5,ēdija[concept],X[NOUN],2[6],flat[compound]
+6,concept[ID],NOUN,7[4],compound[appos]
+7[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P9429
+# Humanitāro zinātņu virtuālā enciklopēdija person ID
+1,Humanitāro,X[NOUN],0[2],root[compound]
+2,zinātņu,X[NOUN],1[4],flat[compound]
+3,virtuālā,X[ADJ],2[4],flat[amod]
+4,enciklop[enciklopēdija],X[NOUN],2[0],flat[root]
+5,ēdija[person],X[NOUN],2[6],flat[compound]
+6,person[ID],NOUN,7[4],compound[appos]
+7[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P9451
+# Dicionário Histórico-Biográfico Brasileiro ID
+1,Dicionário,PROPN,4[0],compound[root]
+2,Histórico-Biográfico[Histórico],PROPN,4,compound
+3,Brasileiro[-],PROPN[PUNCT],4,compound[punct]
+4,ID[Biográfico],NOUN[PROPN],0[6],root[compound]
+<none>[5],<none>[Brasileiro],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P9453
+# ALA-LC romanization for Ukrainian
+1,ALA,PROPN,3,compound
+2,-LC[-],PROPN[PUNCT],3,compound[punct]
+3,romanization[LC],NOUN[PROPN],0[4],root[compound]
+4,for[romanization],ADP[NOUN],5[0],case[root]
+5,Ukrainian[for],PROPN[ADP],3[6],nmod[case]
+<none>[6],<none>[Ukrainian],<none>[PROPN],<none>[4],<none>[nmod]
+
+# P9484
+# J! Archive player ID
+1,J![J],PROPN[NOUN],4[0],compound[root]
+2,Archive[!],NOUN[PUNCT],3[1],compound[punct]
+3,player[Archive],NOUN,4[5],compound
+4,ID[player],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P9504
+# Beirut Arab University's Libraries title ID
+1,Beirut,PROPN,3,compound
+2,Arab,ADJ[PROPN],3,amod[compound]
+3[3-4],University[University's],PROPN[_],7[_],nmod:poss[_]
+4[3],'s[University],PART[PROPN],3[5],case[nmod:poss]
+5[4],Libraries['s],PROPN[PART],7[3],compound[case]
+6[5],title[Libraries],NOUN,7[0],compound[root]
+7[6],ID[title],NOUN,0[7],root[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[5],<none>[appos]
+
+# P9512
+# bridgesport.ru player ID
+1,bridgesport[bridgesport.ru],NOUN[PROPN],4[0],compound[root]
+2,.ru[player],NOUN,4[3],compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9591
+# #SOSBrutalism ID
+1,2,sosbrutalism[id],Number=Sing,3[0]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9607
+# hush.am person ID
+1,hush[hush.am],NOUN[PROPN],4[0],compound[root]
+2,.am[person],PROPN[NOUN],4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9620
+# Nevada Women's History Project ID
+1,Nevada,PROPN,5[2],compound
+2[2-3],Women's,PROPN[_],3[_],compound[_]
+3[2],History[Women],NOUN[PROPN],5[6],compound[nmod:poss]
+4[3],Project['s],NOUN[PART],5[2],compound[case]
+5[4],ID[History],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[Project],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P9621
+# Treccani's Enciclopedia della Matematica ID
+1[1-2],Treccani's,PROPN[_],5[_],compound[_]
+2[1],Enciclopedia[Treccani],PROPN,5[3],compound[nmod:poss]
+3[2],della['s],NOUN[PART],5[1],compound[case]
+4[3],Matematica[Enciclopedia],PROPN,5[0],compound[root]
+5[4],ID[della],NOUN[PROPN],0[6],root[compound]
+<none>[5],<none>[Matematica],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[appos]
+
+# P9625
+# Dizionario Biografico dell'Educazione (1800–2000) ID
+1,Dizionario,PROPN,0,root
+2,Biografico,PROPN,1,flat
+3,dell[dell'],PROPN,1[2],flat[compound]
+4,'[Educazione],PUNCT[PROPN],5[2],punct[flat]
+5,Educazione[(],PROPN[PUNCT],1[6],list[punct]
+6,([1800–2000],PUNCT[NUM],8[2],punct[list]
+7,1800[)],NUM[PUNCT],8[6],nummod[punct]
+8,–2000[ID],NUM[NOUN],5[1],appos[list]
+9[<none>],)[<none>],PUNCT[<none>],8[<none>],punct[<none>]
+10[<none>],ID[<none>],NOUN[<none>],1[<none>],list[<none>]
+
+# P9631
+# armradioarchive.am person ID
+1,armradioarchive[armradioarchive.am],PROPN[X],4[0],compound[root]
+2,.am[person],PROPN[NOUN],4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9653
+# Bod-Inc Online author ID
+1,Bod,NOUN[PROPN],0[3],root[compound]
+2,-Inc[-],PROPN[PUNCT],1[3],flat[punct]
+3,Online[Inc],ADJ[PROPN],5[4],amod[compound]
+4,author[Online],NOUN[PROPN],5[0],compound[root]
+5,ID[author],NOUN,1[6],appos[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[4],<none>[appos]
+
+# P9691
+# E-Flora BC species ID
+1,E,PROPN[NOUN],5[0],compound[root]
+2,-Flora[-],PROPN[PUNCT],1,flat[punct]
+3,BC[Flora],NOUN,1[6],flat[compound]
+4,species[BC],NOUN,5[6],compound
+5,ID[species],NOUN,0[6],root[compound]
+<none>[6],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P9702
+# Gameblog.fr game ID
+1,Gameblog[Gameblog.fr],NOUN[PROPN],4[0],compound[root]
+2,.fr[game],NUM[NOUN],1[3],nummod[compound]
+3,game[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9705
+# Bauforschung Baden-Württemberg Objekt-ID
+1,Bauforschung,PROPN,0[4],root[compound]
+2,Baden-[Baden],PROPN,1[4],flat[compound]
+3,Württemberg[-],PROPN[PUNCT],1[4],list[punct]
+4,Objekt[Württemberg],PROPN,1[0],list[root]
+5,-ID[Objekt],PROPN[NOUN],1[7],list[compound]
+<none>[6],<none>[-],<none>[PUNCT],<none>[7],<none>[punct]
+<none>[7],<none>[ID],<none>[NOUN],<none>[4],<none>[list]
+
+# P9718
+# eishockey.info player ID
+1,eishockey[eishockey.info],PROPN[X],4[0],compound[root]
+2,.info[player],PROPN[NOUN],3,compound
+3,player[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9727
+# WTA-Trainer-ID
+1,WTA,NOUN[PROPN],3[0],compound[root]
+2,-,PUNCT,3[1],punct
+3,Trainer,NOUN,0[5],root[compound]
+4,-ID[-],PROPN[PUNCT],3[5],appos[punct]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P9730
+# Chidlovski.Com USSR national ice hockey team player ID
+1,Chidlovski[Chidlovski.Com],PROPN[X],0,root
+2,.[USSR],PUNCT[PROPN],1[8],punct[compound]
+3,Com[national],NOUN[ADJ],10[8],compound[amod]
+4,USSR[ice],PROPN[NOUN],10[5],compound
+5,national[hockey],ADJ[NOUN],6,amod[compound]
+6,ice[team],NOUN,8,compound
+7,hockey[player],NOUN,8,compound
+8,team[ID],NOUN,10[1],compound[appos]
+9[<none>],player[<none>],NOUN[<none>],10[<none>],compound[<none>]
+10[<none>],ID[<none>],NOUN[<none>],1[<none>],appos[<none>]
+
+# P9732
+# URL for citizen's initiatives
+1,URL,NOUN,0,root
+2,for,ADP,5,case
+3[3-4],citizen[citizen's],NOUN[_],5[_],nmod:poss[_]
+4[3],'s[citizen],PART[NOUN],3[5],case[nmod:poss]
+5[4],initiatives['s],NOUN[PART],1[3],nmod[case]
+<none>[5],<none>[initiatives],<none>[NOUN],<none>[1],<none>[nmod]
+
+# P9734
+# Treccani's Enciclopedia Dantesca ID
+1[1-2],Treccani's,NOUN[_],4[_],compound[_]
+2[1],Enciclopedia[Treccani],PROPN,4[5],compound[nmod:poss]
+3[2],Dantesca['s],PROPN[PART],4[1],compound[case]
+4[3],ID[Enciclopedia],NOUN[PROPN],0[5],root[compound]
+<none>[4],<none>[Dantesca],<none>[PROPN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P9760
+# Treccani's Enciclopedia del Cinema ID
+1[1-2],Treccani's,PROPN[_],5[_],compound[_]
+2[1],Enciclopedia[Treccani],PROPN,5[3],compound[nmod:poss]
+3[2],del['s],X[PART],5[1],compound[case]
+4[3],Cinema[Enciclopedia],PROPN,5[0],compound[root]
+5[4],ID[del],NOUN[PROPN],0[6],root[compound]
+<none>[5],<none>[Cinema],<none>[PROPN],<none>[6],<none>[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[appos]
+
+# P9766
+# FIBA 3x3 player ID
+1,FIBA,PROPN,4[5],compound
+2,3x3[3],NUM,3,nummod
+3,player[x3],NOUN,4[5],compound
+4,ID[player],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P9775
+# Treccani's Lessico del XXI Secolo ID
+1[1-2],Treccani's,PROPN[_],0[_],root[_]
+2[1],Lessico[Treccani],PROPN,1[3],flat[nmod:poss]
+3[2],del['s],PROPN[PART],1,flat[case]
+4[3],XXI[Lessico],NUM[PROPN],3[7],nummod[compound]
+5[4],Secolo[del],PROPN[ADJ],6[7],compound
+6[5],ID[XXI],NOUN[PROPN],1[6],appos[compound]
+<none>[6],<none>[Secolo],<none>[PROPN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P9780
+# The Women's Print History Project person ID
+1,The,DET,2,det
+2[2-3],Women[Women's],PROPN[_],8[_],nmod:poss[_]
+3[2],'s[Women],PART[PROPN],2[6],case[nmod:poss]
+4[3],Print['s],PROPN[PART],5[2],compound[case]
+5[4],History[Print],PROPN[ADJ],6[5],compound[amod]
+6[5],Project[History],PROPN,8[6],compound
+7[6],person[Project],NOUN[PROPN],8[0],compound[root]
+8[7],ID[person],NOUN,0[8],root[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[6],<none>[appos]
+
+# P9809
+# Enciclopedia dell'Arte Antica ID
+1,Enciclopedia,PROPN,2[4],compound
+2,dell[dell'],PROPN[ADJ],6[5],compound
+3,'[Arte],PUNCT[PROPN],2[4],punct[compound]
+4,Arte[Antica],PROPN,6[5],compound
+5,Antica[ID],PROPN,6[0],compound[root]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9850
+# Enciclopedia dell'Arte Medievale ID
+1,Enciclopedia,PROPN,2,compound
+2,dell[dell'],PROPN,6[5],compound
+3,'[Arte],PUNCT[PROPN],2[5],punct[compound]
+4,Arte[Medievale],PROPN[ADJ],6[5],compound[amod]
+5,Medievale[ID],PROPN,6[0],compound[root]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9867
+# e-Maapõu stratigraphy ID
+1,e,PROPN,4[3],compound
+2,-Maapõu[-],PROPN[PUNCT],1[3],flat[punct]
+3,stratigraphy[Maapõu],NOUN[PROPN],4[5],compound
+4,ID[stratigraphy],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P9877
+# Gry-Online game ID
+1,Gry,PROPN,4[0],compound[root]
+2,-Online[-],NOUN[PUNCT],4[1],compound[punct]
+3,game[Online],NOUN[ADJ],4[5],compound[amod]
+4,ID[game],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P9903
+# All.Rugby player ID
+1,All[All.Rugby],DET[PROPN],5[3],det[compound]
+2,.[player],PUNCT[NOUN],1[3],punct[compound]
+3,Rugby[ID],NOUN,4[0],compound[root]
+4[<none>],player[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9908
+# Hardy's Guide to Marine Gastropods URL
+1,Hardy[Hardy's],PROPN,3[2],nmod:poss[compound]
+2,'s[Guide],PART[PROPN],1[0],case[root]
+3,Guide[to],NOUN[ADP],0[5],root[case]
+4,to[Marine],ADP[ADJ],7[5],case[amod]
+5,Marine[Gastropods],ADJ[NOUN],6[2],amod[nmod]
+6,Gastropods[URL],NOUN[PROPN],7[2],compound[appos]
+7[<none>],URL[<none>],NOUN[<none>],3[<none>],nmod[<none>]
+
+# P9917
+# Peoples.ru person ID
+1,Peoples[Peoples.ru],NOUN,0,root
+2,.ru[person],ADP[NOUN],4[3],case[compound]
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],nmod[<none>]
+
+# P9957
+# museum-digital place ID
+1,museum[museum-digital],NOUN[ADJ],3,compound[amod]
+2,-[place],PUNCT[NOUN],1[3],punct[compound]
+3,digital[ID],ADJ[NOUN],5[0],amod[root]
+4[<none>],place[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9965
+# Musik-Sammler.de artist ID
+1,Musik[Musik-Sammler.de],PROPN,6[0],compound[root]
+2,-[artist],PUNCT[NOUN],1[3],punct[compound]
+3,Sammler[ID],PROPN[NOUN],1,flat[appos]
+4[<none>],.de[<none>],PUNCT[<none>],1[<none>],punct[<none>]
+5[<none>],artist[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P9981
+# L'Unificazione ID
+1,L'Unificazione[L'],PROPN[DET],2[3],compound
+2,ID[Unificazione],NOUN,0[3],root[compound]
+<none>[3],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P10005
+# Remontees-mecaniques.net ID
+1,Remontees[Remontees-mecaniques.net],NOUN[X],3[2],compound
+2,-mecaniques.net[ID],X[NOUN],3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10041
+# Nynorskordboka-ID
+1,Nynorskordboka-ID[Nynorskordboka],X[PROPN],0[3],root[compound]
+<none>[2],<none>[-],<none>[PUNCT],<none>[3],<none>[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P10042
+# Bokmålsordboka-ID
+1,Bokmålsordboka-ID[Bokmålsordboka],X[PROPN],0[3],root[compound]
+<none>[2],<none>[-],<none>[PUNCT],<none>[3],<none>[punct]
+<none>[3],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P10074
+# Dr. Duke's Phytochemical and Ethnobotanical Databases chemical ID
+1,Dr.,PROPN,9[7],nmod:poss
+2[2-3],Duke[Duke's],PROPN[_],1[_],flat[_]
+3[2],'s[Duke],PART[PROPN],1,case[flat]
+4[3],Phytochemical['s],ADJ[PART],9[1],amod[case]
+5[4],and[Phytochemical],CCONJ[ADJ],6[7],cc[amod]
+6[5],Ethnobotanical[and],ADJ[CCONJ],4[6],conj[cc]
+7[6],Databases[Ethnobotanical],NOUN[ADJ],9[4],compound[conj]
+8[7],chemical[Databases],ADJ[NOUN],9[0],amod[root]
+9[8],ID[chemical],NOUN[ADJ],0[9],root[amod]
+<none>[9],<none>[ID],<none>[NOUN],<none>[7],<none>[appos]
+
+# P10081
+# Australian Charities and Not‐for‐profits Register Charity ID
+1,Australian,ADJ,2,amod
+2,Charities,NOUN,7[9],compound[nsubj]
+3,and,CCONJ,7[9],cc
+4,Not‑for‑profits[Not],NOUN[PART],5[9],compound[advmod]
+5,Register[‑],NOUN[PUNCT],7[2],compound[punct]
+6,Charity[for],NOUN[ADP],7[8],compound[case]
+7,ID[‑],NOUN[PUNCT],0[8],root[punct]
+<none>[8],<none>[profits],<none>[NOUN],<none>[2],<none>[nmod]
+<none>[9],<none>[Register],<none>[NOUN],<none>[0],<none>[root]
+<none>[10],<none>[Charity],<none>[NOUN],<none>[11],<none>[compound]
+<none>[11],<none>[ID],<none>[NOUN],<none>[9],<none>[obj]
+
+# P10092
+# Bildatlas-Künstler-ID
+1,Bildatlas,PROPN,0,root
+2,-,PUNCT,1,punct
+3,Künstler,PROPN[NOUN],1[5],flat[compound]
+4,-ID[-],PROPN[PUNCT],1[5],flat[punct]
+<none>[5],<none>[ID],<none>[PROPN],<none>[1],<none>[appos]
+
+# P10098
+# Oùvoir.ça film ID
+1,Oùvoir.ça[Oùvoir.],PROPN,3[0],compound[root]
+2,film[ça],NOUN[PROPN],3[1],compound[flat]
+3,ID[film],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[1],<none>[list]
+
+# P10101
+# Snob.ru author ID
+1,Snob[Snob.ru],NOUN[PROPN],4[0],compound[root]
+2,.ru[author],NOUN,4[3],compound
+3,author[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10103
+# Re.Public@Polimi author ID
+1,Re.Public@Polimi[Re.Public],PROPN[X],3[0],compound[root]
+2,author[@],NOUN[ADP],3,compound[case]
+3,ID[Polimi],NOUN[PROPN],0[1],root[nmod]
+<none>[4],<none>[author],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[list]
+
+# P10150
+# iTunes genre
+1,i[iTunes],PRON[NOUN],3[2],nsubj[compound]
+2,Tunes[genre],NOUN,3[0],compound[root]
+3[<none>],genre[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10151
+# iTunes genre ID
+1,i[iTunes],PRON[NOUN],2[3],nsubj[compound]
+2,Tunes[genre],VERB[NOUN],0[3],root[compound]
+3,genre[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],2[<none>],obj[<none>]
+
+# P10162
+# politika-crimea.ru person ID
+1,politika[politika-crimea.ru],PROPN[NOUN],5[0],compound[root]
+2,-[person],PUNCT[NOUN],1[3],punct[compound]
+3,crimea.ru[ID],PROPN[NOUN],1,flat[appos]
+4[<none>],person[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10163
+# Kinomania.ru actor ID
+1,Kinomania[Kinomania.ru],PROPN,4[0],compound[root]
+2,.ru[actor],PROPN[NOUN],1[3],flat[compound]
+3,actor[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10165
+# bards.ru person ID
+1,bards[bards.ru],NOUN,0,root
+2,.ru[person],SYM[NOUN],4[3],cc[compound]
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],1[<none>],conj[<none>]
+
+# P10172
+# Lambic.Info ID
+1,Lambic[Lambic.Info],NOUN[PROPN],4[2],compound
+2,.[ID],PUNCT[PROPN],1[0],punct[root]
+3[<none>],Info[<none>],NOUN[<none>],4[<none>],compound[<none>]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10194
+# oKino.ua actor ID
+1,o[oKino.ua],ADP[PROPN],4[3],case[compound]
+2,Kino.ua[actor],PROPN[NOUN],4[3],compound
+3,actor[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10226
+# Archivio Storico dell'Università degli Studi di Cagliari person ID
+1,Archivio,X[PROPN],0,root
+2,Storico,PROPN,1,flat
+3,dell[dell'],X[PROPN],1,goeswith[flat]
+4,'[Università],PUNCT[PROPN],5[6],punct[compound]
+5,Università[degli],X[PROPN],1[6],list[compound]
+6,degli[Studi],X[PROPN],5[1],flat[appos]
+7,Studi[di],X[PROPN],5[6],flat[compound]
+8,di[Cagliari],X[PROPN],5[6],flat[appos]
+9,Cagliari[person],PROPN[NOUN],5[10],flat[compound]
+10,person[ID],NOUN[PROPN],11[1],compound[list]
+11[<none>],ID[<none>],NOUN[<none>],1[<none>],list[<none>]
+
+# P10247
+# eurasian-defence.ru person ID
+1,eurasian[eurasian-defence.ru],ADJ[NOUN],3[0],amod[root]
+2,-[person],PUNCT[NOUN],1[3],punct[compound]
+3,defence[ID],NOUN,6[1],compound[appos]
+4[<none>],.ru[<none>],NOUN[<none>],6[<none>],compound[<none>]
+5[<none>],person[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10255
+# oKino.ua film ID
+1,o[oKino.ua],ADP[PROPN],4[3],case[compound]
+2,Kino.ua[film],PROPN[NOUN],4[3],compound
+3,film[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10269
+# kino-teatr.ru film ID
+1,kino[kino-teatr.ru],PROPN[NOUN],6[0],compound[root]
+2,-[film],PUNCT[NOUN],1[3],punct[compound]
+3,teatr[ID],PROPN[NOUN],1,flat[appos]
+4[<none>],.ru[<none>],NOUN[<none>],6[<none>],compound[<none>]
+5[<none>],film[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10271
+# Engineer's Line Reference
+1[1-2],Engineer[Engineer's],NOUN[_],4[_],nmod:poss[_]
+2[1],'s[Engineer],PART[NOUN],1[4],case[nmod:poss]
+3[2],Line['s],NOUN[PART],4[1],compound[case]
+4[3],Reference[Line],NOUN,0[4],root[compound]
+<none>[4],<none>[Reference],<none>[NOUN],<none>[0],<none>[root]
+
+# P10276
+# ENEA-IRIS Open Archive author ID
+1,ENEA-IRIS[ENEA],PROPN,5[0],compound[root]
+2,Open[-],ADJ[PUNCT],5[1],amod[punct]
+3,Archive[IRIS],NOUN[PROPN],5,compound
+4,author[Open],NOUN[ADJ],5,compound[amod]
+5,ID[Archive],NOUN[PROPN],0[1],root[appos]
+<none>[6],<none>[author],<none>[NOUN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[1],<none>[list]
+
+# P10288
+# Muz-TV ID
+1,Muz,PROPN,3,compound
+2,-TV[-],PROPN[PUNCT],3,compound[punct]
+3,ID[TV],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P10307
+# CYT/CCS
+1,CYT,X[NOUN],0,root
+2,/CCS[/],PROPN[PUNCT],1[3],flat[cc]
+<none>[3],<none>[CCS],<none>[PROPN],<none>[1],<none>[conj]
+
+# P10371
+# A9VG game ID
+1,A9VG[A9],PROPN[NOUN],3[4],compound
+2,game[VG],NOUN[PROPN],3[4],compound
+3,ID[game],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P10394
+# Old-Games.RU ID
+1,Old[Old-Games.RU],ADJ[PROPN],3[2],amod[compound]
+2,-[ID],PUNCT[PROPN],1[0],punct[root]
+3[<none>],Games.RU[<none>],NOUN[<none>],4[<none>],compound[<none>]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10417
+# Culture.ru person ID
+1,Culture[Culture.ru],NOUN[PROPN],2[0],compound[root]
+2,.ru[person],NOUN,4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10424
+# Refuge.tokyo video game ID
+1,Refuge[Refuge.tokyo],NOUN[PROPN],6[4],compound
+2,.[video],PUNCT[NOUN],1[3],punct[compound]
+3,tokyo[game],PROPN[NOUN],6[4],compound
+4,video[ID],NOUN,6[0],compound[root]
+5[<none>],game[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10517
+# eBru ID
+1,e[eBru],PROPN,3[2],compound
+2,Bru[ID],PROPN,3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10553
+# IxTheo authority ID
+1,Ix[IxTheo],PROPN,2[3],compound
+2,Theo[authority],PROPN[NOUN],4[3],compound
+3,authority[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10555
+# eSbírky institution ID
+1,e[eSbírky],PROPN,4[3],compound
+2,Sbírky[institution],PROPN[NOUN],1[3],flat[compound]
+3,institution[ID],NOUN[PROPN],4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10569
+# L'Humanité journalist ID
+1,L'Humanité[L'],PROPN,3[2],compound
+2,journalist[Humanité],NOUN[PROPN],3[0],compound[root]
+3,ID[journalist],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[PROPN],<none>[2],<none>[list]
+
+# P10590
+# All.Rugby club ID
+1,All[All.Rugby],DET[PROPN],5[2],det[compound]
+2,.[club],PUNCT[PROPN],1[3],punct[compound]
+3,Rugby[ID],NOUN[PROPN],5[0],compound[root]
+4[<none>],club[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10599
+# HarperCollins product ID
+1,HarperCollins[Harper],PROPN,3[2],compound
+2,product[Collins],NOUN[PROPN],3[0],compound[root]
+3,ID[product],NOUN,0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[2],<none>[list]
+
+# P10601
+# co-applicant
+1,co-applicant[co],NOUN[X],0[2],root[compound]
+<none>[2],<none>[-applicant],<none>[ADJ],<none>[0],<none>[root]
+
+# P10634
+# USA Track & Field athlete ID (www.usatf.org)
+1,USA,PROPN,2[6],compound
+2,Track,PROPN,6[5],compound
+3,&,CCONJ,5[4],cc
+4,Field,PROPN,5[2],compound[conj]
+5,athlete,NOUN,6,compound
+6,ID,NOUN,0,root
+7,(,PUNCT,8,punct
+8,www.usatf.org)[www.usatf.org],X,6,appos
+<none>[9],<none>[)],<none>[PUNCT],<none>[8],<none>[punct]
+
+# P10660
+# C-SPAN person numeric ID
+1,C-[C],PROPN,3,compound
+2,SPAN[-],ADJ[PUNCT],3,amod[punct]
+3,person[SPAN],NOUN[PROPN],5[4],compound
+4,numeric[person],ADJ[NOUN],5[0],amod[root]
+5,ID[numeric],NOUN[ADJ],0[6],root[amod]
+<none>[6],<none>[ID],<none>[NOUN],<none>[4],<none>[appos]
+
+# P10664
+# featured track (s)
+1,featured,VERB,2,amod
+2,track(s[track],NOUN,0,root
+3,)[(],PUNCT,2,punct
+<none>[4],<none>[s],<none>[ADJ],<none>[2],<none>[amod]
+<none>[5],<none>[)],<none>[PUNCT],<none>[2],<none>[punct]
+
+# P10670
+# Musik und Gender im Internet ID
+1,Musik,PROPN[NOUN],0,root
+2,und,X[CCONJ],1[3],flat[cc]
+3,Gender,PROPN[NOUN],4[1],compound[conj]
+4[4-5],im,NOUN[_],6[_],compound[_]
+5[4],Internet[i],NOUN[PRON],6[7],compound[nsubj]
+6[5],ID[m],NOUN[AUX],1[7],appos[cop]
+<none>[6],<none>[Internet],<none>[NOUN],<none>[7],<none>[compound]
+<none>[7],<none>[ID],<none>[NOUN],<none>[1],<none>[parataxis]
+
+# P10678
+# 100 Years of Alaska's Legislature bio ID
+1,100,NUM,2,nummod
+2,Years,NOUN,0,root
+3,of,ADP,8[6],case
+4[4-5],Alaska[Alaska's],PROPN[_],8[_],nmod:poss[_]
+5[4],'s[Alaska],PART[PROPN],4[6],case[nmod:poss]
+6[5],Legislature['s],PROPN[PART],8[4],compound[case]
+7[6],bio[Legislature],NOUN[PROPN],8[2],compound[nmod]
+8[7],ID[bio],NOUN,2[8],nmod[compound]
+<none>[8],<none>[ID],<none>[NOUN],<none>[2],<none>[nmod]
+
+# P10699
+# FamousFix topic ID
+1,Famous[FamousFix],ADJ[PROPN],4[3],amod[compound]
+2,Fix[topic],NOUN,3,compound
+3,topic[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10815
+# neftegaz.ru person ID
+1,neftegaz[neftegaz.ru],PROPN,4[0],compound[root]
+2,.ru[person],PROPN[NOUN],4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10819
+# Kino.mail.ru series ID
+1,Kino.mail[Kino.mail.ru],PROPN,4[0],compound[root]
+2,.ru[series],PROPN[NOUN],4[3],compound
+3,series[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10828
+# ARUd'A author ID
+1,ARUd[ARUd'A],PROPN,4[3],nmod:poss[compound]
+2,'A[author],PART[NOUN],1[3],case[compound]
+3,author[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10839
+# Russia.travel object ID
+1,Russia[Russia.travel],PROPN[NOUN],5[3],compound
+2,.[object],PUNCT[NOUN],1[3],punct[compound]
+3,travel[ID],NOUN,4[0],compound[root]
+4[<none>],object[<none>],NOUN[<none>],5[<none>],compound[<none>]
+5[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10875
+# Kazakhstan.travel tourist spot ID
+1,Kazakhstan[Kazakhstan.travel],PROPN,6[4],compound
+2,.[tourist],PUNCT[NOUN],1[3],punct[compound]
+3,travel[spot],NOUN,6[4],compound
+4,tourist[ID],NOUN,5[0],compound[root]
+5[<none>],spot[<none>],NOUN[<none>],6[<none>],compound[<none>]
+6[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10952
+# elibrary.ru journal ID
+1,elibrary[elibrary.ru],NOUN[PROPN],2[0],compound[root]
+2,.ru[journal],NOUN,4[3],compound
+3,journal[ID],NOUN,4[1],compound[list]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10953
+# elibrary.ru publisher ID
+1,elibrary[elibrary.ru],NOUN[PROPN],2[0],compound[root]
+2,.ru[publisher],NOUN,4[3],compound
+3,publisher[ID],NOUN,4[1],compound[list]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10957
+# NOC*NSF athlete ID
+1,NOC,PROPN,4[0],compound[root]
+2,*NSF[*],PROPN[PUNCT],4[1],compound[punct]
+3,athlete[NSF],NOUN[PROPN],4[5],compound
+4,ID[athlete],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P10960
+# harvested organism (s)
+1,harvested,VERB,2,amod
+2,organism,NOUN,0,root
+3,(s[(],SYM[PUNCT],2,dep[punct]
+4,)[s],PUNCT[ADJ],2,punct[amod]
+<none>[5],<none>[)],<none>[PUNCT],<none>[2],<none>[punct]
+
+# P10970
+# athletics.by person ID
+1,athletics[athletics.by],NOUN,4[0],compound[root]
+2,.by[person],NUM[NOUN],3,nummod[compound]
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P10974
+# SecondHandSongs release ID
+1,SecondHandSongs[SecondHand],PROPN,2,nsubj[compound]
+2,release[Songs],VERB[PROPN],0[4],root[compound]
+3,ID[release],NOUN,2[4],obj[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P10995
+# national-football-teams.com
+1,national[national-football-teams.com],ADJ[X],3[0],amod[root]
+2[<none>],-[<none>],PUNCT[<none>],3[<none>],punct[<none>]
+3[<none>],football-teams.com[<none>],X[<none>],0[<none>],root[<none>]
+
+# P11006
+# Federation of Ski-Jumping and Nordic Combined of Russia ID
+1,Federation,PROPN[NOUN],0,root
+2,of,ADP,3[5],case
+3,Ski-Jumping[Ski],PROPN,1[5],nmod[compound]
+4,and[-],CCONJ[PUNCT],6[5],cc[punct]
+5,Nordic[Jumping],ADJ[PROPN],6[1],amod[nmod]
+6,Combined[and],VERB[CCONJ],1[8],conj[cc]
+7,of[Nordic],ADP[ADJ],9[8],case[amod]
+8,Russia[Combined],PROPN,9[5],compound[conj]
+9,ID[of],NOUN[ADP],6[10],obl[case]
+<none>[10],<none>[Russia],<none>[PROPN],<none>[11],<none>[compound]
+<none>[11],<none>[ID],<none>[PROPN],<none>[1],<none>[nmod]
+
+# P11030
+# Devil's Porridge Worker ID
+1[1-2],Devil[Devil's],PROPN[_],5[_],nmod:poss[_]
+2[1],'s[Devil],PART[PROPN],1[5],case[nmod:poss]
+3[2],Porridge['s],NOUN[PART],5[1],compound[case]
+4[3],Worker[Porridge],NOUN[PROPN],5[4],compound
+5[4],ID[Worker],NOUN[PROPN],0[5],root[compound]
+<none>[5],<none>[ID],<none>[PROPN],<none>[0],<none>[root]
+
+# P11040
+# atletiek.nu athlete ID
+1,atletiek[atletiek.nu],PROPN,4[0],compound[root]
+2,.nu[athlete],PROPN[NOUN],4[3],compound
+3,athlete[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P11087
+# eGardenGo plant ID
+1,e[eGardenGo],PROPN,4[3],compound
+2,GardenGo[plant],PROPN[NOUN],1[3],flat[compound]
+3,plant[ID],NOUN,4[0],compound[root]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P11244
+# Databank Beschermheiligen anno 1959 ID
+1,Databank,PROPN[NOUN],2[0],compound[root]
+2,Beschermheiligen,PROPN[NOUN],0[1],root[flat]
+3[3-5],anno,X[_],2[_],flat[_]
+4[3],1959[a],NUM[NOUN],5[2],compound
+5[4],ID[n],NOUN[X],2[1],list[flat]
+<none>[5],<none>[no],<none>[X],<none>[7],<none>[det]
+<none>[6],<none>[1959],<none>[NUM],<none>[7],<none>[nummod]
+<none>[7],<none>[ID],<none>[NOUN],<none>[1],<none>[list]
+
+# P11261
+# toli.query.mn lexeme ID
+1,toli.query[toli.query.mn],PROPN[X],4[0],compound[root]
+2,.mn[lexeme],NUM[NOUN],4[3],nummod[compound]
+3,lexeme[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P11345
+# Cinematografo.it name or company ID (new)
+1,Cinematografo[Cinematografo.it],PROPN,0,root
+2,.it[name],NOUN,3[1],compound[appos]
+3,name[or],NOUN[CCONJ],1[5],appos[cc]
+4,or[company],CCONJ[NOUN],6[5],cc[compound]
+5,company[ID],NOUN,6[2],compound[conj]
+6,ID[(],NOUN[PUNCT],3[7],conj[punct]
+7,([new],PUNCT[ADJ],8[2],punct[parataxis]
+8,new[)],ADJ[PUNCT],6[7],amod[punct]
+9[<none>],)[<none>],PUNCT[<none>],8[<none>],punct[<none>]
+
+# P11361
+# Adventure's Planet ID
+1[1-2],Adventure[Adventure's],NOUN[_],4[_],nmod:poss[_]
+2[1],'s[Adventure],PART[NOUN],1[4],case[nmod:poss]
+3[2],Planet['s],NOUN[PART],4[1],compound[case]
+4[3],ID[Planet],NOUN[PROPN],0[4],root[compound]
+<none>[4],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P11377
+# Sega-Saturn.net ID
+1,Sega[Sega-Saturn.net],PROPN[X],3[2],compound
+2,-Saturn.net[ID],PROPN[NOUN],3[0],compound[root]
+3[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P11378
+# DML-CZ publication ID
+1,DML,PROPN,2[3],compound
+2,-CZ[-],PROPN[PUNCT],4[3],compound[punct]
+3,publication[CZ],NOUN[PROPN],4[5],compound
+4,ID[publication],NOUN,0[5],root[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[0],<none>[root]
+
+# P11404
+# Oh!FM-7 ID
+1,Oh,INTJ,4[2],discourse
+2,![!FM],PUNCT[NOUN],1[0],punct[root]
+3,FM-7[-7],PROPN[NUM],4,compound[nummod]
+4,ID,NOUN,0[2],root[appos]
+
+# P11416
+# Strong's number
+1[1-2],Strong[Strong's],ADJ[_],3[_],nmod:poss[_]
+2[1],'s[Strong],PART[PROPN],1[3],case[nmod:poss]
+3[2],number['s],NOUN[PART],0[1],root[case]
+<none>[3],<none>[number],<none>[NOUN],<none>[0],<none>[root]
+
+# P11434
+# ComingSoon.it person ID
+1,ComingSoon[ComingSoon.it],PROPN,4[0],compound[root]
+2,.it[person],PROPN[NOUN],4[3],compound
+3,person[ID],NOUN,4[1],compound[appos]
+4[<none>],ID[<none>],NOUN[<none>],0[<none>],root[<none>]
+
+# P11481
+# Green's Dictionary of Slang ID
+1[1-2],Green[Green's],PROPN[_],3[_],nmod:poss[_]
+2[1],'s[Green],PART[PROPN],1[3],case[nmod:poss]
+3[2],Dictionary['s],NOUN[PART],0[1],root[case]
+4[3],of[Dictionary],ADP[PROPN],6[0],case[root]
+5[4],Slang[of],NOUN[ADP],6,compound[case]
+6[5],ID[Slang],NOUN[PROPN],3[6],nmod[compound]
+<none>[6],<none>[ID],<none>[PROPN],<none>[3],<none>[nmod]
+
+# P11503
+# Jeju's culture and language ID
+1,Jeju[Jeju's],PROPN,3[2],nmod:poss[compound]
+2,'s[culture],PART[NOUN],1[0],case[root]
+3,culture[and],NOUN[CCONJ],0[5],root[cc]
+4,and[language],CCONJ[NOUN],6[5],cc[compound]
+5,language[ID],NOUN,6[2],compound[conj]
+6[<none>],ID[<none>],NOUN[<none>],3[<none>],conj[<none>]
+
+# P11504
+# J-STAGE journal ID
+1,J-STAGE[J],PROPN,3[0],compound[root]
+2,journal[-],NOUN[PUNCT],3[1],compound[punct]
+3,ID[STAGE],NOUN,0[5],root[compound]
+<none>[4],<none>[journal],<none>[NOUN],<none>[5],<none>[compound]
+<none>[5],<none>[ID],<none>[NOUN],<none>[1],<none>[appos]
+
+# P11524
+# Kleines Wörterbuch der Verlaufsformen im Deutschen ID
+1,Kleines,PROPN,0[2],root[compound]
+2,Wörterbuch,PROPN,1[0],flat[root]
+3,der,PROPN[ADP],1[4],flat[case]
+4,Verlaufsformen,PROPN,7[2],compound[nmod]
+5[5-6],im,PROPN[_],7[_],compound[_]
+6[5],Deutschen[i],PROPN[PRON],7[8],compound[nsubj]
+7[6],ID[m],NOUN[AUX],1[8],list[cop]
+<none>[7],<none>[Deutschen],<none>[PROPN],<none>[8],<none>[compound]
+<none>[8],<none>[ID],<none>[PROPN],<none>[2],<none>[parataxis]
+
