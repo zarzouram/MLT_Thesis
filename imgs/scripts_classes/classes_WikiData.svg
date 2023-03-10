@@ -5,12 +5,56 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg4229"
    version="1.1"
-   viewBox="0 0 405.72101 148.10095"
-   height="147.9828pt"
-   width="405.78391pt">
-   <rect width="100%" height="100%" fill="white"/>
+   viewBox="0 0 762.86552 213.39943"
+   height="86.880554mm"
+   width="310.58273mm"
+   sodipodi:docname="classes_WikiData.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <rect width="100%" height="100%" fill="white"/>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1908"
+     inkscape:window-height="999"
+     id="namedview1132"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-to-guides="true"
+     inkscape:pagecheckerboard="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     units="mm"
+     scale-x="0.64988"
+     borderlayer="true"
+     inkscape:zoom="0.66907533"
+     inkscape:cx="210.15916"
+     inkscape:cy="-75.113195"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4229" />
+  <rect
+     width="100%"
+     height="100%"
+     id="rect1115"
+     x="11.817489"
+     y="55.018894"
+     style="fill:#ffffff" />
   <metadata
      id="metadata4235">
     <rdf:RDF>
@@ -24,9 +68,116 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs4233" />
+     id="defs4233">
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5613"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5611"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5342"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5340"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5200"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5324"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleInL">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5322"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5316"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleInL">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5314"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5312"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleInL">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5310"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleInL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5191"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
   <g
-     transform="translate(-1846.0363,108.19829)"
+     transform="translate(-1834.2188,163.21718)"
      class="node"
      id="node10">
     <title
@@ -34,7 +185,7 @@
     <polygon
        transform="matrix(0.293076,0,0,1.6952677,1305.4861,73.501686)"
        id="polygon4737"
-       points="1846.5,-105.5 3217.5,-105.5 3217.5,-21.5 1846.5,-21.5 "
+       points="1846.5,-21.5 1846.5,-105.5 3217.5,-105.5 3217.5,-21.5 "
        style="fill:none;stroke:#000000" />
     <text
        id="text4739"
@@ -89,4 +240,114 @@
        x="1919.1309"
        style="font-size:14px;font-family:Times, serif;text-anchor:start">write_output: Optional[Tuple[str, Literal['w', 'a']]]): Any</text>
   </g>
+  <polygon
+     style="fill:none;stroke:#000000"
+     points="3217.5,-105.5 3217.5,-21.5 1846.5,-21.5 1846.5,-105.5 "
+     id="polygon4737-7"
+     transform="matrix(0.07515693,0,0,0.50100062,363.46046,162.85484)" />
+  <text
+     style="font-size:14px;font-family:Times, serif;text-anchor:start"
+     x="516.01392"
+     y="122.14956"
+     font-size="14.00"
+     id="text9944-7">Object Parser</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.75059879px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 515.89554,125.15162 c 75.72453,0 75.72453,0 75.72453,0"
+     id="path4953"
+     inkscape:connector-curvature="0" />
+  <polygon
+     style="fill:none;stroke:#000000"
+     points="1846.5,-105.5 3217.5,-105.5 3217.5,-21.5 1846.5,-21.5 "
+     id="polygon4737-7-2"
+     transform="matrix(0.07515693,0,0,0.50100062,366.54334,65.387262)" />
+  <text
+     style="font-size:14px;font-family:Times, serif;text-anchor:start;stroke-width:0.99999994"
+     x="520.68878"
+     y="25.719353"
+     font-size="14.00"
+     id="text9944-7-0">StanzaParser</text>
+  <polygon
+     style="fill:none;stroke:#000000"
+     points="3217.5,-21.5 1846.5,-21.5 1846.5,-105.5 3217.5,-105.5 "
+     id="polygon4737-7-3"
+     transform="matrix(0.07515693,0,0,0.50100062,364.29965,210.97905)" />
+  <text
+     style="font-size:14px;font-family:Times, serif;text-anchor:start;stroke-width:0.99999994"
+     x="511.90417"
+     y="170.27377"
+     font-size="14.00"
+     id="text9944-7-7">ObjectCoverter</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.78612453px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 513.06589,173.27583 c 83.06221,0 83.06221,0 83.06221,0"
+     id="path4953-5"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.58142728;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.32570899, 0.58142725;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker5316)"
+     d="m 502.26692,133.00452 c -88.45739,0 -87.85969,0 -87.85969,0"
+     id="path4999"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.56096947;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.243878, 0.5609695;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker5324)"
+     d="m 503.0512,173.76906 c -88.86757,0 -88.86757,0 -88.86757,0"
+     id="path5001"
+     inkscape:connector-curvature="0" />
+  <polygon
+     style="fill:none;stroke:#000000"
+     points="3217.5,-21.5 1846.5,-21.5 1846.5,-105.5 3217.5,-105.5 "
+     id="polygon4737-7-2-2"
+     transform="matrix(0.07515693,0,0,0.50100062,508.72936,65.387263)" />
+  <text
+     style="font-size:14px;font-family:Times, serif;text-anchor:start;stroke-width:0.99999994"
+     x="650.11792"
+     y="25.719353"
+     font-size="14.00"
+     id="text9944-7-0-2">StanzaConverters</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.62334871;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.49339478, 0.6233487;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
+     d="m 551.79239,110.00671 c 0,-54.93176 0,-54.93176 0,-54.93176"
+     id="path5036"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-size:11.02742386px;font-family:Times, serif;text-anchor:start;stroke-width:0.78767312"
+     x="627.80969"
+     y="175.35817"
+     font-size="14.00"
+     id="text9944-7-0-8-7">instance of</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.58814704;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.35258811, 0.58814703;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5613)"
+     d="m 606.19884,177.87805 h 95.36285 v -122.860371 0"
+     id="path5038"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:30.02395058px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75059879"
+     x="448.58267"
+     y="126.83438"
+     id="text5446"><tspan
+       sodipodi:role="line"
+       id="tspan5444"
+       x="448.58267"
+       y="153.39854"
+       style="stroke-width:0.75059879"></tspan></text>
+  <text
+     style="font-size:14px;font-family:Times, serif;text-anchor:start;stroke-width:0.99999994"
+     x="422.33347"
+     y="129.9454"
+     font-size="14.00"
+     id="text9944-7-0-8">uses</text>
+  <text
+     style="font-size:14px;font-family:Times, serif;text-anchor:start;stroke-width:0.99999994"
+     x="422.21771"
+     y="171.49263"
+     font-size="14.00"
+     id="text9944-7-0-8-9">uses</text>
+  <text
+     style="font-size:11.02742386px;font-family:Times, serif;text-anchor:start;stroke-width:0.78767312"
+     x="-106.89755"
+     y="548.78827"
+     font-size="14.00"
+     id="text9944-7-0-8-7-6"
+     transform="rotate(-90)">instance of</text>
 </svg>

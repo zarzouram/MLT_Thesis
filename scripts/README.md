@@ -1,4 +1,4 @@
-# WikiData Labels Universal Dependency Parsering Documentation
+# WikiData Labels Universal Dependency Parsering Code Documentation
 
 ## 1. Intorduction
 
@@ -131,7 +131,7 @@ CoNLL-U format with the Wikidata entities linked by their indices.
 
 <img
 src="https://github.com/zarzouram/MLT_Thesis/blob/8bac9b9c1e23e4aa094dcc4f090fbc4218048b27/imgs/scripts_classes/classes_converters.svg"
-width="70%">
+width="100%">
 
 ### 3.2. `ParsersOutputConverter`
 
@@ -170,3 +170,49 @@ the end of the sentence.
 
 The write2desk method takes the data, file path, and mode and writes the
 converted data to the desk.
+
+## 4. The WikiData module
+
+The WikiData class is used to read, parse, manipulate, and save Wikidata.
+
+The class initializer takes a path to the Wikidata file, a list of language codes to be extracted, and a callable function to read the data from the file. The callable function must return the data in a dictionary, keyed with the Wikidata entity's labels and language codes. Any missing entity label in any language must be `None`; see the example below. The data attribute of the class is the read function output.
+
+```python
+data = {
+    'idx': ['P1', 'P2', 'P3', 'P4'],
+    'en': ['instance of', 'country', 'capital', 'currency'],
+    'ar': ['عملة' ,'عاصمة' ,'دولة' ,'نوع من الأشياء'],
+    'ja': ['インスタンス・オブ', None, '首都', '通貨'],
+    'es': ['instancia de', 'país', None, 'moneda']
+    }
+```
+
+The class has the `parse_data` method  used to parse the WikiData labels, read
+during class initialization, and has the following arguments:
+
+  1. `parser_obj`: An instance of the `AbstractUDParser` class that is
+     responsible for parsing the WikiData labels.
+
+  2. `converter_obj`: An instance of the `ParsersOutputProcessor` class
+     responsible for processing the parsed data in the native parser format and
+     converting it to Conll-U
+
+  3. `params`: A dictionary of parameters that parser_obj uses.
+
+  4. `langs`: A list of language codes to be extracted from WikiData.
+
+  5. `write_output`: tuple of a file path and a mode.
+
+The `parse` method parses the Wikidata labels for each language in the `langs`
+argument using an instance of the `AbstractUDParser` and an instance of the
+`ParsersOutputConverter` class for parsing, converting processes we discussed
+above. If the `write_output` parameter is passed, the method will write the
+parsed data to a file in the CoNLL-U format. The the Figure below.
+
+The `__filter_none` method removes None records from the data for each
+language. It returns a dictionary containing only the index and label pairs
+that are None.
+
+<img
+src="https://github.com/zarzouram/MLT_Thesis/blob/8bac9b9c1e23e4aa094dcc4f090fbc4218048b27/imgs/scripts_classes/classes_WikiData.svg"
+width="100%">
