@@ -175,7 +175,12 @@ converted data to the desk.
 
 The WikiData class is used to read, parse, manipulate, and save Wikidata.
 
-The class initializer takes a path to the Wikidata file, a list of language codes to be extracted, and a callable function to read the data from the file. The callable function must return the data in a dictionary, keyed with the Wikidata entity's labels and language codes. Any missing entity label in any language must be `None`; see the example below. The data attribute of the class is the read function output.
+The class initializer takes a path to the Wikidata file, a list of 
+language codes to be extracted, and a callable function to read the data 
+from the file. The callable function must return the data in a dictionary, 
+keyed with the Wikidata entity's labels and language codes. Any missing entity 
+label in any language must be `None`; see the example below. The data 
+attribute of the class is the read function output.
 
 ```python
 data = {
@@ -214,5 +219,5 @@ language. It returns a dictionary containing only the index and label pairs
 that are None.
 
 <img
-src="https://github.com/zarzouram/MLT_Thesis/blob/8bac9b9c1e23e4aa094dcc4f090fbc4218048b27/imgs/scripts_classes/classes_WikiData.svg"
+src="https://github.com/zarzouram/MLT_Thesis/blob/137ba5ca0fcde024c0f73da12b4ae3f079efa1cf/imgs/scripts_classes/classes_WikiData.svg"
 width="100%">
