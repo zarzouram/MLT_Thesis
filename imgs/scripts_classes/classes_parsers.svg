@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg7158"
+   version="1.1"
+   viewBox="0 0 277.54471 184.67764"
+   height="184.67764mm"
+   width="277.54471mm">
+   <rect width="100%" height="100%" fill="white"/>
+  <defs
+     id="defs7152">
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9231"
+       style="overflow:visible">
+      <path
+         id="path9229"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8) translate(-6,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9197"
+       style="overflow:visible">
+      <path
+         id="path9195"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8) translate(-6,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9169"
+       style="overflow:visible">
+      <path
+         id="path9167"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8) translate(-6,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9147"
+       style="overflow:visible">
+      <path
+         id="path9145"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8) translate(-6,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) translate(-6,0)"
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path6009" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7155">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-265.98285,-318.26076)"
+     id="layer1">
+    <g
+       transform="matrix(0.35249634,0,0,0.35249634,-23.35159,497.18245)"
+       class="node"
+       id="node1">
+      <title
+         id="title4522">abc.ABC</title>
+      <polygon
+         id="polygon4524"
+         points="1095.5,-422.1 1018.5,-422.1 1018.5,-492.9 1095.5,-492.9 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4526"
+         font-size="14.00"
+         y="-477.70001"
+         x="1026.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">abc.ABC</text>
+      <polyline
+         id="polyline4528"
+         points="1018.5,-469.9 1095.5,-469.9 "
+         style="fill:none;stroke:#000000" />
+      <polyline
+         id="polyline4530"
+         points="1018.5,-445.1 1095.5,-445.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4532"
+         font-size="14.00"
+         y="-429.89999"
+         x="1054.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start" />
+    </g>
+    <g
+       transform="matrix(0.35249634,0,0,0.35249634,-106.18823,500.9594)"
+       class="node"
+       id="node5">
+      <title
+         id="title4603">scripts.parsers_m.abstracts.AbstractUDParser</title>
+      <polygon
+         id="polygon4605"
+         points="1070.5,-301.3 1070.5,-385.1 1513.5,-385.1 1513.5,-301.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4607"
+         font-size="14.00"
+         y="-369.89999"
+         x="1125"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">scripts.parsers_m.abstracts.AbstractUDParser</text>
+      <polyline
+         id="polyline4609"
+         points="1070.5,-362.1 1513.5,-362.1 "
+         style="fill:none;stroke:#000000" />
+      <polyline
+         id="polyline4611"
+         points="1070.5,-337.3 1513.5,-337.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4613"
+         font-size="14.00"
+         font-style="italic"
+         y="-323.10001"
+         x="1078.5"
+         style="font-style:italic;font-size:14px;font-family:Times, serif;text-anchor:start">get_model_mapping</text>
+      <text
+         id="text4615"
+         font-size="14.00"
+         y="-323.10001"
+         x="1221.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">(lang: str): str</text>
+      <text
+         id="text4617"
+         font-size="14.00"
+         font-style="italic"
+         y="-309.10001"
+         x="1078.5"
+         style="font-style:italic;font-size:14px;font-family:Times, serif;text-anchor:start">parse</text>
+      <text
+         id="text4619"
+         font-size="14.00"
+         y="-309.10001"
+         x="1118.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">(texts: List[str], lang: str, params: Optional[dict]): Any</text>
+    </g>
+    <g
+       transform="matrix(0.35249634,0,0,0.35249634,-104.42575,498.25564)"
+       class="node"
+       id="node6">
+      <title
+         id="title4629">scripts.parsers_m.interfaces.LibraryParser</title>
+      <polygon
+         id="polygon4631"
+         points="1125.5,-178.5 1125.5,-249.3 1448.5,-249.3 1448.5,-178.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4633"
+         font-size="14.00"
+         y="-234.10001"
+         x="1133.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">scripts.parsers_m.interfaces.LibraryParser</text>
+      <polyline
+         id="polyline4635"
+         points="1125.5,-226.3 1448.5,-226.3 "
+         style="fill:none;stroke:#000000" />
+      <polyline
+         id="polyline4637"
+         points="1125.5,-201.5 1448.5,-201.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4639"
+         font-size="14.00"
+         y="-186.3"
+         x="1284.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start" />
+    </g>
+    <g
+       transform="matrix(0.35249634,0,0,0.35249634,-103.36741,497.93839)"
+       class="node"
+       id="node7">
+      <title
+         id="title4649">scripts.parsers_m.interfaces.RestAPIParser</title>
+      <polygon
+         id="polygon4651"
+         points="1805,-179.4 1477,-179.4 1477,-248.4 1805,-248.4 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4653"
+         font-size="14.00"
+         y="-233.2"
+         x="1485"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">scripts.parsers_m.interfaces.RestAPIParser</text>
+      <polyline
+         id="polyline4655"
+         points="1477,-225.4 1805,-225.4 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4657"
+         font-size="14.00"
+         y="-210.2"
+         x="1630.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">url</text>
+      <polyline
+         id="polyline4659"
+         points="1477,-202.4 1805,-202.4 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4661"
+         font-size="14.00"
+         y="-187.2"
+         x="1638.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start" />
+    </g>
+    <g
+       transform="translate(2.1590516)"
+       id="g9127">
+      <polygon
+         transform="matrix(0.36570163,0,0,0.35249634,-121.7515,497.9384)"
+         id="polygon4673"
+         points="1118.5,-126.5 1445.5,-126.5 1445.5,-0.5 1118.5,-0.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4675"
+         font-size="14.00"
+         y="458.70557"
+         x="294.42386"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">scripts.parsers_m.ud_parsers.StanzaParser</text>
+      <path
+         id="polyline4677"
+         d="m 287.24281,461.48844 119.6274,-0.0334"
+         style="fill:none;stroke:#000000;stroke-width:0.36659634" />
+      <text
+         id="text4679"
+         font-size="14.00"
+         y="466.81296"
+         x="332.66971"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">max_len : int</text>
+      <text
+         id="text4681"
+         font-size="14.00"
+         y="472.1004"
+         x="332.66971"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">nlp : dict</text>
+      <text
+         id="text4683"
+         font-size="14.00"
+         y="477.38788"
+         x="332.66971"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">params : dict</text>
+      <path
+         id="polyline4685"
+         d="m 287.26075,480.10393 119.60943,0.0334"
+         style="fill:none;stroke:#000000;stroke-width:0.37256294" />
+      <text
+         id="text4687"
+         font-size="14.00"
+         font-style="italic"
+         y="485.14279"
+         x="290.5408"
+         style="font-style:italic;font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">get_model_mapping</text>
+      <text
+         id="text4689"
+         font-size="14.00"
+         y="485.14279"
+         x="330.89346"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">(lang: str): str</text>
+      <text
+         id="text4691"
+         font-size="14.00"
+         y="490.07773"
+         x="290.5408"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">name()</text>
+      <text
+         id="text4693"
+         font-size="14.00"
+         y="495.0127"
+         x="290.5408"
+         style="font-size:4.93494892px;font-family:Times, serif;text-anchor:start;stroke-width:0.35249633">parse(texts: List[str], lang: str): List[List[Dict[str, str | int]]</text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
+       d="m 349.23704,365.21306 0,-16.81932"
+       id="path9036" />
+    <g
+       transform="matrix(0.35249634,0,0,0.35249634,-105.12989,497.93839)"
+       class="node"
+       id="node9">
+      <title
+         id="title4703">scripts.parsers_m.ud_parsers.UDPipeRestParser</title>
+      <polygon
+         id="polygon4705"
+         points="1463.5,-126.5 1828.5,-126.5 1828.5,-0.5 1463.5,-0.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4707"
+         font-size="14.00"
+         y="-111.3"
+         x="1471.5"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">scripts.parsers_m.ud_parsers.UDPipeRestParser</text>
+      <polyline
+         id="polyline4709"
+         points="1463.5,-103.5 1828.5,-103.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4711"
+         font-size="14.00"
+         y="-88.300003"
+         x="1600"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">max_len : int</text>
+      <text
+         id="text4713"
+         font-size="14.00"
+         y="-73.300003"
+         x="1600"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">params</text>
+      <text
+         id="text4715"
+         font-size="14.00"
+         y="-58.299999"
+         x="1600"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">url</text>
+      <polyline
+         id="polyline4717"
+         points="1463.5,-50.5 1828.5,-50.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text4719"
+         font-size="14.00"
+         font-style="italic"
+         y="-36.299999"
+         x="1520"
+         style="font-style:italic;font-size:14px;font-family:Times, serif;text-anchor:start">get_model_mapping</text>
+      <text
+         id="text4721"
+         font-size="14.00"
+         y="-36.299999"
+         x="1663"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">(lang: str): str</text>
+      <text
+         id="text4723"
+         font-size="14.00"
+         y="-22.299999"
+         x="1520"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">name()</text>
+      <text
+         id="text4725"
+         font-size="14.00"
+         y="-8.3000002"
+         x="1520"
+         style="font-size:14px;font-family:Times, serif;text-anchor:start">parse(texts: List[str], lang: str): str</text>
+    </g>
+    <path
+       id="path9129"
+       d="m 349.23704,410.3783 0,-15.62605"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker9231)" />
+    <path
+       id="path9131"
+       d="m 349.23704,453.34761 0,-18.01257"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker9197)" />
+    <path
+       id="path9135"
+       d="M 439.11816,410.3783 392.91132,394.75225"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker9147)" />
+    <path
+       id="path9137"
+       d="m 475.07908,453.3476 0,-18.64705"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker9169)" />
+  </g>
+</svg>

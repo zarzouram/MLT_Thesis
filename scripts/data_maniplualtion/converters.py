@@ -4,8 +4,8 @@ from stanza.models.common.doc import Document
 import re
 from stanza.utils.conll import CoNLL
 
-from data_maniplualtion.abstarcts import ParsersOutputConverter
-from data_maniplualtion.utils import replace_wlist
+from ..data_maniplualtion.abstarcts import ParsersOutputConverter
+from ..data_maniplualtion.utils import replace_wlist
 
 
 class UDPipeConverters(ParsersOutputConverter):

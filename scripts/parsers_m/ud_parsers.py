@@ -1,4 +1,4 @@
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 
 import sys
 from traceback import TracebackException
@@ -10,8 +10,12 @@ from itertools import chain
 import requests
 import stanza
 
-from parsers_m.interfaces import RestAPIParser, LibraryParser
-from utils.utils import split_list
+from ..parsers_m.interfaces import RestAPIParser, LibraryParser
+from ..utils.utils import split_list
+
+TokenDict = Dict[str, Union[str, int]]  # {'id': 1, 'UPON': 'Noun', ...}
+SentDict = List[TokenDict]
+DoctDict = List[SentDict]
 
 
 class UDPipeRestParser(RestAPIParser):
@@ -109,7 +113,7 @@ class StanzaParser(LibraryParser):
         else:
             self.params = params
 
-    def parse(self, texts: List[str], lang: str):
+    def parse(self, texts: List[str], lang: str) -> DoctDict:
         # implementation of parsing the text using the Stanza and returning
         # the UD parse tree in list of dict object
         chunks = split_list(texts, self.max_len)

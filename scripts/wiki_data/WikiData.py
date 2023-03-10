@@ -1,6 +1,6 @@
 from typing import List, Any, Callable, Dict, Literal, Optional, Tuple, Type
-from parsers_m.abstracts import AbstractUDParser
-from data_maniplualtion.abstarcts import ParsersOutputConverter
+from ..parsers_m.abstracts import AbstractUDParser
+from ..data_maniplualtion.abstarcts import ParsersOutputConverter
 
 
 class WikiData:

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4229"
+   version="1.1"
+   viewBox="0 0 405.72101 148.10095"
+   height="147.9828pt"
+   width="405.78391pt">
+   <rect width="100%" height="100%" fill="white"/>
+  <metadata
+     id="metadata4235">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4233" />
+  <g
+     transform="translate(-1846.0363,108.19829)"
+     class="node"
+     id="node10">
+    <title
+       id="title4735">scripts.wiki_data.WikiData.WikiData</title>
+    <polygon
+       transform="matrix(0.293076,0,0,1.6952677,1305.4861,73.501686)"
+       id="polygon4737"
+       points="1846.5,-105.5 3217.5,-105.5 3217.5,-21.5 1846.5,-21.5 "
+       style="fill:none;stroke:#000000" />
+    <text
+       id="text4739"
+       font-size="14.00"
+       y="-90.300003"
+       x="1934.6204"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">scripts.wiki_data.WikiData.WikiData</text>
+    <polyline
+       transform="matrix(0.29316517,0,0,1,1305.1705,0)"
+       id="polyline4741"
+       points="1846.5,-82.5 3217.5,-82.5 "
+       style="fill:none;stroke:#000000" />
+    <text
+       id="text4743"
+       font-size="14.00"
+       y="-67.300003"
+       x="1973.1143"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">data : dict[str, List[str]]</text>
+    <text
+       id="text4745"
+       font-size="14.00"
+       y="-52.299999"
+       x="1973.1143"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">langs : str</text>
+    <polyline
+       transform="matrix(0.2931057,0,0,1,1305.2803,0)"
+       id="polyline4747"
+       points="1846.5,-44.5 3217.5,-44.5 "
+       style="fill:none;stroke:#000000" />
+    <text
+       id="text4749"
+       font-size="14.00"
+       y="-29.299999"
+       x="1854.5"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">parse_data(parser_obj: Type[AbstractUDParser],</text>
+    <text
+       id="text9940"
+       font-size="14.00"
+       y="-10.60157"
+       x="1919.0748"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">converter_obj: Type[ParsersOutputConverter],</text>
+    <text
+       id="text9942"
+       font-size="14.00"
+       y="8.096859"
+       x="1919.3549"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">params: Dict[str, str], langs: List[str],</text>
+    <text
+       id="text9944"
+       font-size="14.00"
+       y="26.795288"
+       x="1919.1309"
+       style="font-size:14px;font-family:Times, serif;text-anchor:start">write_output: Optional[Tuple[str, Literal['w', 'a']]]): Any</text>
+  </g>
+</svg>

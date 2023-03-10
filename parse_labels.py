@@ -1,17 +1,17 @@
 # from collections import defaultdict
 from typing import Dict, List, Type
-from parsers_m.abstracts import AbstractUDParser
-from data_maniplualtion.abstarcts import ParsersOutputConverter
+from scripts.parsers_m.abstracts import AbstractUDParser
+from scripts.data_maniplualtion.abstarcts import ParsersOutputConverter
 
 from pathlib import Path
 import json
 
-from utils.utils import parse_arguments
-from data_maniplualtion.utils import read_wikidata
+from scripts.utils.utils import parse_arguments
+from scripts.data_maniplualtion.utils import read_wikidata
 
-from wiki_data.WikiData import WikiData
-import parsers_m.ud_parsers as Parsers
-import data_maniplualtion.converters as Converters
+from scripts.wiki_data.WikiData import WikiData
+import scripts.parsers_m.ud_parsers as Parsers
+import scripts.data_maniplualtion.converters as Converters
 
 if __name__ == "__main__":
 

@@ -129,9 +129,8 @@ dmypy.json
 .pyre/
 
 # camel-tools
-data/camel-db
 notes/UML
-data/resources/stanza
+data/resources/*
 notes/visuaize_tree.py
 notes/compare_cnllu.py
 notes/output.txt
