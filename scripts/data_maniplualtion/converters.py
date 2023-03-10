@@ -68,6 +68,8 @@ class StanzaConverters(ParsersOutputConverter):
         conllu_lists: List[List[List[str]]] = CoNLL.convert_dict(data)
         self.__check_integrity(data, labels, idxs)
 
+        #  iterates over the list of dictionaries and builds a string in the
+        #  CoNLL-U format
         conllu_text_lists = []
         for lbl_conllu, lbl_txt, idx in zip(conllu_lists, labels, idxs):
             sent_id, text = f"# sent_id = {idx}", f"# text = {lbl_txt}"
