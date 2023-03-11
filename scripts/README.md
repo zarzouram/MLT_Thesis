@@ -1,5 +1,29 @@
 # WikiData Labels Universal Dependency Parsering Code Documentation
 
+- [1. Intorduction](#1-intorduction)
+- [2. The `scripts.parsers_m` Module](#2-the-scriptsparsers_m-module)
+  - [2.1. Introduction](#21-introduction)
+  - [2.2. `AbstractUDParser`](#22-abstractudparser)
+    - [2.2.1. `__init__`](#221-__init__)
+    - [2.2.2. Methods](#222-methods)
+  - [2.3. `RestAPIParser` and `LibraryParser`](#23-restapiparser-and-libraryparser)
+  - [2.4. `UDPipeRestParser`](#24-udpiperestparser)
+  - [2.5. `StanzaParser`](#25-stanzaparser)
+    - [2.5.1. `__init__`](#251-__init__)
+    - [2.5.2. Methods](#252-methods)
+- [3. The `scripts.data_manipulation` Module](#3-the-scriptsdata_manipulation-module)
+  - [3.1. Introduction](#31-introduction)
+  - [3.2. `ParsersOutputConverter`](#32-parsersoutputconverter)
+  - [3.3. The `UDPipeConverters` Class](#33-the-udpipeconverters-class)
+    - [3.3.1. Methods](#331-methods)
+  - [3.4. The `StanzaConverters` Class](#34-the-stanzaconverters-class)
+    - [3.4.1. Methods](#341-methods)
+- [4. The `scripts.wiki_data` module](#4-the-scriptswiki_data-module)
+  - [4.1. `__init__`](#41-__init__)
+  - [4.2. Methods](#42-methods)
+
+---
+
 ## 1. Intorduction
 
 This project aims to parse Wikidata labels using different Universal Dependency
@@ -49,8 +73,19 @@ width="70%">
 
 ### 2.2. `AbstractUDParser`
 
-An abstract class serves as an interface for all UD Parser classes. It defines
-two abstract methods: `parse` and `get_model_mapping`.
+This abstract class serves as an interface for all UD Parser classes.
+
+#### 2.2.1. `__init__`
+
+Two optional arguments are neede to initiate the respective class: `langs` and
+`params`. `langs` is a list of language codes that the parser supports. The
+`params` is a dictionary of parameters used to initiate the the corresponding
+UD parser. The project configuration file defines the `langs` and the `params`
+dictionary.
+
+#### 2.2.2. Methods
+
+The class defines two abstract methods: `parse` and `get_model_mapping`.
 
   1. `parse(self, texts: List[str], lang: str, params: Optional[dict]) -> Any`:
      This method takes a list of strings as input, along with a language code
@@ -60,12 +95,6 @@ two abstract methods: `parse` and `get_model_mapping`.
 
   2. `get_model_mapping(self, lang: str) -> str`: This method takes a language
      code as input and returns the corresponding model name for the parser.
-
-Two optional arguments are neede to initiate the respective class: `langs` and
-`params`. `langs` is a list of language codes that the parser supports. The
-`params` is a dictionary of parameters used to initiate the the corresponding
-UD parser. The project configuration file defines the `langs` and the `params`
-dictionary.
 
 ### 2.3. `RestAPIParser` and `LibraryParser`
 
@@ -89,16 +118,22 @@ are defined in the project's configuration file.
 ### 2.5. `StanzaParser`
 
 This concrete class implements the UD parsing requirements using the `Stanza`
-library. It inherits from LibraryParser and defines the `parse(self, texts:
-List[str], lang: str) -> DoctDict` method. This method splits the list of
-strings to avoid long request errors, then implements the parsing process using
-the Stanza library and returns the output as a list of dictionary objects.
+library. It inherits from `LibraryParser`.
+
+#### 2.5.1. `__init__`
 
 Two optional arguments initiate the class: `langs` and `params`. `langs` is a
 list of language codes that the parser supports. The `params` is a dictionary
 of parameters used to initiate the Stanza DU pipeline. The `max_len` attribute
 represents the maximum length of the text to avoid memory errors when parsing
 long texts.
+
+#### 2.5.2. Methods
+
+The class defines the `parse(self, texts:
+List[str], lang: str) -> DoctDict` method. This method splits the list of
+strings to avoid long request errors, then implements the parsing process using
+the Stanza library and returns the output as a list of dictionary objects.
 
 The `__extract_lang_params` method is then called to extract the parameters for
 each language. The project configuration file defines the parameters used to
@@ -120,10 +155,10 @@ string. This module aims to abstract the converting implementation details,
 making it easy to add new parser types in the future.
 
 You can implement concrete classes to convert the output of each parser type
-you want to use. In this project, we used UDPipe Rest API and Stanza library
-parser. Thus, this module contains two concrete implementation classes:
+you want to use. In this project, we used `UDPipe` Rest API and `Stanza`
+library parser. Thus, this module contains two concrete implementation classes:
 `UDPipeConverters` and `StanzaConverters`. Both classes inherit from the
-ParsersOutputConverter abstract class. The figure below shows the class
+`ParsersOutputConverter` abstract class. The figure below shows the class
 relationships discussed earlier.
 
 The module is responsible for converting the output of the parsing process to
@@ -144,11 +179,13 @@ parsed labels to be converted to Conll-u from the parser's native format.
 entities labels to be replaced with the sentence indices produced by the UD
 parser.
 
-### 3.3. `UDPipeConverters Class`
+### 3.3. The `UDPipeConverters` Class
 
 The `UDPipeConverters` class inherits from the `ParsersOutputConverter`
 abstract class. It implements the convert method and an additional helper
 method called `write2desk`.
+
+#### 3.3.1. Methods
 
 As discussed above, the `convert` method receives three parameters (the parsed
 labels, Wikidata labels, and Wikidata ids). The parsed labels are already in
@@ -160,10 +197,18 @@ converted data to the desk.  StanzaConverters Class The StanzaConverters class
 inherits from the ParsersOutputConverter abstract class. It implements the
 convert method and an additional helper method called `write2desk`.
 
+### 3.4. The `StanzaConverters` Class
+
+The `StanzaConverters` class inherits from the `ParsersOutputConverter`
+abstract class. It implements the convert method and an additional helper
+method called `write2desk`.
+
+#### 3.4.1. Methods
+
 As discussed above, the `convert` method receives three parameters (the parsed
 labels, Wikidata labels, and Wikidata ids). However, the parsed labels are a
 list of dictionaries, where each dictionary corresponds to a token and its
-features. The convert method iterates over the list of dictionaries and builds
+features. The `convert` method iterates over the list of dictionaries and builds
 a string in the CoNLL-U format, where each line represents a token and its
 features. Finally, the method appends a blank line to the output to indicate
 the end of the sentence.
@@ -171,9 +216,12 @@ the end of the sentence.
 The write2desk method takes the data, file path, and mode and writes the
 converted data to the desk.
 
-## 4. The WikiData module
+## 4. The `scripts.wiki_data` module
 
-The WikiData class is used to read, parse, manipulate, and save Wikidata.
+The module contains the `WikiData` class which is used to read, parse,
+manipulate, and save Wikidata labels.
+
+### 4.1. `__init__`
 
 The class initializer takes a path to the Wikidata file, a list of language codes to be extracted, and a callable function to read the data from the file. The callable function must return the data in a dictionary, keyed with the Wikidata entity's labels and language codes. Any missing entity label in any language must be `None`; see the example below. The data attribute of the class is the read function output.
 
@@ -186,6 +234,8 @@ data = {
     'es': ['instancia de', 'país', None, 'moneda']
     }
 ```
+
+### 4.2. Methods
 
 The class has the `parse_data` method  used to parse the WikiData labels, read
 during class initialization, and has the following arguments:
