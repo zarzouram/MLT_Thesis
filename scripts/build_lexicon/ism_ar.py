@@ -29,13 +29,17 @@ class Ism:
                  upos: str,
                  root: Optional[str] = '',
                  gender: Optional[str] = '',
-                 plural: Optional[List[str]] = '') -> None:
+                 plurals: Optional[List[str]] = [],
+                 has_salem_pl: Optional[bool] = None,
+                 species: Optional[bool] = None) -> None:
         self.form = form
         self.lemma = lemma
         self.upos = upos
         self.root = root
         self.gender = gender
-        self.plural = plural
+        self.plurals = plurals
+        self.has_salem_pl = has_salem_pl
+        self.species = species
 
     def update_plural(self, plurals: List[str]):
         """Updates the plural forms of the noun with the given list of plurals.
@@ -43,10 +47,11 @@ class Ism:
         Args:
             plurals (List[str]): A list of possible plural forms of the noun.
         """
-        # get pluras form that are not is self.plural, then update
-        plurals_new = list(set(plurals) - set(self.plural))
-        if plurals_new:
-            self.plural.extend(plurals_new)
+        # get pluras form that are not is self.plurals, then update
+        if plurals:
+            plurals_new = list(set(plurals) - set(self.plurals))
+            if plurals_new:
+                self.plurals.extend(plurals_new)
 
     def __eq__(self, other):
         """Compares two instances of the Ism class for equality based on their
@@ -82,11 +87,11 @@ class Ism:
         return hash((self.form, self.lemma))
 
     def __repr__(self) -> str:
-        plurals = "-".join(self.plural)
+        plurals = "-".join(self.plurals)
         return f'{self.form}[{self.lemma}][ج]({plurals})'
 
     def __str__(self) -> str:
-        plurals = "-".join(self.plural)
+        plurals = "-".join(self.plurals)
         return f'{self.form}[ج]({plurals})'
 
 
@@ -115,7 +120,7 @@ class IsmDict(dict):
         existing_key = next((k for k in self if k == key), None)
         if existing_key is not None:
             # If key exists, update its plural and add value to its value
-            existing_key.update_plural(key.plural)
+            existing_key.update_plural(key.plurals)
             super().__setitem__(existing_key, self[key] + value)
         else:
             # If key does not exist, add key-value pair to dictionary
