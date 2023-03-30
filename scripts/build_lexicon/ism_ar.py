@@ -41,7 +41,7 @@ class Ism:
         self.has_salem_pl = has_salem_pl
         self.species = species
 
-    def update_plural(self, plurals: List[str]):
+    def update_plural(self, plurals: List[str], has_salem_pl: bool):
         """Updates the plural forms of the noun with the given list of plurals.
 
         Args:
@@ -52,6 +52,8 @@ class Ism:
             plurals_new = list(set(plurals) - set(self.plurals))
             if plurals_new:
                 self.plurals.extend(plurals_new)
+        if has_salem_pl:
+            self.has_salem_pl = has_salem_pl
 
     def __eq__(self, other):
         """Compares two instances of the Ism class for equality based on their
@@ -120,7 +122,7 @@ class IsmDict(dict):
         existing_key = next((k for k in self if k == key), None)
         if existing_key is not None:
             # If key exists, update its plural and add value to its value
-            existing_key.update_plural(key.plurals)
+            existing_key.update_plural(key.plurals, key.has_salem_pl)
             super().__setitem__(existing_key, self[key] + value)
         else:
             # If key does not exist, add key-value pair to dictionary
