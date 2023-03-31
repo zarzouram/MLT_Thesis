@@ -23,10 +23,18 @@ if __name__ == "__main__":
     # parse arguments
     _, args = parse_arguments()
     wikidata_path = Path(args.wiki_path).absolute().resolve()
-    output_dir = Path(args.output_dir).resolve().absolute()
     db_dir = Path(args.db_dir).resolve().absolute()
     langs = args.langs  # type: str
     parser_names = args.parsers  # type: str
+    data_types = args.data_types
+    if data_types == ['all']:
+        data_types = None
+
+    output_dir = Path(args.output_dir).resolve().absolute()
+    if data_types is not None:
+        output_dir = output_dir / '_'.join(data_types)
+    else:
+        output_dir = output_dir / 'all_datatypes'
 
     # check that the choosed languages and parsers are supported
     parsers_supported = configs['parsers'].keys()
@@ -53,7 +61,7 @@ if __name__ == "__main__":
         params.append(param)
 
     # Read and parse wikidata
-    wikidata = WikiData(wikidata_path, langs, read_wikidata)
+    wikidata = WikiData(wikidata_path, langs, data_types, read_wikidata)
     for settings in zip(parsers, parser_names, converters, params):
         output_dir_ = str(output_dir / settings[1])
         wkdata_parsed = wikidata.parse_data(parser_obj=settings[0],

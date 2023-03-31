@@ -55,6 +55,16 @@ class Ism:
         if has_salem_pl:
             self.has_salem_pl = has_salem_pl
 
+    def update_gender(self, gender: str):
+        """Updates the gender attribute of the Ism instance with the given
+        gender value.
+
+        Args:
+            gender (str): The new value of the gender attribute.
+        """
+        if gender:
+            self.gender = gender
+
     def __eq__(self, other):
         """Compares two instances of the Ism class for equality based on their
         form and lemma.
@@ -123,6 +133,7 @@ class IsmDict(dict):
         if existing_key is not None:
             # If key exists, update its plural and add value to its value
             existing_key.update_plural(key.plurals, key.has_salem_pl)
+            existing_key.update_gender(key.gender)
             super().__setitem__(existing_key, self[key] + value)
         else:
             # If key does not exist, add key-value pair to dictionary

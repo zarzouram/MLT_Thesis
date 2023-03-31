@@ -8,7 +8,7 @@ class WikiData:
     Wikidata class: read, parse, manipulate, and save data.
     """
 
-    def __init__(self, path: str, langs: List[str],
+    def __init__(self, path: str, langs: List[str], data_types: List[str],
                  reader: Callable) -> dict[str, List[str]]:
 
         # Read data using the passed callable. The reader function must return
@@ -17,8 +17,9 @@ class WikiData:
         # first column, `idx` is the wiki entity index, and the other columns
         # are the language code. The dict values are indices and the labels in
         # the respective language.
-        self.data: dict[str, List[str]] = reader(path, langs)  # wikidata
+        self.data: dict[str, List[str]] = reader(path, langs, data_types)
         self.langs: str = langs  # list of language codes
+        self.data_types = data_types
 
     def __filter_none(self, lang: str) -> Dict[str, str]:
         """
