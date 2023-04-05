@@ -81,9 +81,7 @@ def is_salem_plural(word: str, word_plural: str) -> str:
     is_salm_femn_plural = bool(salm_femn_regx.fullmatch(word_plural))
     is_salm_masc_plural = bool(salm_masc_regx.fullmatch(word_plural))
 
-    if is_salm_femn_plural:
-        return 'fpl'
-    elif is_salm_masc_plural:
-        return 'mpl'
+    if is_salm_femn_plural or is_salm_masc_plural:
+        return True
     else:
-        return 'broken'
+        return False

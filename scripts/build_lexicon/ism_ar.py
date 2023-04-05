@@ -138,3 +138,27 @@ class IsmDict(dict):
         else:
             # If key does not exist, add key-value pair to dictionary
             super().__setitem__(key, value)
+
+    def update_gender(self, key: Ism):
+        existing_key = next((k for k in self if k == key), None)
+        existing_key.update_gender(key.gender)
+
+    def update_plurals(self, key: Ism):
+        existing_key = next((k for k in self if k == key), None)
+        # existing_key.update_plural(key.plurals, key.has_salem_pl)
+
+    def update_species(self, key: Ism):
+        existing_key = next((k for k in self if k == key), None)
+        existing_key.species = key.species
+
+    def update_root(self, key: Ism):
+        existing_key = next((k for k in self if k == key), None)
+        existing_key.root = key.root
+
+    def update_lemma(self, key: Ism):
+        existing_key = next((k for k in self if k == key), None)
+        existing_key.lemma = key.lemma
+
+    def update_upos(self, key: Ism):
+        existing_key = next((k for k in self if k == key), None)
+        existing_key.upos = key.upos
