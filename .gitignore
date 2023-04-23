@@ -135,3 +135,5 @@ notes/visuaize_tree.py
 notes/compare_cnllu.py
 notes/output.txt
 ~*
+outputs/prop_stats/wikibase-item_quantity_time/entities_info.pkl
+outputs/prop_stats/wikibase-item_quantity_time/entities_info.json
