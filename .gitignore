@@ -137,3 +137,7 @@ notes/output.txt
 ~*
 outputs/prop_stats/wikibase-item_quantity_time/entities_info.pkl
 outputs/prop_stats/wikibase-item_quantity_time/entities_info.json
+outputs/RDF/wikibase-item_quantity_time/api_results_sparql.jsonl
+outputs/RDF/wikibase-item_quantity_time/api_results.jsonl
+scripts/RDF/old_get_rdf.txt
+scripts/RDF/check_rdf_results.txt
