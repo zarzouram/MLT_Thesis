@@ -1,2671 +1,2674 @@
-{
-    "Q104668": [
-        {
-            "valuenode": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/Q188128"
-            },
-            "valuenodeLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Alexei Abrikosov"
-            },
-            "valuenodeLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أليكسيي أليكسييفتش أبريكوسوف"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1706"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "together with"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بالاشتراك مع"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Nobel Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة نوبل في الفيزياء"
-            }
-        },
-        {
-            "valuenode": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/Q192718"
-            },
-            "valuenodeLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Anthony James Leggett"
-            },
-            "valuenodeLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أنطوني ليجت"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1706"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "together with"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بالاشتراك مع"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Nobel Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة نوبل في الفيزياء"
-            }
-        },
-        {
-            "valuenode": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/Q61664704"
-            },
-            "valuenodeLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Foreign Associate of the National Academy of Sciences"
-            },
-            "valuenodeLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "معاون أجنبي في الأكاديمية الوطنية للعلوم"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-9D57632B-6D21-4B82-BB00-C3F787C70B23"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P2868"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "subject has role"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "دوره"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "National Academy of Sciences"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأكاديمية الوطنية للعلوم"
-            }
-        },
-        {
-            "valuenode": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/Q58280311"
-            },
-            "valuenodeLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "AE section Physics and engineering sciences"
-            },
-            "valuenodeLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "قسم العلوم الفيزيائية والهندسية في الأكاديمية الأوروبية"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-ECADBBFB-1CD0-463A-9249-F3A3D1A73B93"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1416"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "affiliation"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الانتماء"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Academia Europaea"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأكاديمية الأوروبية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P119"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/q104668-038A73CE-99AA-4EA4-9489-4A4673BA1856"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "place of burial"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مكان الدفن"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Novodevichy Cemetery"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "نوفوديفتشي"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P21"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-070FB961-31EA-4CCF-BCE1-2573BE532AA0"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "sex or gender"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجنس"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "male"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "ذكر"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P106"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/q104668-20F9D7F0-62DB-41BB-AB2C-62D54B1D390C"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "occupation"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المهنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "astrophysicist"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عالم فيزياء فلكية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-23090BE8-37F8-4432-AB1E-E51ED3CE8F71"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "American Academy of Arts and Sciences"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأكاديمية الأمريكية للفنون والعلوم"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-294A80B6-5525-42CF-9C16-1C7A884926B5"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Academy of Sciences of Moldova"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أكاديمية العلوم في مولدوفا"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P803"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-3247aba1-4024-d1d2-f3cb-352a294e5c82"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "professorship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأستاذية"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "full member of RAS"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو كامل في أكاديمية العلوم الروسية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P106"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-340E904D-1653-450E-AB48-165327137DDF"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "occupation"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المهنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "university teacher"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أستاذ جامعي"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-3706ADD4-5507-4D5E-9F20-10CC27B4EF43"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Humboldt Prize"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة هومبولت"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P184"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-40F9E3AB-04B1-41F9-B915-E6FBB0A50353"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "doctoral advisor"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مُشرِف الدُّكتوراه"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Igor Tamm"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "إيجور تام"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P69"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5ae8b1e7-a54e-40c0-ada5-b3fa69da11fe"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "educated at"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تعلَّم في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Moscow State University"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جامعة موسكو الحكومية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5E89DF7F-1522-4032-880C-E8FC6CA6FA28"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Order of the Badge of Honour"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "وسام شارة الشرف"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P140"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-628B8ADB-1B24-4F12-B7D3-DCB4BA4958BB"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "religion or worldview"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الدِّين"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "atheism"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "إلحاد"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P185"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-676F9288-77D3-4D9E-8D22-81B0106E46FC"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "doctoral student"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "طلاب الدكتوراه"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Efim Fradkin"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "إفيم فرادكين"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-695152F3-0856-4447-8DA0-227B9238A1DA"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Medal \"For Valiant Labour in the Great Patriotic War 1941–1945\""
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "وسام العمل الشجاع في الحرب الوطنية العظمى 1941-1945"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-6D3B9B81-64BF-4F65-81DE-EE2790F48F04"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Order of Lenin"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "وسام لينين"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P106"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-6FC7E4DA-89E9-4998-B53C-C21D4BD20F89"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "occupation"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المهنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "scientist"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عالم"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P31"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-707A4649-2C88-4180-9A2E-D739B567270F"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "instance of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "نموذج من"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "human"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "إنسان"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-72E41446-8A28-42C2-AF47-5ED14A2493BB"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Order of the Red Banner of Labour"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "وسام الراية الحمراء من حزب العمال"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P101"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-7d304da5-4af7-94b1-5529-fa09ba5cbb55"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "field of work"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مجال العمل"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "theoretical physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "فيزياء نظرية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P803"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-86e4be10-415b-616e-5389-8a9ecfb8235b"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "professorship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأستاذية"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "list of members of the Academy of Sciences of the USSR"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أكاديمي العلوم في اتحاد الجمهوريات الاشتراكية السوفياتية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P69"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-893ee91a-49ad-3943-7375-5ae0223fc134"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "educated at"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تعلَّم في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "MSU Faculty of Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "كلية الفيزياء بجامعة موسكو الحكومية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-8BE01C45-8069-4D0D-A9BD-DB175526AC02"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Russian Academy of Sciences"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأكاديمية الروسية للعلوم"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P735"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-9860BED7-9F5A-4D9F-8986-2EA67EC3DF44"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "given name"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الاسم الأول"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Vitaly"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "فيتالي"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P106"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-9D3807C4-0BB1-4A28-B019-ABC153F6470E"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "occupation"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المهنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "inventor"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مخترع"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-A4AA24D2-CD41-4B49-A38E-717F67579231"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Lenin Prize"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة لينين"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-B3340E4D-3A53-49FD-B584-9503EA71560F"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Indian National Science Academy"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أكاديمية العلوم الوطنية الهندية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P20"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-B4EB2200-A9D8-4EDC-B51E-3D06A7533A17"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "place of death"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مكان الوفاة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Moscow"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "موسكو"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P101"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-b808cf0f-44e0-5909-9c01-4d4743a29f6b"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "field of work"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مجال العمل"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "فيزياء"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P19"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/q104668-BC9F790F-B441-47C0-BACA-E695416DAF9F"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "place of birth"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مكان الولادة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Moscow"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "موسكو"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P1412"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-BE33D425-F8A6-4464-9472-A9C58441632B"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "languages spoken, written or signed"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "اللغات المحكية"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Russian"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الروسية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P1066"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-CA9A40E3-17F2-4FE3-ADBB-B2579519D362"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "student of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تتلمذ على يد"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Igor Tamm"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "إيجور تام"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P106"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/q104668-CD84939F-5929-4F49-B5D7-F87FFE40060A"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "occupation"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المهنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "physicist"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "فيزيائي"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P551"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-D2EACC32-DAF1-4B17-B95B-70F18FDB4012"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "residence"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الإقامة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Soviet Union"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الاتحاد السوفيتي"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P509"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-d4898f60-edfb-45ff-8bfb-54c939111ed7"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "cause of death"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "سبب الوفاة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "heart failure"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "قصور القلب"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P102"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-D5D52457-7B8B-4081-BBB0-C2A6B9E36D23"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of political party"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "التحزب السياسي"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Communist Party of the Soviet Union"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الحزب الشيوعي السوفيتي"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/q104668-D977DAC0-5F5A-4273-BD36-508CE52EC3C4"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Royal Society"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجمعية الملكية"
-            }
-        },
-        {
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P106"
-            },
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-F22F5295-6DF6-48BD-BA1E-F12C947BA8A8"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "occupation"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المهنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "theoretical physicist"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "فيزيائي نظري"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-0E90D3B7-07D2-41E2-81C5-8E4587A870DD"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1942-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P512"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "academic degree"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الشهادة الجامعية"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Doctor of Sciences in Physics and Mathematics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "دكتوراه العلوم في الفيزياء والرياضيات"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-1EDBAC67-BE96-47F1-A5F6-B780A7D44497"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P958"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "Гинзбург Виталий Лазаревич"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "section, verse, paragraph, or clause"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "القسم"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P1343"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "described by source"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مَوصُوف في المصدر"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Great Soviet Encyclopedia (1969–1978)"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الموسوعة السوفيتية العظمى"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-3890407D-3629-4E59-934F-AD1553916979"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1545"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "1"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "series ordinal"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الترتيب في التسلسل"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P27"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "country of citizenship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بلد المواطنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Russian Empire"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الإمبراطورية الروسية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-3890407D-3629-4E59-934F-AD1553916979"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P580"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1916-10-04T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "start time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تاريخ البدء"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P27"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "country of citizenship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بلد المواطنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Russian Empire"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الإمبراطورية الروسية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-4C241F7E-1EA0-479C-B875-C8C9EFAB4334"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1545"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "2"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "series ordinal"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الترتيب في التسلسل"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P27"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "country of citizenship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بلد المواطنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Russian Socialist Federative Soviet Republic"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جمهورية روسيا الاتحادية الاشتراكية السوفيتية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5833D0A3-5592-4F36-A71D-5FEB8E456156"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1991-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Gold Medal of the Royal Astronomical Society"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الميدالية الذهبية للجمعية الفلكية الملكية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5E4965A8-2D10-4CEF-9DB2-FB3704A10E48"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P2699"
-            },
-            "valuenode": {
-                "type": "uri",
-                "value": "https://www.obalkyknih.cz/view_auth?auth_id=jn20000601820"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "URL"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "محدد موقع الموارد المُوحَّد"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P1343"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "described by source"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مَوصُوف في المصدر"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Obalky knih.cz"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "Obalky knih.cz"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P2121"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-                "type": "literal",
-                "value": "3333333"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "prize money"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجائزة النقدية"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Nobel Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة نوبل في الفيزياء"
-            },
-            "unitLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Swedish krona"
-            },
-            "unitLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "كرونة سويدية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P6208"
-            },
-            "valuenode": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "for pioneering contributions to the theory of superconductors and superfluids"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award rationale"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مبرر الجائزة"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Nobel Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة نوبل في الفيزياء"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P6208"
-            },
-            "valuenode": {
-                "xml:lang": "sv",
-                "type": "literal",
-                "value": "för banbrytande insatser inom teorin för supraledare och supravätskor"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award rationale"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مبرر الجائزة"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Nobel Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة نوبل في الفيزياء"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "2003-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Nobel Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة نوبل في الفيزياء"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-5EAB81B7-EDD1-4622-9E57-D81EC41F9DCC"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1987-06-25T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Foreign Member of the Royal Society"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضوية أجنبي في الجمعية الملكية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-60C0EB76-F4D3-4A06-9F2E-4EB825D18550"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P580"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1966-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "start time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تاريخ البدء"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Academy of Sciences of the USSR"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "أكاديمية العلوم في الاتحاد السوفيتي"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-6a7756bc-4ca1-d798-6ae7-54926025852a"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1545"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "3"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "series ordinal"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الترتيب في التسلسل"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P27"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "country of citizenship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بلد المواطنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Soviet Union"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الاتحاد السوفيتي"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-79A63583-1BD4-4143-8A0D-7F52B82CA989"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1996-10-03T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Order \"For Merit to the Fatherland\" III class"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "نيشان الاستحقاق الوطني الروسي من الدرجة الثالثة"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-8F545BC3-530B-4B6F-90A4-2D39CC691D84"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P478"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "3"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "volume"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "المُجلَّد"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P1343"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "described by source"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مَوصُوف في المصدر"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Armenian Soviet Encyclopedia"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الموسوعة السوفيتية الأرمينية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-8F545BC3-530B-4B6F-90A4-2D39CC691D84"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P304"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "71"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "page(s)"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الصفحة"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P1343"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "described by source"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "مَوصُوف في المصدر"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Armenian Soviet Encyclopedia"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الموسوعة السوفيتية الأرمينية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-9D57632B-6D21-4B82-BB00-C3F787C70B23"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P580"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1981-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "start time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تاريخ البدء"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "National Academy of Sciences"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأكاديمية الوطنية للعلوم"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-A942C146-208A-4BAE-AB01-89DB3C941CDA"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1995-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Lomonosov Gold Medal"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "ميدالية لومونوسوف الذهبية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-af06daa2-428c-76a6-eb6a-266a6e3e3f6f"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P1545"
-            },
-            "valuenode": {
-                "type": "literal",
-                "value": "4"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "series ordinal"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الترتيب في التسلسل"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P27"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "country of citizenship"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بلد المواطنة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Russia"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "روسيا"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-B7902554-90AF-4C88-9124-4D2F323EF4DF"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1953-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Stalin Prize"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة الاتحاد السوفيتي الحكومية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-cd60d281-4f1f-de6c-bfe6-30ad9385672b"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1970-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Jubilee Medal \"In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin\""
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "ميدالية اليوبيل \"للاحتفال بالذكرى المئوية لميلاد فلاديمير إيليتش لينين\""
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-D6B92D50-598E-4AB0-AD65-FDB2CDEA805C"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "2006-10-04T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Order \"For Merit to the Fatherland\" I class"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "نيشان الاستحقاق الوطني الروسي من الدرجة الأولى"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-DE3AFDD5-5E64-4BCE-9DE0-4F89A452A863"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "2003-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Fellow of the American Physical Society"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "زمالة الجمعية الأمريكية الفيزيائية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-E81832EA-9F19-4E9F-B4BE-8B7CAD1D526A"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1995-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Wolf Prize in Physics"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "جائزة وولف في الفيزياء"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-ECADBBFB-1CD0-463A-9249-F3A3D1A73B93"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P580"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1990-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "start time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "تاريخ البدء"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P463"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "member of"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "عضو في"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Academia Europaea"
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الأكاديمية الأوروبية"
-            }
-        },
-        {
-            "object": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/entity/statement/Q104668-f0eb7eda-47e7-ac11-28ae-7fd14c0e77cd"
-            },
-            "pq": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/qualifier/P585"
-            },
-            "valuenode": {
-                "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type": "literal",
-                "value": "1948-01-01T00:00:00Z"
-            },
-            "qualifierLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "point in time"
-            },
-            "qualifierLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "بتاريخ"
-            },
-            "p": {
-                "type": "uri",
-                "value": "http://www.wikidata.org/prop/P166"
-            },
-            "predicateLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "award received"
-            },
-            "predicateLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "الجوائز المستلمة"
-            },
-            "statementLabel_en": {
-                "xml:lang": "en",
-                "type": "literal",
-                "value": "Medal \"In Commemoration of the 800th Anniversary of Moscow\""
-            },
-            "statementLabel_ar": {
-                "xml:lang": "ar",
-                "type": "literal",
-                "value": "وسام \"الاحتفال بالذكرى السنوية ال800 لموسكو\""
-            }
-        }
-    ]
-}
+[
+    {
+        "subject": "Q104668",
+        "rdf": [
+            {
+                "valuenode": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q188128"
+                },
+                "valuenodeLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Alexei Abrikosov"
+                },
+                "valuenodeLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أليكسيي أليكسييفتش أبريكوسوف"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1706"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "together with"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بالاشتراك مع"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Nobel Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة نوبل في الفيزياء"
+                }
+            },
+            {
+                "valuenode": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q192718"
+                },
+                "valuenodeLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Anthony James Leggett"
+                },
+                "valuenodeLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أنطوني ليجت"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1706"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "together with"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بالاشتراك مع"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Nobel Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة نوبل في الفيزياء"
+                }
+            },
+            {
+                "valuenode": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q61664704"
+                },
+                "valuenodeLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Foreign Associate of the National Academy of Sciences"
+                },
+                "valuenodeLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "معاون أجنبي في الأكاديمية الوطنية للعلوم"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-9D57632B-6D21-4B82-BB00-C3F787C70B23"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P2868"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "subject has role"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "دوره"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "National Academy of Sciences"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأكاديمية الوطنية للعلوم"
+                }
+            },
+            {
+                "valuenode": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q58280311"
+                },
+                "valuenodeLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "AE section Physics and engineering sciences"
+                },
+                "valuenodeLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "قسم العلوم الفيزيائية والهندسية في الأكاديمية الأوروبية"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-ECADBBFB-1CD0-463A-9249-F3A3D1A73B93"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1416"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "affiliation"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الانتماء"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Academia Europaea"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأكاديمية الأوروبية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P119"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/q104668-038A73CE-99AA-4EA4-9489-4A4673BA1856"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "place of burial"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مكان الدفن"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Novodevichy Cemetery"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "نوفوديفتشي"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P21"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-070FB961-31EA-4CCF-BCE1-2573BE532AA0"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "sex or gender"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجنس"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "male"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "ذكر"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P106"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/q104668-20F9D7F0-62DB-41BB-AB2C-62D54B1D390C"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "occupation"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المهنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "astrophysicist"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عالم فيزياء فلكية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-23090BE8-37F8-4432-AB1E-E51ED3CE8F71"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "American Academy of Arts and Sciences"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأكاديمية الأمريكية للفنون والعلوم"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-294A80B6-5525-42CF-9C16-1C7A884926B5"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Academy of Sciences of Moldova"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أكاديمية العلوم في مولدوفا"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P803"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-3247aba1-4024-d1d2-f3cb-352a294e5c82"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "professorship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأستاذية"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "full member of RAS"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو كامل في أكاديمية العلوم الروسية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P106"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-340E904D-1653-450E-AB48-165327137DDF"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "occupation"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المهنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "university teacher"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أستاذ جامعي"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-3706ADD4-5507-4D5E-9F20-10CC27B4EF43"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Humboldt Prize"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة هومبولت"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P184"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-40F9E3AB-04B1-41F9-B915-E6FBB0A50353"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "doctoral advisor"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مُشرِف الدُّكتوراه"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Igor Tamm"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "إيجور تام"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P69"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5ae8b1e7-a54e-40c0-ada5-b3fa69da11fe"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "educated at"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تعلَّم في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Moscow State University"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جامعة موسكو الحكومية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5E89DF7F-1522-4032-880C-E8FC6CA6FA28"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Order of the Badge of Honour"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "وسام شارة الشرف"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P140"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-628B8ADB-1B24-4F12-B7D3-DCB4BA4958BB"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "religion or worldview"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الدِّين"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "atheism"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "إلحاد"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P185"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-676F9288-77D3-4D9E-8D22-81B0106E46FC"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "doctoral student"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "طلاب الدكتوراه"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Efim Fradkin"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "إفيم فرادكين"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-695152F3-0856-4447-8DA0-227B9238A1DA"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Medal \"For Valiant Labour in the Great Patriotic War 1941–1945\""
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "وسام العمل الشجاع في الحرب الوطنية العظمى 1941-1945"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-6D3B9B81-64BF-4F65-81DE-EE2790F48F04"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Order of Lenin"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "وسام لينين"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P106"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-6FC7E4DA-89E9-4998-B53C-C21D4BD20F89"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "occupation"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المهنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "scientist"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عالم"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P31"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-707A4649-2C88-4180-9A2E-D739B567270F"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "instance of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "نموذج من"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "human"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "إنسان"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-72E41446-8A28-42C2-AF47-5ED14A2493BB"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Order of the Red Banner of Labour"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "وسام الراية الحمراء من حزب العمال"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P101"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-7d304da5-4af7-94b1-5529-fa09ba5cbb55"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "field of work"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مجال العمل"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "theoretical physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "فيزياء نظرية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P803"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-86e4be10-415b-616e-5389-8a9ecfb8235b"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "professorship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأستاذية"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "list of members of the Academy of Sciences of the USSR"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أكاديمي العلوم في اتحاد الجمهوريات الاشتراكية السوفياتية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P69"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-893ee91a-49ad-3943-7375-5ae0223fc134"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "educated at"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تعلَّم في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "MSU Faculty of Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "كلية الفيزياء بجامعة موسكو الحكومية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-8BE01C45-8069-4D0D-A9BD-DB175526AC02"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Russian Academy of Sciences"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأكاديمية الروسية للعلوم"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P735"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-9860BED7-9F5A-4D9F-8986-2EA67EC3DF44"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "given name"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الاسم الأول"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Vitaly"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "فيتالي"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P106"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-9D3807C4-0BB1-4A28-B019-ABC153F6470E"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "occupation"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المهنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "inventor"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مخترع"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-A4AA24D2-CD41-4B49-A38E-717F67579231"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Lenin Prize"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة لينين"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-B3340E4D-3A53-49FD-B584-9503EA71560F"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Indian National Science Academy"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أكاديمية العلوم الوطنية الهندية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P20"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-B4EB2200-A9D8-4EDC-B51E-3D06A7533A17"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "place of death"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مكان الوفاة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Moscow"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "موسكو"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P101"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-b808cf0f-44e0-5909-9c01-4d4743a29f6b"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "field of work"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مجال العمل"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "فيزياء"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P19"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/q104668-BC9F790F-B441-47C0-BACA-E695416DAF9F"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "place of birth"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مكان الولادة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Moscow"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "موسكو"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P1412"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-BE33D425-F8A6-4464-9472-A9C58441632B"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "languages spoken, written or signed"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "اللغات المحكية"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Russian"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الروسية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P1066"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-CA9A40E3-17F2-4FE3-ADBB-B2579519D362"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "student of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تتلمذ على يد"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Igor Tamm"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "إيجور تام"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P106"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/q104668-CD84939F-5929-4F49-B5D7-F87FFE40060A"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "occupation"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المهنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "physicist"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "فيزيائي"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P551"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-D2EACC32-DAF1-4B17-B95B-70F18FDB4012"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "residence"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الإقامة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Soviet Union"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الاتحاد السوفيتي"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P509"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-d4898f60-edfb-45ff-8bfb-54c939111ed7"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "cause of death"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "سبب الوفاة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "heart failure"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "قصور القلب"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P102"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-D5D52457-7B8B-4081-BBB0-C2A6B9E36D23"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of political party"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "التحزب السياسي"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Communist Party of the Soviet Union"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الحزب الشيوعي السوفيتي"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/q104668-D977DAC0-5F5A-4273-BD36-508CE52EC3C4"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Royal Society"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجمعية الملكية"
+                }
+            },
+            {
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P106"
+                },
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-F22F5295-6DF6-48BD-BA1E-F12C947BA8A8"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "occupation"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المهنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "theoretical physicist"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "فيزيائي نظري"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-0E90D3B7-07D2-41E2-81C5-8E4587A870DD"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1942-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P512"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "academic degree"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الشهادة الجامعية"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Doctor of Sciences in Physics and Mathematics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "دكتوراه العلوم في الفيزياء والرياضيات"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-1EDBAC67-BE96-47F1-A5F6-B780A7D44497"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P958"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "Гинзбург Виталий Лазаревич"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "section, verse, paragraph, or clause"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "القسم"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P1343"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "described by source"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مَوصُوف في المصدر"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Great Soviet Encyclopedia (1969–1978)"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الموسوعة السوفيتية العظمى"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-3890407D-3629-4E59-934F-AD1553916979"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1545"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "1"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "series ordinal"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الترتيب في التسلسل"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P27"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "country of citizenship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بلد المواطنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Russian Empire"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الإمبراطورية الروسية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-3890407D-3629-4E59-934F-AD1553916979"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P580"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1916-10-04T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "start time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تاريخ البدء"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P27"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "country of citizenship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بلد المواطنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Russian Empire"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الإمبراطورية الروسية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-4C241F7E-1EA0-479C-B875-C8C9EFAB4334"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1545"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "2"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "series ordinal"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الترتيب في التسلسل"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P27"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "country of citizenship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بلد المواطنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Russian Socialist Federative Soviet Republic"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جمهورية روسيا الاتحادية الاشتراكية السوفيتية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5833D0A3-5592-4F36-A71D-5FEB8E456156"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1991-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gold Medal of the Royal Astronomical Society"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الميدالية الذهبية للجمعية الفلكية الملكية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5E4965A8-2D10-4CEF-9DB2-FB3704A10E48"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P2699"
+                },
+                "valuenode": {
+                    "type": "uri",
+                    "value": "https://www.obalkyknih.cz/view_auth?auth_id=jn20000601820"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "URL"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "محدد موقع الموارد المُوحَّد"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P1343"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "described by source"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مَوصُوف في المصدر"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Obalky knih.cz"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "Obalky knih.cz"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P2121"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+                    "type": "literal",
+                    "value": "3333333"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "prize money"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجائزة النقدية"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Nobel Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة نوبل في الفيزياء"
+                },
+                "unitLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Swedish krona"
+                },
+                "unitLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "كرونة سويدية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P6208"
+                },
+                "valuenode": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "for pioneering contributions to the theory of superconductors and superfluids"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award rationale"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مبرر الجائزة"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Nobel Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة نوبل في الفيزياء"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P6208"
+                },
+                "valuenode": {
+                    "xml:lang": "sv",
+                    "type": "literal",
+                    "value": "för banbrytande insatser inom teorin för supraledare och supravätskor"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award rationale"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مبرر الجائزة"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Nobel Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة نوبل في الفيزياء"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5e69f93c-42e0-9acc-4823-356c4609174e"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2003-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Nobel Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة نوبل في الفيزياء"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-5EAB81B7-EDD1-4622-9E57-D81EC41F9DCC"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1987-06-25T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Foreign Member of the Royal Society"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضوية أجنبي في الجمعية الملكية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-60C0EB76-F4D3-4A06-9F2E-4EB825D18550"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P580"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1966-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "start time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تاريخ البدء"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Academy of Sciences of the USSR"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "أكاديمية العلوم في الاتحاد السوفيتي"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-6a7756bc-4ca1-d798-6ae7-54926025852a"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1545"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "3"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "series ordinal"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الترتيب في التسلسل"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P27"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "country of citizenship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بلد المواطنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Soviet Union"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الاتحاد السوفيتي"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-79A63583-1BD4-4143-8A0D-7F52B82CA989"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1996-10-03T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Order \"For Merit to the Fatherland\" III class"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "نيشان الاستحقاق الوطني الروسي من الدرجة الثالثة"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-8F545BC3-530B-4B6F-90A4-2D39CC691D84"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P478"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "3"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "volume"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "المُجلَّد"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P1343"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "described by source"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مَوصُوف في المصدر"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Armenian Soviet Encyclopedia"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الموسوعة السوفيتية الأرمينية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-8F545BC3-530B-4B6F-90A4-2D39CC691D84"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P304"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "71"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "page(s)"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الصفحة"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P1343"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "described by source"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "مَوصُوف في المصدر"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Armenian Soviet Encyclopedia"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الموسوعة السوفيتية الأرمينية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-9D57632B-6D21-4B82-BB00-C3F787C70B23"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P580"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1981-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "start time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تاريخ البدء"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "National Academy of Sciences"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأكاديمية الوطنية للعلوم"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-A942C146-208A-4BAE-AB01-89DB3C941CDA"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1995-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Lomonosov Gold Medal"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "ميدالية لومونوسوف الذهبية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-af06daa2-428c-76a6-eb6a-266a6e3e3f6f"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P1545"
+                },
+                "valuenode": {
+                    "type": "literal",
+                    "value": "4"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "series ordinal"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الترتيب في التسلسل"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P27"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "country of citizenship"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بلد المواطنة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Russia"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "روسيا"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-B7902554-90AF-4C88-9124-4D2F323EF4DF"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1953-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Stalin Prize"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة الاتحاد السوفيتي الحكومية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-cd60d281-4f1f-de6c-bfe6-30ad9385672b"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1970-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Jubilee Medal \"In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin\""
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "ميدالية اليوبيل \"للاحتفال بالذكرى المئوية لميلاد فلاديمير إيليتش لينين\""
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-D6B92D50-598E-4AB0-AD65-FDB2CDEA805C"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2006-10-04T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Order \"For Merit to the Fatherland\" I class"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "نيشان الاستحقاق الوطني الروسي من الدرجة الأولى"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-DE3AFDD5-5E64-4BCE-9DE0-4F89A452A863"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2003-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Fellow of the American Physical Society"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "زمالة الجمعية الأمريكية الفيزيائية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-E81832EA-9F19-4E9F-B4BE-8B7CAD1D526A"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1995-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Wolf Prize in Physics"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "جائزة وولف في الفيزياء"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-ECADBBFB-1CD0-463A-9249-F3A3D1A73B93"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P580"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1990-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "start time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "تاريخ البدء"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P463"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "member of"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "عضو في"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Academia Europaea"
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الأكاديمية الأوروبية"
+                }
+            },
+            {
+                "object": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/statement/Q104668-f0eb7eda-47e7-ac11-28ae-7fd14c0e77cd"
+                },
+                "pq": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/qualifier/P585"
+                },
+                "valuenode": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1948-01-01T00:00:00Z"
+                },
+                "qualifierLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "point in time"
+                },
+                "qualifierLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "بتاريخ"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/prop/P166"
+                },
+                "predicateLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "award received"
+                },
+                "predicateLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "الجوائز المستلمة"
+                },
+                "statementLabel_en": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Medal \"In Commemoration of the 800th Anniversary of Moscow\""
+                },
+                "statementLabel_ar": {
+                    "xml:lang": "ar",
+                    "type": "literal",
+                    "value": "وسام \"الاحتفال بالذكرى السنوية ال800 لموسكو\""
+                }
+            }
+        ]
+    }
+]

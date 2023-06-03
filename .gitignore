@@ -141,3 +141,11 @@ outputs/RDF/wikibase-item_quantity_time/api_results_sparql.jsonl
 outputs/RDF/wikibase-item_quantity_time/api_results.jsonl
 scripts/RDF/old_get_rdf.txt
 scripts/RDF/check_rdf_results.txt
+scripts/RDF/process_jsonlfile.py
+outputs/RDF/wikibase-item_quantity_time/rdf.csv
+scripts/RDF/columns.csv
+.gitignore
+.gitignore
+outputs/RDF/wikibase-item_quantity_time/api_results_sparql_v1.jsonl
+outputs/RDF/wikibase-item_quantity_time/api_results_processed_v.1.jsonl
+outputs/RDF/wikibase-item_quantity_time/api_results_sparql_v.2.jsonl
