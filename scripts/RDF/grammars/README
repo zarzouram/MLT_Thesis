@@ -1,0 +1,10 @@
+To compile the grammar to PGF:
+
+  $ gf -make PropertiesEng.gf PropertiesSwe.gf
+
+To test it in the GF shell:
+
+  $ gf Properties.pgf
+
+  > gt -cat=Fact | l -treebank
+
