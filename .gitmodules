@@ -1,3 +1,6 @@
 [submodule "data/NLG-examples"]
 	path = data/NLG-examples
 	url = https://github.com/aarneranta/NLG-examples.git
+[submodule "data/wikimini"]
+	path = data/wikimini
+	url = https://github.com/zarzouram/wikimini.git
