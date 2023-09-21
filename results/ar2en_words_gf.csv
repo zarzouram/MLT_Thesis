@@ -9,8 +9,8 @@ li	ar	en
 2019	الألبانية	albanian_2_N
 2085	الأليوتية	aleut_N
 2657	الأمهرية	amharic_N
-2676	أَمِير	amir_N
-2735	حدث	amount_to_2_V2
+2676	أَمير	amir_N
+2735	يصل إلى	amount_to_2_V2
 3970	عربي	arabic_A
 3971	العربية	arabic_N
 3987	الأراباهو	arapaho_N
@@ -20,7 +20,7 @@ li	ar	en
 4675	الأسامية	assamese_N
 4871	آشوري	assyrian_2_N
 5349	استبدادي	authoritarian_1_A
-5476	مُعَدَّل	average_1_N
+5476	متوسط	average_1_N
 5494	الأفستية	avestan_N
 5652	الأذرية	azerbaijani_N
 6045	بلبوا	balboa_1_N
@@ -28,11 +28,11 @@ li	ar	en
 6147	بلطيق	baltic_2_A
 6160	منع	ban_2_N
 6162	نهي	ban_3_N
-6757	برنس حمام	bata_N
+6757	باتا	bata_N
 7316	بيلاروسي	belarusian_N
 7515	البنغالية	bengali_3_N
 8118	بر	birr_1_N
-8300	بلاكفوت، أيداهو	blackfoot_N
+8300	بلاكفوت	blackfoot_N
 9104	جذع	bole_3_N
 9115	بوليفيانو	boliviano_N
 9270	كِتاب	book_1_N
@@ -52,15 +52,15 @@ li	ar	en
 13211	الكايوجية	cayuga_N
 13224	السيبونية	cebuano_N
 13580	رئِيس	chairman_N
-13667	رئِيس الوِزراء	chancellor_2_N
-14013	الشيشانية	chechen_N
-14176	الشيروكي	cherokee_N
+13667	مستشار	chancellor_2_N
+14013	شيشاني	chechen_N
+14176	شيروكي	cherokee_N
 14211	نغولترم بوتاني	chetrum_N
 14227	الشايان	cheyenne_N
 14286	طِفْل	child_1_N
-14287	إِبْن	child_2_N
+14287	طِفْل	child_2_N
 14359	صينية	chinese_N
-14373	سالمون المحيط الهادي	chinook_4_N
+14373	سالمون	chinook_4_N
 14375	الشينوك جارجون	chinook_jargon_N
 14397	الشيباوايان	chipewyan_N
 14402	شيبيوا	chippewa_N
@@ -73,14 +73,14 @@ li	ar	en
 16280	قولون	colon_3_N
 16764	كُومِنوِلْث	commonwealth_3_N
 16805	شُيُوعِيّ	communist_A
-17859	اعتقد	consider_6_V3
+17859	نظر, اخذ بعين الاعتبار	consider_6_V3
 17986	دستوري	constitutional_2_A
 18654	القبطية	coptic_N
 18713	كوردوبا	cordoba_N
 18800	الكورنية	cornish_N
 19096	مجْلِس	council_1_N
 19227	دوْلة	country_1_N
-19228	أرْض	country_2_N
+19228	بلد	country_2_N
 19774	الكرى	cree_N
 20128	الغراب	crow_6_N
 20462	ثَقَافَة	culture_6_N
@@ -129,7 +129,7 @@ li	ar	en
 28701	الإستونية	estonian_N
 28920	اللغة الإيفينكية	evenki_N
 29008	الإيوي	ewe_2_N
-29849	شَدِيد	extreme_1_A
+29849	أقصى	extreme_1_A
 30382	الفانج	fang_1_N
 30473	لغة فاروية	faroese_N
 30578	وَالِد	father_1_N
@@ -144,7 +144,7 @@ li	ar	en
 32088	الفلمنكية	flemish_2_N
 32346	دقِيق	flour_N
 32713	تَالٍ	following_2_A
-32745	قُوْت	food_1_N
+32745	طعام	food_1_N
 33056	فورنت مجري	forint_N
 33131	سابق	former_3_A
 33148	صيغ	formula_6_N
@@ -229,16 +229,16 @@ li	ar	en
 45935	الكومي	komi_N
 45936	الكونغو	kongo_N
 45948	الكورية	korean_2_N
-45980	تاج	krona_1_N
-45981	تاج	krona_2_N
-45982	تاج	krone_1_N
-45983	تاج	krone_2_N
+45980	كورونا	krona_1_N
+45981	كورونا	krona_2_N
+45982	كورونا	krone_1_N
+45983	كورونا	krone_2_N
 46000	الكردية	kurdish_N
 46019	كواشا	kwacha_1_N
 46020	كواشا	kwacha_2_N
 46022	كوانزا	kwanza_1_N
 46028	كْيَات	kyat_N
-46160	الاسباعبرية	ladin_N
+46160	اللغة اللادنية	ladin_N
 46389	لُغة	language_1_N
 46424	اللاوية	lao_2_N
 46486	كبِير	large_1_A
@@ -258,7 +258,7 @@ li	ar	en
 49871	الملايو	malay_2_N
 49874	الماليالام	malayalam_N
 49881	الملايو	malaysian_2_N
-49959	ملت	malt_3_N
+49959	شراب الشعير، جعة	malt_3_N
 49969	المالطية	maltese_2_N
 50046	مانات	manat_2_N
 50050	المانشو	manchu_N
@@ -268,7 +268,7 @@ li	ar	en
 50301	الماراثي	marathi_N
 50338	مارغرين	margarine_N
 50362	الماري	mari_N
-51128	أوسط	median_3_A
+51128	متوسط	median_3_A
 51149	دواء	medication_1_N
 51184	متوسط	medium_1_A
 51347	عضو	member_4_N
@@ -292,14 +292,14 @@ li	ar	en
 55027	لغة نجاناسان	nganasan_N
 55497	شمالي	nordic_2_A
 55534	شمال	north_3_N
-55560	المنطقة الشمالية الشرقية	northeast_1_N
-55590	جزْر	northwest_3_N
+55560	شمالي شرقي	northeast_1_N
+55590	شمالي جنوبي	northwest_3_N
 55608	النرويجية	norwegian_N
 55976	النيامويزي	nyamwezi_N
 55992	النينورسك النرويجي	nynorsk_N
-56091	مَفْرُوض	obligatory_1_A
+56091	مَفْرُوض، واجب	obligatory_1_A
 56264	الأوكيتانية	occitan_N
-56470	مرْكز	office_4_N
+56470	مكتب	office_4_N
 56486	رسْمِيّ	official_1_A
 56488	رسمي	official_3_A
 56748	لغة الأونيدا	oneida_N
@@ -322,18 +322,18 @@ li	ar	en
 62227	نُقْطَة	point_10_N
 62400	بولندية	polish_4_N
 62426	سِياسة	politics_2_N
-62700	سُكّان	population_1_N
+62700	سُكّان، عدد السكان	population_1_N
 62833	برتغالية	portuguese_1_N
-62870	وَظِيفَة	position_6_N
+62870	منصب، موقع	position_6_N
 63043	بوتاواتومي	potawatomi_N
 63125	جُنَيْه	pound_2_N
 63129	جنيه	pound_4_N
-63131	دينار	pound_5_N
+63131	جنيه	pound_5_N
 63133	جنيه	pound_6_N
 63137	جنيه	pound_8_N
 63205	بوهاتان	powhatan_N
-63554	رئِيس الوِزراء	premier_2_N
-63727	رئِيس	presidentFem_3_N
+63554	رئِيس الوِزراء، رائد	premier_2_N
+63727	رئِيس، رئيسة	presidentFem_3_N
 63733	رئِيس	presidentMasc_3_N
 63737	رياسي	presidential_1_A
 64005	رئِيس الوِزراء	prime_minister_2_N
@@ -347,13 +347,13 @@ li	ar	en
 66745	راند	rand_1_N
 66789	وَضَعَ	rank_2_V2
 66938	سِعْر	rate_2_N
-66942	سعر	rate_4_N
+66942	معدل	rate_4_N
 67245	حَقِيقِيّ	real_2_N
 68239	قَيِّم	regent_1_N
-68244	حُكُومة	regime_1_N
+68244	حُكُومة، نطام	regime_1_N
 68607	دِين	religion_2_N
 68858	إِيجار	rental_2_N
-69087	مندوب	representative_3_A
+69087	مندوب، ممثل	representative_3_A
 69144	جمهورية	republic_2_N
 69267	احتياط	reserve_2_N
 69589	أسْفر عن	result_in_V2
@@ -364,7 +364,7 @@ li	ar	en
 70582	ريال	riyal_2_N
 70842	الرومانية	romanian_N
 70843	الرومانشية	romansh_N
-70873	رم	ron_N
+70873	رون	ron_N
 71269	روبل	ruble_2_N
 71586	رُوبِيّة	rupee_1_N
 71587	رُوبِيَّة	rupee_2_N
@@ -387,7 +387,7 @@ li	ar	en
 75176	شلن	shilling_2_N
 75177	شلن	shilling_3_N
 75178	شلن	shilling_4_N
-75196	الصين	shina_N
+75196	شينا	shina_N
 75364	الشونا	shona_N
 75568	عرض	show_2_V2
 76171	السندية	sindhi_N
@@ -401,17 +401,17 @@ li	ar	en
 78036	الصومالية	somali_N
 78228	السوتو الجنوبية	sotho_2_N
 78344	جنُوب	south_3_N
-78369	المنطقة الجنوبية الشرقية	southeast_1_N
-78402	غداء	southwest_1_N
+78369	جنوبي شرقي	southeast_1_N
+78402	جنوبي غربي	southwest_1_N
 78423	سُوفْيِيتِيّ	soviet_A
 78499	إسباني	spanish_N
-78616	قال	speak_3_V2
-79195	مَنْطُوق	spoken_A
+78616	تحدث، تكلم	speak_3_V2
+79195	مَنْطُوق، ملفوظ	spoken_A
 79260	رِياضة	sport_1_N
 79531	مربع	square_1_A
 80047	نشاء	starch_1_N
-80154	دوْلة	state_4_N
-82083	لاحق	succeed_V2
+80154	دوْلة، ولاية	state_4_N
+82083	نجح، خلف	succeed_V2
 82406	السوندانية	sundanese_N
 82699	عليا	supreme_2_A
 82967	السواحيلية	swahili_N
@@ -435,10 +435,10 @@ li	ar	en
 85721	التبتية	tibetan_1_N
 85738	تَذْكَرَة	ticket_1_N
 86150	التلينغيتية	tlingit_N
-86191	كُلّ	toda_N
+86191	تودا	toda_N
 86351	تونجا - جزر تونجا	tonga_N
-86624	كَامِل	total_1_A
-87142	انتقال	transitional_A
+86624	مجموع	total_1_A
+87142	انتقالي	transitional_A
 87239	وَسِيلَة نَقْل	transport_1_N
 88061	التسيمشيان	tsimshian_N
 88069	التسوانية	tswana_2_N
@@ -455,7 +455,7 @@ li	ar	en
 89926	توحيدي	unitary_3_A
 91019	الأردية	urdu_N
 91196	الأوزبكية	uzbek_N
-91518	ضريبَة على القيمَة المضافَة	vat_1_N
+91518	ضريبَة القيمَة المضافَة	vat_1_N
 91707	فيبسية	veps_N
 92026	الفيتنامية	vietnamese_2_N
 92795	الوالون	walloon_N
@@ -466,8 +466,8 @@ li	ar	en
 94641	الولوف	wolof_N
 94646	إِمْرأة	woman_1_N
 94664	ون	won_2_N
-94878	العالم	world_1_N
-94882	ناس	world_5_N
+94878	عالم	world_1_N
+94882	عالم	world_5_N
 95179	الخوسا	xhosa_N
 95265	سنة	year_1_N
 95318	ين	yen_2_N
