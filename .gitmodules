@@ -1,6 +1,9 @@
 [submodule "data/NLG-examples"]
-	path = data/NLG-examples
+	path = data/external/NLG-examples
 	url = https://github.com/aarneranta/NLG-examples.git
 [submodule "data/wikimini"]
-	path = data/wikimini
+	path = data/external/wikimini
 	url = https://github.com/zarzouram/wikimini.git
+[submodule "data/external/gf-wordnet"]
+	path = data/external/gf-wordnet
+	url = https://github.com/GrammaticalFramework/gf-wordnet.git
