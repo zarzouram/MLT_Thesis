@@ -149,3 +149,5 @@ scripts/RDF/columns.csv
 outputs/RDF/wikibase-item_quantity_time/api_results_sparql_v1.jsonl
 outputs/RDF/wikibase-item_quantity_time/api_results_processed_v.1.jsonl
 outputs/RDF/wikibase-item_quantity_time/api_results_sparql_v.2.jsonl
+data/raw/wikidata
+.vscode/settings.json
