@@ -36,7 +36,6 @@
 173,46893,827,رئِيس,leader_1_N,رَئِيس,0,راء-فتحة | همزة على الياء-كسرة | ياء | سين,"['boss, chief, leader / director / headmaster, principal / chairman / governor / president / manager, superintendent / conductor / captain']",masc,رُؤَسَاء,رءس
 180,52883,127093,ملكِيّة,monarchy_N,مَلَكِيَّة,0,ميم-فتحة | لام-فتحة | كاف-كسرة | ياء-شدة-فتحة | تاء مربوطة,['monarchy'],fem,مَلَكِيَّات,ملك
 182,53331,3220,أُمّ,mother_1_N,أُمّ,0,همزة على الألف-ضمة | ميم-شدة,['mother / origin / source'],fem,أُمَّهَات,ءمم
-188,53939,75,مسلم,muslim_A,مُسْلِم,0,ميم-ضمة | سين-سكون | لام-كسرة | ميم,['Muslim'],masc,مُسْلِمُون,سلم
 194,55534,825,شمال,north_3_N,شَمَال,0,شين-فتحة | ميم-فتحة | ألف | لام,['north'],fem,,شمل
 206,63727,827,رئِيس,presidentFem_3_N,رَئِيس,0,راء-فتحة | همزة على الياء-كسرة | ياء | سين,"['boss, chief, leader / director / headmaster, principal / chairman / governor / president / manager, superintendent / conductor / captain']",masc,رُؤَسَاء,رءس
 208,63733,827,رئِيس,presidentMasc_3_N,رَئِيس,0,راء-فتحة | همزة على الياء-كسرة | ياء | سين,"['boss, chief, leader / director / headmaster, principal / chairman / governor / president / manager, superintendent / conductor / captain']",masc,رُؤَسَاء,رءس
