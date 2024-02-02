@@ -1,0 +1,158 @@
+	en_entry	ar	pos
+7	authoritarian_1_A	استبدادي	A
+31	domestic_1_A	محلي	A
+41	following_2_A	تالي	A
+43	free_1_A	حر	A
+45	full_3_A	ممتلئ	A
+50	gross_1_A	إجمالي	A
+57	high_1_A	عالي	A
+59	individual_4_A	فردي	A
+72	large_1_A	كبير	A
+76	median_3_A	الوسيط	A
+79	moderate_1_A	معتدل	A
+84	nordic_2_A	الشمال	A
+87	obligatory_1_A	واجب	A
+89	official_1_A	رسمي	A
+106	representative_3_A	ممثل	A
+120	square_1_A	مربع	A
+126	total_1_A	مجموع	A
+150	health_N	صحية	A
+153	administrative_A	حاكم	A
+157	added_A	مضاف	A
+104	regime_1_N	النظام الحاكم	CN
+158	regime_1_N	نظام	N
+159	regime_1_N	حاكم	A
+56	healthcare_2_N	الرعاية الصحية	CN
+160	healthcare_2_N	رعاية	N
+161	healthcare_2_N	صحية	N
+130	vat_1_N	ضريبة القيمة المضافة	CN
+162	vat_1_N	ضريبة	N
+163	vat_1_N	قيمة	N
+164	vat_1_N	مضافة	A
+96	prime_minister_2_N	رئيس الوزراء	CN
+165	prime_minister_2_N	وزير	N
+74	magdalena_4_GN	ماجْدالينا	GN
+81	mustafa_8_GN	مصطفى	GN
+127	ulf_3_GN	أولْف	GN
+1	alexandria_governorate_7_LN	محافظة الاسكندرية	LN
+5	aswan_governorate_1_LN	محافظة أسوان	LN
+6	asyut_governorate_3_LN	محافظة أسيوط	LN
+8	beheira_governorate_6_LN	محافظة البحيرة	LN
+9	beni_suef_governorate_2_LN	محافظة بني سويف	LN
+10	bir_tawil_3_LN	بئر طويل	LN
+11	blekinge_county_2_LN	مقاطعة بليكينج	LN
+14	cairo_2_LN	القاهرة	LN
+15	cairo_governorate_8_LN	محافظة القاهرة	LN
+25	dakahlia_governorate_3_LN	محافظة الدقهلية	LN
+26	dalarna_county_9_LN	مقاطعة دالارْنا	LN
+27	damietta_governorate_5_LN	محافظة دمياط	LN
+35	egypt_1_LN	مصر	LN
+37	faiyum_governorate_1_LN	محافظة الفيوم	LN
+46	gharbia_governorate_3_LN	محافظة الغربية	LN
+47	giza_governorate_7_LN	محافظة الجيزة	LN
+48	gotland_county_7_LN	مقاطعة جوتْلاند	LN
+52	gävleborg_county_5_LN	مقاطعة يافلبورج	LN
+53	halland_county_9_LN	مقاطعة هالاند	LN
+62	ismailia_governorate_5_LN	محافظة الإسماعيلية	LN
+63	jämtland_county_7_LN	مقاطعة جامتلاند	LN
+64	jönköping_county_4_LN	مقاطعة يونشوبينغ	LN
+65	kalmar_county_2_LN	مقاطعة كالمار	LN
+70	kronoberg_county_1_LN	مقاطعة كرونوبيرج	LN
+73	luxor_governorate_2_LN	محافظة الأقصر	LN
+75	matrouh_governorate_5_LN	محافظة مطروح	LN
+78	minya_governorate_8_LN	محافظة المنيا	LN
+80	monufia_governorate_5_LN	محافظة المنوفية	LN
+82	new_valley_governorate_2_LN	محافظة الوادي الجديد	LN
+85	norrbotten_county_6_LN	مقاطعة نوربوتن	LN
+86	north_sinai_governorate_8_LN	محافظة شمال سيناء	LN
+92	port_said_governorate_9_LN	محافظة بورسعيد	LN
+98	qalyubia_governorate_3_LN	محافظة القليوبية	LN
+99	qena_governorate_2_LN	المحافظة	LN
+103	red_sea_governorate_2_LN	محافظة البحر الأحمر	LN
+109	russia_2_LN	روسيا	LN
+110	scandinavia_2_LN	الدول الاسكندنافية	LN
+111	sharqia_governorate_5_LN	محافظة الشرقية	LN
+112	sheikh_governorate_6_LN	محافظة الشيخ	LN
+114	skåne_county_3_LN	مقاطعة سكانيا	LN
+115	sohag_governorate_9_LN	محافظة سوهاج	LN
+117	south_sinai_governorate_7_LN	محافظة جنوب سيناء	LN
+121	stockholm_county_8_LN	مقاطعة ستوكهولم	LN
+122	sudan_1_LN	السودان	LN
+123	suez_governorate_3_LN	محافظة السويس	LN
+125	södermanland_county_6_LN	مقاطعة سودرمانلاند	LN
+129	uppsala_county_7_LN	مقاطعة أوبسالا	LN
+131	värmland_county_1_LN	مقاطعة فارملاند	LN
+132	västerbotten_county_5_LN	مقاطعة فاستربوتن	LN
+133	västernorrland_county_3_LN	مقاطعة غرب نورلاند	LN
+134	västmanland_county_3_LN	مقاطعة فاستمانلاند	LN
+135	västra_götaland_county_8_LN	مقاطعة فاسترا يوتالاند	LN
+140	örebro_county_6_LN	مقاطعة أوريبرو	LN
+141	östergötland_county_6_LN	مقاطعة أوسترجوتلاند	LN
+151	care_N	رعاية	N
+60	inflation_1_N	تضخم	N
+152	minister_N	وزير	N
+155	tax_N	ضريبة	N
+156	value_N	قيمة	N
+0	age_1_N	عمر	N
+4	area_6_N	منطقة	N
+12	book_1_N	كتاب	N
+13	border_1_N	حدود	N
+16	capital_3_N	عاصمة	N
+17	child_1_N	طفل	N
+18	child_2_N	طفل	N
+19	city_1_N	مدينة	N
+21	country_1_N	دولة	N
+22	country_2_N	دولة	N
+23	culture_6_N	ثقافة	N
+24	currency_1_N	عملة	N
+28	democracy_2_N	ديمقراطية	N
+29	development_2_N	تطوير	N
+30	distribution_1_N	توزيع	N
+32	east_4_N	شرق	N
+33	economy_1_N	اقتصاد	N
+34	education_1_N	تعليم	N
+36	equality_1_N	مساواة	N
+39	fertility_1_N	خصوبة	N
+40	flag_1_N	علَم	N
+42	food_1_N	طعام	N
+44	freedom_1_N	حرية	N
+49	government_1_N	حكومة	N
+51	growth_3_N	نمو	N
+55	head_4_N	رأس	N
+58	index_2_N	فِهرِس	N
+61	inhabitant_1_N	سكان	N
+66	kilometre_1_N	كيلومتر	N
+67	king_1_N	ملِك	N
+69	krona_1_N	كرون	N
+71	language_1_N	لغة	N
+77	member_4_N	عضو	N
+83	newspaper_3_N	جريدة	N
+88	office_4_N	مكتب	N
+90	politics_2_N	سياسة	N
+91	population_1_N	سكان	N
+93	position_6_N	موضع	N
+94	pound_8_N	جنيه	N
+95	presidentMasc_3_N	رئيس	N
+97	product_2_N	منتج	N
+101	rate_2_N	معدل	N
+102	rate_4_N	معدل	N
+105	rental_2_N	تأجير	N
+107	republic_2_N	جمهورية	N
+108	reserve_2_N	احتياطي	N
+116	south_3_N	جنوب	N
+119	sport_1_N	رياضة	N
+124	system_1_N	نظام	N
+128	unit_3_N	وحدة	N
+136	west_2_N	غرب	N
+137	woman_1_N	امرأة	N
+138	world_5_N	عالم	N
+139	year_1_N	سنة	N
+3	andersson_9_SN	أنْدِرْسون	SN
+68	kristersson_5_SN	كِريسْتِرْسون	SN
+54	have_1_V2	ملك	V2
+100	rank_2_V2	صنف	V2
+113	show_2_V2	عرض	V2
+118	speak_3_V2	تكلم	V2
+158	reach	وصل	V2
+20	consider_6_V3	اعتبر	V3
+2	amount_to_2_V2	وصل إلى	VP

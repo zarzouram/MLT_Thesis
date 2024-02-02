@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    langs = args.lg  # type: List[str] # languages to be extracted
+    langs: List[str] = args.lg  # languages to be extracted
     wiki_path = Path(args.wp)  # Path to wiktionary dump file
     wiki_reindexed_path = Path(args.op)  # Path to save reindexed wikitionary
     wiki_reindices_path = Path(args.ap)  # Path to save the new re-indices
