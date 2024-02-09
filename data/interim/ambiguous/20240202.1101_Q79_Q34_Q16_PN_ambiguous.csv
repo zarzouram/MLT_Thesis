@@ -1,0 +1,109 @@
+	en_entry	ar	pos	no_en_entry
+32	magdalena_4_GN	ماجْدالينا	GN	0
+33	mustafa_8_GN	مصطفى	GN	0
+34	ulf_3_GN	أولْف	GN	0
+35	alexandria_governorate_7_LN	محافظة الاسكندرية	LN	0
+36	aswan_governorate_1_LN	محافظة أسوان	LN	0
+37	asyut_governorate_3_LN	محافظة أسيوط	LN	0
+38	beheira_governorate_6_LN	محافظة البحيرة	LN	0
+39	beni_suef_governorate_2_LN	محافظة بني سويف	LN	0
+40	bir_tawil_3_LN	بئر طويل	LN	0
+41	blekinge_county_2_LN	مقاطعة بليكينج	LN	0
+42	cairo_2_LN	القاهرة	LN	0
+43	cairo_governorate_8_LN	محافظة القاهرة	LN	0
+44	dakahlia_governorate_3_LN	محافظة الدقهلية	LN	0
+45	dalarna_county_9_LN	مقاطعة دالارْنا	LN	0
+46	damietta_governorate_5_LN	محافظة دمياط	LN	0
+47	egypt_1_LN	مصر	LN	0
+48	faiyum_governorate_1_LN	محافظة الفيوم	LN	0
+49	gharbia_governorate_3_LN	محافظة الغربية	LN	0
+50	giza_governorate_7_LN	محافظة الجيزة	LN	0
+51	gotland_county_7_LN	مقاطعة جوتْلاند	LN	0
+52	gävleborg_county_5_LN	مقاطعة يافلبورج	LN	0
+53	halland_county_9_LN	مقاطعة هالاند	LN	0
+54	ismailia_governorate_5_LN	محافظة الإسماعيلية	LN	0
+55	jämtland_county_7_LN	مقاطعة جامتلاند	LN	0
+56	jönköping_county_4_LN	مقاطعة يونشوبينغ	LN	0
+57	kalmar_county_2_LN	مقاطعة كالمار	LN	0
+58	kronoberg_county_1_LN	مقاطعة كرونوبيرج	LN	0
+59	luxor_governorate_2_LN	محافظة الأقصر	LN	0
+60	matrouh_governorate_5_LN	محافظة مطروح	LN	0
+61	minya_governorate_8_LN	محافظة المنيا	LN	0
+62	monufia_governorate_5_LN	محافظة المنوفية	LN	0
+63	new_valley_governorate_2_LN	محافظة الوادي الجديد	LN	0
+64	norrbotten_county_6_LN	مقاطعة نوربوتن	LN	0
+65	north_sinai_governorate_8_LN	محافظة شمال سيناء	LN	0
+66	port_said_governorate_9_LN	محافظة بورسعيد	LN	0
+67	qalyubia_governorate_3_LN	محافظة القليوبية	LN	0
+68	qena_governorate_2_LN	المحافظة	LN	0
+69	red_sea_governorate_2_LN	محافظة البحر الأحمر	LN	0
+70	russia_2_LN	روسيا	LN	0
+71	scandinavia_2_LN	الدول الاسكندنافية	LN	0
+72	sharqia_governorate_5_LN	محافظة الشرقية	LN	0
+73	sheikh_governorate_6_LN	محافظة الشيخ	LN	0
+74	skåne_county_3_LN	مقاطعة سكانيا	LN	0
+75	sohag_governorate_9_LN	محافظة سوهاج	LN	0
+76	south_sinai_governorate_7_LN	محافظة جنوب سيناء	LN	0
+77	stockholm_county_8_LN	مقاطعة ستوكهولم	LN	0
+78	sudan_1_LN	السودان	LN	0
+79	suez_governorate_3_LN	محافظة السويس	LN	0
+80	södermanland_county_6_LN	مقاطعة سودرمانلاند	LN	0
+81	uppsala_county_7_LN	مقاطعة أوبسالا	LN	0
+82	värmland_county_1_LN	مقاطعة فارملاند	LN	0
+83	västerbotten_county_5_LN	مقاطعة فاستربوتن	LN	0
+84	västernorrland_county_3_LN	مقاطعة غرب نورلاند	LN	0
+85	västmanland_county_3_LN	مقاطعة فاستمانلاند	LN	0
+86	västra_götaland_county_8_LN	مقاطعة فاسترا يوتالاند	LN	0
+87	örebro_county_6_LN	مقاطعة أوريبرو	LN	0
+88	östergötland_county_6_LN	مقاطعة أوسترجوتلاند	LN	0
+148	andersson_9_SN	أنْدِرْسون	SN	0
+149	kristersson_5_SN	كِريسْتِرْسون	SN	0
+212	alberta_LN	ألبرتا	LN	0
+217	british_columbia_LN	كولومبيا البريطانية	LN	0
+218	canada_LN	كندا	LN	0
+219	carl_GN	كارل	GN	0
+221	charles_GN	تشارلز	GN	0
+230	denmark_LN	الدنمارك	LN	0
+232	elizabeth_GN	إليزابيث	GN	0
+234	estonia_LN	استونيا	LN	0
+237	european_union_NP	الاتحاد الأوروبي	NP	0
+239	finland_LN	فنلندا	LN	0
+241	gaza_strip_LN	قطاع غزة	LN	0
+242	germany_LN	ألمانيا	LN	0
+243	greenland_LN	جرينلاند	LN	0
+245	harper_8_SN	هاربر	SN	0
+249	interpol_PN	الشرطة الدولية	PN	0
+250	justin_GN	جاستن	GN	0
+251	kafr_el-sheikh_governorate_6_LN	محافظة كفر الشيخ	LN	0
+252	latvia_LN	لاتفيا	LN	0
+253	libya_LN	ليبيا	LN	0
+262	lithuania_LN	ليتوانيا	LN	0
+263	manitoba_LN	مانيتوبا	LN	0
+264	middle_east_LN	الشرق الأوسط	LN	0
+266	nato_PN	حلف الناتو	PN	0
+267	new_brunswick_1_LN	نيو برونزويك	LN	0
+268	newfoundland_and_labrador_LN	نيوفاوندلاند ولابرادور	LN	0
+269	north_africa_LN	شمال أفريقيا	LN	0
+270	north_america_1_LN	أمريكا الشمالية	LN	0
+271	northwest_territories_LN	الاقاليم الشمالية الغربية	LN	0
+272	norway_LN	النرويج	LN	0
+273	nova_scotia_1_LN	نفوفا سكوشيا	LN	0
+274	nunavut_LN	نونافوت	LN	0
+277	ontario_2_LN	أونتاريو	LN	0
+278	oscar_GN	أوسكار	GN	0
+279	ottawa_3_LN	أوتاوا	LN	0
+284	poland_LN	بولندا	LN	0
+285	prince_edward_island_LN	جزيرة الأمير ادوارد	LN	0
+286	quebec_2_LN	كيبيك	LN	0
+287	saint_pierre_and_miquelon_1_LN	سان بيير وميكلون	LN	0
+288	saskatchewan_LN	ساسكاتشوان	LN	0
+289	stephen_GN	ستيفن	GN	0
+290	stockholm_LN	ستوكهولم	LN	0
+291	sweden_LN	السويد	LN	0
+295	toronto_LN	تورنتو	LN	0
+296	trudeau_6_SN	ترودو	SN	0
+300	unesco_PN	اليونسكو	PN	0
+301	united_states_LN	الولايات المتحدة	LN	0
+302	windsor_2_SN	وندسور	SN	0
+304	yukon_2_LN	يوكون	LN	0
+305	ʻabd_al-fattāḥ_2_GN	عبد الفتاح السيسي	GN	0

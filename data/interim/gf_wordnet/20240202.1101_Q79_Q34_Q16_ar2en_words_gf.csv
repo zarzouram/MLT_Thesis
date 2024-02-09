@@ -1,93 +1,95 @@
-	en_entry	en	ar	pos
-0	alberta_LN	alberta	alberta	LN
-1	algonquin_N	algonquin	ألجونكوين	N
-2	arabic_N	arabic	عربي	N
-3	average_1_N	average	متوسط	N
-4	blackfoot_N	blackfoot	بلاكفوت	N
-7	british_columbia_LN	british columbia	كولومبيا البريطانية	LN
-8	canada_LN	canada	كندا	LN
-9	carl_GN	carl	كارل	GN
-10	cayuga_N	cayuga	كايوجا	N
-11	charles_GN	charles	تشارلز	GN
-12	chipewyan_N	chipewyan	تشيبويان	N
-15	coat_of_arms_N	coat of arms	شعار الدولة	CN
-19	commonwealth_3_N	commonwealth	الكومنولث	CN
-20	coptic_N	coptic	قبطي	N
-21	cree_N	cree	يعتقد	N
-22	demographic_N	demographic	تركيبة سكانية	N
-23	denmark_LN	denmark	الدنمارك	LN
-24	dollar_MU	dollar	دولار	MU
-25	elizabeth_GN	elizabeth	إليزابيث	GN
-26	english_N	english	الإنجليزية	N
-27	estonia_LN	estonia	استونيا	LN
-28	european_union_NP		اتحاد	N
-29	european_union_NP		أوروبي	N
-30	european_union_NP	european union	الاتحاد الأوروبي	NP
-31	filipino_2_N	filipino	الفلبينية	N
-32	finland_LN	finland	فنلندا	LN
-33	finnish_N	finnish	الفنلندية	N
-36	gaza_strip_LN	gaza strip	قطاع غزة	LN
-37	germany_LN	germany	ألمانيا	LN
-40	greenland_LN	greenland	جرينلاند	LN
-41	haida_N	haida	هيدا	N
-42	harper_8_SN	harper	هاربر	SN
-43	head_of_state_N		رئيس	N
-44	head_of_state_N		دولة	N
-45	head_of_state_N	head of state	رئيس الدولة	CN
-49	interpol_PN	interpol	الشرطة الدولية	PN
-50	justin_GN	justin	جاستن	GN
-54	kafr_el-sheikh_governorate_6_LN	kafr el-sheikh governorate	محافظة كفر الشيخ	LN
-55	latvia_LN	latvia	لاتفيا	LN
-56	libya_LN	libya	ليبيا	LN
-57	life_expectancy_N		متوسط	N
-58	life_expectancy_N		عمر	N
-59	life_expectancy_N		متوقع	N
-60	life_expectancy_N	life expectancy	متوسط العمر المتوقع	CN
-61	literacy_N		معرفة	N
-62	literacy_N		قراءة	N
-63	literacy_N		كتابة	N
-64	literacy_N	literacy	معرفة القراءة والكتابة	CN
-65	lithuania_LN	lithuania	ليتوانيا	LN
-66	manitoba_LN	manitoba	مانيتوبا	LN
-69	middle_east_LN	middle east	الشرق الأوسط	LN
-70	mohawk_2_N	mohawk	موهوك	N
-73	nato_PN	nato	حلف الناتو	PN
-76	new_brunswick_1_LN	new brunswick	نيو برونزويك	LN
-79	newfoundland_and_labrador_LN	newfoundland and labrador	نيوفاوندلاند ولابرادور	LN
-82	north_africa_LN	north africa	شمال أفريقيا	LN
-85	north_america_1_LN	north america	أمريكا الشمالية	LN
-89	northwest_territories_LN	northwest territories	الاقاليم الشمالية الغربية	LN
-90	norway_LN	norway	النرويج	LN
-94	nova_scotia_1_LN	nova scotia	نفوفا سكوشيا	LN
-95	nunavut_LN	nunavut	نونافوت	LN
-96	oneida_N	oneida	أونيدا	N
-97	onondaga_N	onondaga	أونونداجا	N
-98	ontario_2_LN	ontario	أونتاريو	LN
-99	oscar_GN	oscar	أوسكار	GN
-100	ottawa_3_LN	ottawa	أوتاوا	LN
-101	percent_MU		نسبة	N
-102	percent_MU		مئوية	N
-103	percent_MU	percent	نسبة مئوية	CN
-104	point_10_N	point	نقطة	N
-105	poland_LN	poland	بولندا	LN
-109	prince_edward_island_LN	prince edward island	جزيرة الأمير ادوارد	LN
-110	quebec_2_LN	quebec	كيبيك	LN
-114	saint_pierre_and_miquelon_1_LN	saint pierre and miquelon	سان بيير وميكلون	LN
-115	saskatchewan_LN	saskatchewan	ساسكاتشوان	LN
-116	stephen_GN	stephen	ستيفن	GN
-117	stockholm_LN	stockholm	ستوكهولم	LN
-118	sweden_LN	sweden	السويد	LN
-119	swedish_N	swedish	السويدية	N
-120	system_4_N	system	نظام	N
-121	tlingit_N	tlingit	تلينغيت	N
-122	toronto_LN	toronto	تورنتو	LN
-123	trudeau_6_SN	trudeau	ترودو	SN
-124	tsimshian_N	tsimshian	تسيمشيان	N
-127	tuscarora_N	tuscarora	توسكارورا	CN
-128	unemployment_N	unemployment	بطالة	N
-129	unesco_PN	unesco	اليونسكو	PN
-132	united_states_LN	united states	الولايات المتحدة	LN
-133	windsor_2_SN	windsor	وندسور	SN
-134	yiddish_N	yiddish	اليديشية	N
-135	yukon_2_LN	yukon	يوكون	LN
-138	ʻabd_al-fattāḥ_2_GN	ʻabd al-fattāḥ	عبد الفتاح السيسي	GN
+	en_entry	en	ar	pos	no_en_entry
+0	alberta_LN	alberta	ألبرتا	LN	0
+1	algonquin_N	algonquin	ألجونكوين	N	0
+2	arabic_N	arabic	عربي	N	0
+3	average_1_N	average	متوسط	N	0
+4	blackfoot_N	blackfoot	بلاكفوت	N	0
+7	british_columbia_LN	british columbia	كولومبيا البريطانية	LN	0
+8	canada_LN	canada	كندا	LN	0
+9	carl_GN	carl	كارل	GN	0
+10	cayuga_N	cayuga	كايوجا	N	0
+11	charles_GN	charles	تشارلز	GN	0
+12	chipewyan_N	chipewyan	تشيبويان	N	0
+15	coat_of_arms_N	coat of arms	شعار الدولة	CN	0
+19	commonwealth_3_N	commonwealth	كومنولث	N	0
+20	coptic_N	coptic	قبطي	N	0
+21	cree_N	cree	كري	N	0
+22	demographic_N	demographic	تركيبة سكانية	CN	0
+139	demographic_N		سكانية	A	1
+140	demographic_N		تركيبة	N	1
+23	denmark_LN	denmark	الدنمارك	LN	0
+24	dollar_MU	dollar	دولار	MU	0
+25	elizabeth_GN	elizabeth	إليزابيث	GN	0
+26	english_N	english	الإنجليزية	N	0
+27	estonia_LN	estonia	استونيا	LN	0
+28	european_union_NP		اتحاد	N	1
+29	european_union_NP		أوروبي	N	1
+30	european_union_NP	european union	الاتحاد الأوروبي	NP	0
+31	filipino_2_N	filipino	الفلبينية	N	0
+32	finland_LN	finland	فنلندا	LN	0
+33	finnish_N	finnish	الفنلندية	N	0
+36	gaza_strip_LN	gaza strip	قطاع غزة	LN	0
+37	germany_LN	germany	ألمانيا	LN	0
+40	greenland_LN	greenland	جرينلاند	LN	0
+41	haida_N	haida	هيدا	N	0
+42	harper_8_SN	harper	هاربر	SN	0
+43	head_of_state_N		رئيس	N	1
+44	head_of_state_N		دولة	N	1
+45	head_of_state_N	head of state	رئيس الدولة	CN	0
+49	interpol_PN	interpol	الشرطة الدولية	PN	0
+50	justin_GN	justin	جاستن	GN	0
+54	kafr_el-sheikh_governorate_6_LN	kafr el-sheikh governorate	محافظة كفر الشيخ	LN	0
+55	latvia_LN	latvia	لاتفيا	LN	0
+56	libya_LN	libya	ليبيا	LN	0
+57	life_expectancy_N		متوسط	N	1
+58	life_expectancy_N		عمر	N	1
+59	life_expectancy_N		متوقع	N	1
+60	life_expectancy_N	life expectancy	متوسط العمر المتوقع	CN	0
+61	literacy_N		معرفة	N	0
+62	literacy_N		قراءة	N	0
+63	literacy_N		كتابة	N	0
+64	literacy_N	literacy	معرفة القراءة والكتابة	CN	0
+65	lithuania_LN	lithuania	ليتوانيا	LN	0
+66	manitoba_LN	manitoba	مانيتوبا	LN	0
+69	middle_east_LN	middle east	الشرق الأوسط	LN	0
+70	mohawk_2_N	mohawk	موهوك	N	0
+73	nato_PN	nato	حلف الناتو	PN	0
+76	new_brunswick_1_LN	new brunswick	نيو برونزويك	LN	0
+79	newfoundland_and_labrador_LN	newfoundland and labrador	نيوفاوندلاند ولابرادور	LN	0
+82	north_africa_LN	north africa	شمال أفريقيا	LN	0
+85	north_america_1_LN	north america	أمريكا الشمالية	LN	0
+89	northwest_territories_LN	northwest territories	الاقاليم الشمالية الغربية	LN	0
+90	norway_LN	norway	النرويج	LN	0
+94	nova_scotia_1_LN	nova scotia	نفوفا سكوشيا	LN	0
+95	nunavut_LN	nunavut	نونافوت	LN	0
+96	oneida_N	oneida	أونيدا	N	0
+97	onondaga_N	onondaga	أونونداجا	N	0
+98	ontario_2_LN	ontario	أونتاريو	LN	0
+99	oscar_GN	oscar	أوسكار	GN	0
+100	ottawa_3_LN	ottawa	أوتاوا	LN	0
+101	percent_MU		نسبة	N	1
+102	percent_MU		مئوية	N	1
+103	percent_MU	percent	نسبة مئوية	CN	0
+104	point_10_N	point	نقطة	N	0
+105	poland_LN	poland	بولندا	LN	0
+109	prince_edward_island_LN	prince edward island	جزيرة الأمير ادوارد	LN	0
+110	quebec_2_LN	quebec	كيبيك	LN	0
+114	saint_pierre_and_miquelon_1_LN	saint pierre and miquelon	سان بيير وميكلون	LN	0
+115	saskatchewan_LN	saskatchewan	ساسكاتشوان	LN	0
+116	stephen_GN	stephen	ستيفن	GN	0
+117	stockholm_LN	stockholm	ستوكهولم	LN	0
+118	sweden_LN	sweden	السويد	LN	0
+119	swedish_N	swedish	السويدية	N	0
+120	system_4_N	system	نظام	N	0
+121	tlingit_N	tlingit	تلينغيت	N	0
+122	toronto_LN	toronto	تورنتو	LN	0
+123	trudeau_6_SN	trudeau	ترودو	SN	0
+124	tsimshian_N	tsimshian	تسيمشيان	N	0
+127	tuscarora_N	tuscarora	توسكارورا	CN	0
+128	unemployment_N	unemployment	بطالة	N	0
+129	unesco_PN	unesco	اليونسكو	PN	0
+132	united_states_LN	united states	الولايات المتحدة	LN	0
+133	windsor_2_SN	windsor	وندسور	SN	0
+134	yiddish_N	yiddish	اليديشية	N	0
+135	yukon_2_LN	yukon	يوكون	LN	0
+138	ʻabd_al-fattāḥ_2_GN	ʻabd al-fattāḥ	عبد الفتاح السيسي	GN	0

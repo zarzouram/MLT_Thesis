@@ -1,0 +1,81 @@
+	wiki_idx	no_en_entry	en_entry	ar	vocal_forms	pos	wiki_pos	select	entry_num	ar_letters	senses	tim_translit	file
+17	-1	0	algonquin_N	ألجونكوين	ألجونكوين	N	noun	1	0	همزة على الألف | لام | جيم | واو | نون | كاف | واو | ياء | نون		>ljwnkwyn
+22	-1	0	blackfoot_N	بلاكفوت	بلاكفوت	N	noun	1	0	باء | لام | ألف | كاف | فاء | واو | تاء		blAkfwt
+23	-1	0	cayuga_N	كايوجا	كايوجا	N	noun	1	0	كاف | ألف | ياء | واو | جيم | ألف		kAywjA
+10	-1	0	chinese_N	صينىة	صِينِيَّة	N	noun	1	0	صاد-كسرة | ياء | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة	Chinese+[fem.sg.]	Siyniy~ap
+11	-1	0	chinese_N	صينىة	صِينِيَّة	N	adj	0	0	صاد-كسرة | ياء | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة	Chinese+[fem.sg.]	Siyniy~ap
+12	-1	0	chinese_N	صينىة	صِينِيَّة	N	noun	0	0	صاد-كسرة | ياء | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة	porcelain / china+[fem.sg.]	Siyniy~ap
+24	-1	0	chipewyan_N	تشيبويان	تشيبويان	N	noun	1	0	تاء | شين | ياء | باء | واو | ياء | ألف | نون		t$ybwyAn
+25	-1	0	commonwealth_3_N	كومنولث	كُومُنوِلْث	N	noun_prop	1	0	كاف-ضمة | واو | ميم-ضمة | نون | واو-كسرة | لام-سكون | ثاء	Commonwealth	kuwmunwilov
+33	-1	1	demographic_N	تركيبة	تَرْكِيبُه	N	noun	1	0	تاء-فتحة | راء-سكون | كاف-كسرة | ياء | باء-ضمة | هاء	installation / assembling+its / his	tarokiybuh
+31	-1	1	demographic_N	سكانية	سُكّانَيْه	A	noun	0	0	سين-ضمة | كاف-شدة | ألف | نون-فتحة | ياء-سكون | هاء	rudder+his / its_two	suk~Anayoh
+32	-1	1	demographic_N	سكانية	سُكّانِيَّة	A	adj	1	0	سين-ضمة | كاف-شدة | ألف | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة	residential / population+[fem.sg.]	suk~Aniy~ap
+35	-1	0	english_N	الإنجليزية	الإِنْجلِيزِيَّة	N	noun	1	0	ألف | لام | همزة تحت الألف-كسرة | نون-سكون | جيم | لام-كسرة | ياء | زاي-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+English_(language)+[fem.sg.]	Al<inojliyziy~ap
+36	-1	0	english_N	الإنجليزية	الإِنْجلِيزِيَّة	N	adj	0	0	ألف | لام | همزة تحت الألف-كسرة | نون-سكون | جيم | لام-كسرة | ياء | زاي-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+English+[fem.sg.]	Al<inojliyziy~ap
+37	-1	0	english_N	الإنجليزية	الإِنْجلِيزِيَّة	N	noun	0	0	ألف | لام | همزة تحت الألف-كسرة | نون-سكون | جيم | لام-كسرة | ياء | زاي-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+English+[fem.sg.]	Al<inojliyziy~ap
+41	-1	0	filipino_2_N	الفلبينية	الفِلِبِّينِيَّة	N	noun	1	0	ألف | لام | فاء-كسرة | لام-كسرة | باء-شدة-كسرة | ياء | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+Philippine / Filipino+[fem.sg.]	Alfilib~iyniy~ap
+42	-1	0	filipino_2_N	الفلبينية	الفِلِبِّينِيَّة	N	adj	0	0	ألف | لام | فاء-كسرة | لام-كسرة | باء-شدة-كسرة | ياء | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+Philippine / Filipino+[fem.sg.]	Alfilib~iyniy~ap
+43	-1	0	finnish_N	الفنلندية	الفِنْلَنْدِيَّة	N	adj	0	0	ألف | لام | فاء-كسرة | نون-سكون | لام-فتحة | نون-سكون | دال-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+Finnish+[fem.sg.]	Alfinolanodiy~ap
+44	-1	0	finnish_N	الفنلندية	الفِنْلَنْدِيَّة	N	noun	1	0	ألف | لام | فاء-كسرة | نون-سكون | لام-فتحة | نون-سكون | دال-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+Finnish+[fem.sg.]	Alfinolanodiy~ap
+45	-1	0	haida_N	هيدا	هيدا	N	noun	1	0	هاء | ياء | دال | ألف		hydA
+60	-1	1	life_expectancy_N	متوقع	مُتَوَقِّع	N	adj	0	0	ميم-ضمة | تاء-فتحة | واو-فتحة | قاف-شدة-كسرة | عين	expecting / anticipating	mutawaq~iE
+80	-1	1	life_expectancy_N	متوقع	مُتَوَقَّع	A	adj	1	0	ميم-ضمة | تاء-فتحة | واو-فتحة | قاف-شدة-فتحة | عين
+64	-1	0	mohawk_2_N	موهوك	مَوَّهُوك	N	noun	1	0		have_abundant_water / add_water / dilute+they_<verb>_you
+65	-1	0	oneida_N	أونيدا	أونيدا	N	noun	1	0	همزة على الألف | واو | نون | ياء | دال | ألف		>wnydA
+66	-1	0	onondaga_N	أونونداجا	أونونداجا	N	noun	1	0	همزة على الألف | واو | نون | واو | نون | دال | ألف | جيم | ألف		>wnwndAjA
+68	-1	1	percent_MU	مئوية	مِئَوِيَّة	N	adj	1	0	ميم-كسرة | همزة على الياء-فتحة | واو-كسرة | ياء-شدة-فتحة | تاء مربوطة	one-hundred / hundreth / percentage+[fem.sg.]	mi}awiy~ap
+70	-1	0	swedish_N	السويدية	السُوِيدِيَّة	N	adj	0	0	ألف | لام | سين-ضمة | واو-كسرة | ياء | دال-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+Swedish+[fem.sg.]	Alsuwiydiy~ap
+71	-1	0	swedish_N	السويدية	السُوِيدِيَّة	N	noun	1	0	ألف | لام | سين-ضمة | واو-كسرة | ياء | دال-كسرة | ياء-شدة-فتحة | تاء مربوطة	the+Swedish+[fem.sg.]	Alsuwiydiy~ap
+73	-1	0	tlingit_N	تلينغيت	تلينغيت	N	noun	1	0	تاء | لام | ياء | نون | غين | ياء | تاء		tlyngyt
+74	-1	0	tsimshian_N	تسيمشيان	تسيمشيان	N	noun	1	0	تاء | سين | ياء | ميم | شين | ياء | ألف | نون		tsym$yAn
+7	-1	1	vat_1_N	مضافة	مَضافَة	A	noun	0	0	ميم-فتحة | ضاد | ألف | فاء-فتحة | تاء مربوطة	guest_room / hostel+[fem.sg.]	maDAfap
+8	-1	1	vat_1_N	مضافة	مُضافَة	A	adj	1	0	ميم-ضمة | ضاد | ألف | فاء-فتحة | تاء مربوطة	added+[fem.sg.]	muDAfap
+77	-1	0	yiddish_N	اليديشية	اليديشية	N	noun	1	0	ألف | لام | ياء | دال | ياء | شين | ياء | تاء مربوطة		Alydy$yp
+21	7862	0	average_1_N	متوسط	مُتَوَسِّط	N	adj	1	1	ميم-ضمة | تاء-فتحة | واو-فتحة | سين-شدة-كسرة | طاء	['being in the middle, mediating / middle, central / medium / average, middling, indifferent']	mutawas~iT
+30	24287	0	cree_N	كري	كري	N	noun	1	1		['spherical']
+34	41	0	dollar_MU	دولار	دُولَار	MU	noun	1	1	دال-ضمة | واو | لام-فتحة | ألف | راء	['dollar']	duwlaAr
+38	12084	1	european_union_NP	اتحاد	اِتِّحَاد	N	noun	1	1	ألف-كسرة | تاء-شدة-كسرة | حاء-فتحة | ألف | دال	['verbal noun of اِتَّحَدَ (ittaḥada) (form VIII) / union / concord / unanimity / identity']	Ait~iHaAd
+48	4589	1	head_of_state_N	دولة	دَوْلَة	N	noun	1	1	دال-فتحة | واو-سكون | لام-فتحة | تاء مربوطة	['state (sovereign polity) / alternation, change']	dawolap
+4	26328	0	healthcare_2_N	صحية	صِحِّيَّة	N	adj	1	1	صاد-كسرة | حاء-شدة-كسرة | ياء-شدة-فتحة | تاء مربوطة	['feminine singular of صِحِّيّ (ṣiḥḥiyy)']	SiH~iy~ap
+3	124114	0	healthcare_2_N	رعاية	رِعايَة	N	noun	1	1	راء-كسرة | عين | ألف | ياء-فتحة | تاء مربوطة	['care, support, custody']	riEAyap
+49	7862	1	life_expectancy_N	متوسط	مُتَوَسِّط	N	adj	1	1	ميم-ضمة | تاء-فتحة | واو-فتحة | سين-شدة-كسرة | طاء	['being in the middle, mediating / middle, central / medium / average, middling, indifferent']	mutawas~iT
+63	5386	0	literacy_N	كتابة	كِتَابَة	N	noun	1	1	كاف-كسرة | تاء-فتحة | ألف | باء-فتحة | تاء مربوطة	['verbal noun of كَتَبَ (kataba) (form I) / writing / handwriting / script']	kitaAbap
+61	6133	0	literacy_N	معرفة	مَعْرِفَة	N	noun	1	1	ميم-فتحة | عين-سكون | راء-كسرة | فاء-فتحة | تاء مربوطة	['verbal noun of عَرَفَ (ʕarafa) (form I) / knowledge / definite']	maEorifap
+62	8344	0	literacy_N	قراءة	قِرَاءَة	N	noun	1	1	قاف-كسرة | راء-فتحة | ألف | همزة-فتحة | تاء مربوطة	['verbal noun of قَرَأَ (qaraʔa) (form I) / reading / one of the variants in the recitation of the Quran']	qiraA'ap
+67	5710	1	percent_MU	نسبة	نِسْبَة	N	noun	1	1	نون-كسرة | سين-سكون | باء-فتحة | تاء مربوطة	['verbal noun of نَسَبَ (nasaba) (form I) / relationship, affiliation / connection, relation / agreement / ratio, proportion / rate / percentage / nisba, a common suffix to form adjectives of relation or pertinence, e.g. ـي (-ī, -iyy) m and ـيَة (-íyya) f.']	nisobap
+69	5390	0	point_10_N	نقطة	نُقْطَة	N	noun	1	1	نون-ضمة | قاف-سكون | طاء-فتحة | تاء مربوطة	['dot, point / period (punctuation mark) / spot (stain, tarnish) / drop']	nuqoTap
+9	818	0	prime_minister_2_N	وزير	وَزِير	N	noun	1	1	واو-فتحة | زاي-كسرة | ياء | راء	['minister, cabinet minister / vizier / helper, assistant / queen']	waziyr
+0	661	0	regime_1_N	نظام	نِظَام	N	noun	1	1	نون-كسرة | ظاء-فتحة | ألف | ميم	['system / regularity / order / method / rule / regime: perhaps short for نِظَام الْحُكْم (niẓām al-ḥukm, “system of rule”)']	niZaAm
+72	661	0	system_4_N	نظام	نِظَام	N	noun	1	1	نون-كسرة | ظاء-فتحة | ألف | ميم	['system / regularity / order / method / rule / regime: perhaps short for نِظَام الْحُكْم (niẓām al-ḥukm, “system of rule”)']	niZaAm
+75	117666	0	unemployment_N	بطالة	بِطَالَة	N	noun	1	1	باء-كسرة | طاء-فتحة | ألف | لام-فتحة | تاء مربوطة	['idleness / unemployment']	biTaAlap
+76	117666	0	unemployment_N	بطالة	بَطَالَة	N	noun	0	1	باء-فتحة | طاء-فتحة | ألف | لام-فتحة | تاء مربوطة	['idleness / unemployment']	baTaAlap
+6	20995	1	vat_1_N	قيمة	قِيمَة	N	noun	1	1	قاف-كسرة | ياء | ميم-فتحة | تاء مربوطة	['value, worth / amount, quantity / price']	qiymap
+5	117242	1	vat_1_N	ضريبة	ضَرِيبَة	N	noun	1	1	ضاد-فتحة | راء-كسرة | ياء | باء-فتحة | تاء مربوطة	['tribute, tax, public levy']	Dariybap
+26	2405	0	coptic_N	قبطي	قِبْطِيّ	N	adj	0	2	قاف-كسرة | باء-سكون | طاء-كسرة | ياء-شدة	['Coptic']	qiboTiy~
+27	2405	0	coptic_N	قبطي	قُبْطِيّ	N	adj	0	2	قاف-ضمة | باء-سكون | طاء-كسرة | ياء-شدة	['Coptic']	quboTiy~
+28	2406	0	coptic_N	قبطي	قِبْطِيّ	N	noun	1	2	قاف-كسرة | باء-سكون | طاء-كسرة | ياء-شدة	['Copt']	qiboTiy~
+29	2406	0	coptic_N	قبطي	قُبْطِيّ	N	noun	0	2	قاف-ضمة | باء-سكون | طاء-كسرة | ياء-شدة	['Copt']	quboTiy~
+39	3624	1	european_union_NP	أوروبي	أُورُوبِّيّ	N	adj	0	2	همزة على الألف-ضمة | واو | راء-ضمة | واو | باء-شدة-كسرة | ياء-شدة	['European']	>uwruwb~iy~
+40	3625	1	european_union_NP	أوروبي	أُورُوبِّيّ	N	noun	1	2	همزة على الألف-ضمة | واو | راء-ضمة | واو | باء-شدة-كسرة | ياء-شدة	['European']	>uwruwb~iy~
+46	827	1	head_of_state_N	رئيس	رَئِيس	N	noun	1	2	راء-فتحة | همزة على الياء-كسرة | ياء | سين	['boss, chief, leader / director / headmaster, principal / chairman / governor / president / manager, superintendent / conductor / captain']	ra}iys
+47	828	1	head_of_state_N	رئيس	رَئِيس	N	adj	0	2	راء-فتحة | همزة على الياء-كسرة | ياء | سين	['main, chief, leading']	ra}iys
+13	13023	1	inequality_N	مساواة	مُسَاوَاة	N	noun	1	2	ميم-ضمة | سين-فتحة | ألف | واو-فتحة | ألف | تاء مربوطة	['verbal noun of سَاوَى (sāwā) (form III) / equality, equivalence / equal rights / settlement (of a bill)']	musaAwaAp
+14	13024	1	inequality_N	مساواة	مُسَاوَاة	N	adj	0	2	ميم-ضمة | سين-فتحة | ألف | واو-فتحة | ألف | تاء مربوطة	['feminine singular of مُسَاوًى (musāwan)']	musaAwaAp
+1	3016	0	regime_1_N	حاكم	حَاكِم	A	adj	1	2	حاء-فتحة | ألف | كاف-كسرة | ميم	['ruling, governing / decisive']	HaAkim
+2	3017	0	regime_1_N	حاكم	حَاكِم	A	noun	0	2	حاء-فتحة | ألف | كاف-كسرة | ميم	['judge / ruler, sovereign / governor']	HaAkim
+15	21836	0	yen_2_N	ين	ـِينَ	N	suffix	0	2	تطويل-كسرة | ياء | نون-فتحة	['Oblique form, i.e. genitive and accusative form, of ـُونَ (-ūna, plural suffix). The corresponding construct form is ـِي (-ī).']	_iyna
+16	21837	0	yen_2_N	ين	ـَيْنِ	N	suffix	0	2	تطويل-فتحة | ياء-سكون | نون-كسرة	['Oblique form of ـَانِ (-āni, dual suffix). The corresponding construct form is ـَيْ (-ay).']	_ayoni
+81	-1	0	yen_2_N	ين	يِن	N	noun	1	0	ياء-كسرة | نون-كسرة
+18	64	0	arabic_N	عربي	عَرَبِيّ	N	adj	0	3	عين-فتحة | راء-فتحة | باء-كسرة | ياء-شدة	['Arab / Arabic / Arabian']	Earabiy~
+19	65	0	arabic_N	عربي	عَرَبِيّ	N	noun	1	3	عين-فتحة | راء-فتحة | باء-كسرة | ياء-شدة	['Arab / Arabic (language)']	Earabiy~
+20	66	0	arabic_N	عربي	عَرِّبِي	N	verb	0	3	عين-فتحة | راء-شدة-كسرة | باء-كسرة | ياء	['second-person feminine singular active imperative of عَرَّبَ (ʕarraba)']	Ear~ibiy
+50	2550	1	life_expectancy_N	عمر	عَمَرَ	N	verb	0	8	عين-فتحة | ميم-فتحة | راء-فتحة	['to live long, to be long-lived']	Eamara
+51	2551	1	life_expectancy_N	عمر	عَمَرَ	N	verb	0	8	عين-فتحة | ميم-فتحة | راء-فتحة	['to thrive, to prosper, to flourish, to flower, to bloom / to be inhabited, to be peopled, to be populated / to be civilized, to be cultivated / to be full, to be filled']	Eamara
+52	2551	1	life_expectancy_N	عمر	عَمُرَ	N	verb	0	8	عين-فتحة | ميم-ضمة | راء-فتحة	['to thrive, to prosper, to flourish, to flower, to bloom / to be inhabited, to be peopled, to be populated / to be civilized, to be cultivated / to be full, to be filled']	Eamura
+53	2552	1	life_expectancy_N	عمر	عَمَرَ	N	verb	0	8	عين-فتحة | ميم-فتحة | راء-فتحة	['to fill with life, to cause to thrive, to make prosperous / to inhabit, to live, to dwell / to fill, to pervade / to reign / to build, to erect, to construct / to rebuild, to restore, to reconstruct']	Eamara
+54	2553	1	life_expectancy_N	عمر	عَمَّرَ	N	verb	0	8	عين-فتحة | ميم-شدة-فتحة | راء-فتحة	['to prolong life, to grant long life / to populate, to people / to build, to erect, to construct / to rebuild, to reconstruct / to repair, to restore, to overhaul, to refurbish, to recondition']	Eam~ara
+55	2554	1	life_expectancy_N	عمر	عُمُر	N	noun	0	8	عين-ضمة | ميم-ضمة | راء	['life as a period of time, length of life, lifespan, lifetime / age']	Eumur
+56	2554	1	life_expectancy_N	عمر	عُمْر	N	noun	1	8	عين-ضمة | ميم-سكون | راء	['life as a period of time, length of life, lifespan, lifetime / age']	Eumor
+57	2555	1	life_expectancy_N	عمر	عَمْر	N	noun	0	8	عين-فتحة | ميم-سكون | راء	['verbal noun of عَمَرَ (ʕamara) (form I)']	Eamor
+58	2556	1	life_expectancy_N	عمر	عُمَر	N	noun	0	8	عين-ضمة | ميم-فتحة | راء	['verbal noun of عَمَرَ (ʕamara) (form I)']	Eumar
+59	2557	1	life_expectancy_N	عمر	عُمَر	N	name	0	8	عين-ضمة | ميم-فتحة | راء	"[""a male given name, Umar, Omar / ʿUmar ibn al-Ḵaṭṭāb, recognized as the Islamic prophet's second rightly-guided successor in Sunni Islam""]"	Eumar

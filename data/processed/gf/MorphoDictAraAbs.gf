@@ -136,4 +136,34 @@ fun 'وَصَل_V' : V ; -- source: wikitionary, idx: 4743, senses: ['(transitiv
 fun 'تَكَلَّم_V' : V ; -- source: wikitionary, idx: 6248, senses: ['to talk, to have a discussion or conversation']
 fun 'مَلَك_V' : V ; -- source: wikitionary, idx: 698, senses: ['to take in possession, to take over, to acquire, to seize / to possess, to lay hold, to own, to have, to be the owner / to dominate, to control / to be the master / to be capable, to be able, to be in a position to / to rule, to reign, to exercise authority, to hold sway, to lord over']
 fun 'عَرَض_V' : V ; -- source: wikitionary, idx: 8035, senses: ['to appear / to happen, to occur / to show, to display, to present / to expose']
+fun 'ألجونكوين_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'بلاكفوت_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'كايوجا_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'صِينِيَّة_N' : N ; -- source: wikitionary, idx: -1, senses: Chinese+fem.sg
+fun 'تشيبويان_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'إِنْجلِيزِيَّة_N' : N ; -- source: wikitionary, idx: -1, senses: the+English_(language)+fem.sg
+fun 'فِلِبِّينِيَّة_N' : N ; -- source: wikitionary, idx: -1, senses: the+Philippine / Filipino+fem.sg
+fun 'فِنْلَنْدِيَّة_N' : N ; -- source: wikitionary, idx: -1, senses: the+Finnish+fem.sg
+fun 'هيدا_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'مَوَّهُوك_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'أونيدا_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'أونونداجا_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'سُوِيدِيَّة_N' : N ; -- source: wikitionary, idx: -1, senses: the+Swedish+fem.sg
+fun 'تلينغيت_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'تسيمشيان_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'يديشية_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'كري_N' : N ; -- source: wikitionary, idx: 24287, senses: ['spherical']
+fun 'دُولَار_N' : N ; -- source: wikitionary, idx: 41, senses: ['dollar']
+fun 'كِتَابَة_N' : N ; -- source: wikitionary, idx: 5386, senses: ['verbal noun of كَتَبَ (kataba) (form I) / writing / handwriting / script']
+fun 'مَعْرِفَة_N' : N ; -- source: wikitionary, idx: 6133, senses: ['verbal noun of عَرَفَ (ʕarafa) (form I) / knowledge / definite']
+fun 'قِرَاءَة_N' : N ; -- source: wikitionary, idx: 8344, senses: ['verbal noun of قَرَأَ (qaraʔa) (form I) / reading / one of the variants in the recitation of the Quran']
+fun 'نُقْطَة_N' : N ; -- source: wikitionary, idx: 5390, senses: ['dot, point / period (punctuation mark) / spot (stain, tarnish) / drop']
+fun 'نِظَام_N' : N ; -- source: wikitionary, idx: 661, senses: ['system / regularity / order / method / rule / regime: perhaps short for نِظَام الْحُكْم (niẓām al-ḥukm, “system of rule”)']
+fun 'نِظَام_N' : N ; -- source: wikitionary, idx: 661, senses: ['system / regularity / order / method / rule / regime: perhaps short for نِظَام الْحُكْم (niẓām al-ḥukm, “system of rule”)']
+fun 'بِطَالَة_N' : N ; -- source: wikitionary, idx: 117666, senses: ['idleness / unemployment']
+fun 'قِبْطِي_N' : N ; -- source: wikitionary, idx: 2406, senses: ['Copt']
+fun 'يِن_N' : N ; -- source: wikitionary, idx: -1, senses: ['']
+fun 'عَرَبِي_N' : N ; -- source: wikitionary, idx: 65, senses: ['Arab / Arabic (language)']
+fun 'مُتَوَسِّط_A' : A ; -- source: wikitionary, idx: 7862, senses: ['being in the middle, mediating / middle, central / medium / average, middling, indifferent']
+fun 'حَاكِم_A' : A ; -- source: wikitionary, idx: 3016, senses: ['ruling, governing / decisive']
 }

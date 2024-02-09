@@ -1,0 +1,9 @@
+,wiki_idx,no_en_entry,en_entry,ar,vocal_forms,wiki_pos,ar_letters,senses,tim_translit,gender,other_gender_form,masc_pl,fem_pl,root
+32,-1,1,demographic_N,سكانية,سُكّانِيَّة,adj,سين-ضمة | كاف-شدة | ألف | نون-كسرة | ياء-شدة-فتحة | تاء مربوطة,'residential / population+fem.sg',suk~Aniy~ap,fem,سُكّانِيّ,سُكّانِيّون,سُكّانِيّات,سكن
+80,-1,1,life_expectancy_N,متوقع,مُتَوَقَّع,adj,ميم-ضمة | تاء-فتحة | واو-فتحة | قاف-شدة-فتحة | عين,"[""""]",,masc,مُتَوَقَّعة,مُتَوَقَّعون,مُتَوَقَّعات,
+68,-1,1,percent_MU,مئوية,مِئَوِيَّة,adj,ميم-كسرة | همزة على الياء-فتحة | واو-كسرة | ياء-شدة-فتحة | تاء مربوطة,'one-hundred / hundreth / percentage+fem.sg',mi}awiy~ap,fem,مِئَوِيّ,مِئَوِيون,مِئَوِيّات,
+8,-1,1,vat_1_N,مضافة,مُضافَة,adj,ميم-ضمة | ضاد | ألف | فاء-فتحة | تاء مربوطة,'added+fem.sg.',muDAfap,fem,مُضاف,مُضافون,مُضاف,
+21,7862,0,average_1_N,متوسط,مُتَوَسِّط,adj,ميم-ضمة | تاء-فتحة | واو-فتحة | سين-شدة-كسرة | طاء,"['being in the middle, mediating / middle, central / medium / average, middling, indifferent']",mutawas~iT,masc,مُتَوَسِّطَةٌ,مُتَوَسِّطُونَ,مُتَوَسِّطَات,وسط
+4,26328,1,healthcare_2_N,صحية,صِحِّيَّة,adj,صاد-كسرة | حاء-شدة-كسرة | ياء-شدة-فتحة | تاء مربوطة,['feminine singular of صِحِّيّ (ṣiḥḥiyy)'],SiH~iy~ap,fem,صِحِّيّ,صِحِّيُّون,صِحِّيَّات,
+49,7862,1,life_expectancy_N,متوسط,مُتَوَسِّط,adj,ميم-ضمة | تاء-فتحة | واو-فتحة | سين-شدة-كسرة | طاء,"['being in the middle, mediating / middle, central / medium / average, middling, indifferent']",mutawas~iT,masc,مُتَوَسِّطَةٌ,مُتَوَسِّطُونَ,مُتَوَسِّطَات,وسط
+1,3016,0,regime_1_N,حاكم,حَاكِم,adj,حاء-فتحة | ألف | كاف-كسرة | ميم,"['ruling, governing / decisive']",HaAkim,masc,حَاكِمَةٌ,حَاكِمُون,حَاكِمَات,حكم
