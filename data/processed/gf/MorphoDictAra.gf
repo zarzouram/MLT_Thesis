@@ -1,4 +1,4 @@
-concrete MorphoDictAra of MorphoDictAraAbs = CatAra ** open ParadigmsAra, MoreAra in {
+concrete MorphoDictAra of MorphoDictAraAbs = CatAra ** open ParadigmsAra in {
 lin 'صِينِيَّة_N' = wmkN { g = fem ; sg = "صِينِيَّة" } ;
 lin 'دارِيَّة_N' = wmkN { g = fem ; sg = "دارِيَّة" } ;
 lin 'تَطْوِير_N' = wmkN { g = masc ; sg = "تَطْوِير" } ;
