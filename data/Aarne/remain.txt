@@ -1,0 +1,13 @@
+[ ]     magdalena_1_GN
+[ ]     andersson_2_SN
+[ ]     wto_PN
+[ ]     upu_PN
+[ ]     un_PN
+[ ]     opcw_PN
+[ ]     ifc_PN
+[ ]     malgovik_7_LN
+[ ]     dayMonthYearAdv
+[ ]     intMonthday
+[ ]     december_Month
+[ ]     intYear
+[ ]     Oscar_Gn
