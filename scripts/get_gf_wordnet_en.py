@@ -10,11 +10,10 @@ from google.cloud import translate_v2 as translate
 from tqdm import tqdm
 
 
-def translate_text(text: str, target_language_code: str):
+def translate_text(values: str, target_language_code: str):
     sleep(1.0)
     translate_client = translate.Client()
-    result = translate_client.translate(text, target_language=target_language_code)
-
+    result = translate_client.translate(values, source_language="en", target_language=target_language_code)
     return result["input"], result["translatedText"]
 
 
@@ -31,7 +30,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-qids",
         nargs="+",
-        default=["Q79", "Q34", "Q16"],
+        # default=["Q79", "Q34", "Q16"],
         help="A list if Wikidata entities' ID.",
     )
 
