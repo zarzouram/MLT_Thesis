@@ -72,6 +72,7 @@ lin 'مَنْطِقَة_N' = wmkN { g = fem ; pl = "مَنْطِقَات" ; root
 lin 'كِتَاب_N' = wmkN { g = masc ; pl = "كُتُب" ; root = "كتب" ; sg = "كِتَاب" } ;
 lin 'عُمْلَة_N' = wmkN { g = fem ; pl = "عُمْلَات" ; root = "عمل" ; sg = "عُمْلَة" } ;
 lin 'دِيمُقْرَاطِيَّة_N' = wmkN { g = fem ; pl = "دِيمُقْرَاطِيَّات" ; sg = "دِيمُقْرَاطِيَّة" } ;
+lin 'نُورْدِيَّة_N' = wmkN { g = fem ; pl = "نُورْدِيَّات" ; sg = "نُورْدِيَّة" } ;
 lin 'شَرْق_N' = wmkN { g = masc ; pl = "مَشارِق" ; root = "شرق" ; sg = "شَرْق" } ;
 lin 'رَأْس_N' = wmkN { g = masc ; pl = "رُؤُوس" ; root = "رءس" ; sg = "رَأْس" } ;
 lin 'سَاكِن_N' = wmkN { g = fem ; pl = "سُكّان" ; root = "سكن" ; sg = "سَاكِن" } ;
@@ -200,6 +201,8 @@ lin 'سُوَيْدِي_A' = wmkA { fem_pl = "سُوَيْدِيَّات" ; fem_
 lin 'بَشَرِي_A' = wmkA { fem_pl = "بَشَرِيَّات" ; fem_sg = "بَشَرِيَّة" ; masc_pl = "بَشَرِيٌّون" ; masc_sg = "بَشَرِي" ; root = "بشر" } ;
 lin 'مُنَظِم_A' = wmkA {fem_pl = "مُنَظِمات" ; fem_sg = "مُنَظِمة" ; masc_pl = "مُنَظِمون" ; masc_sg = "مُنَظِم" ; root = "نظم"} ;
 lin 'عَالَمِي_A' = wmkA {fem_pl = "عَالَمِيَّات" ; fem_sg = "عَالَمِيَّة" ; masc_pl = "عَالَمِيُّون" ; masc_sg = "عَالَمِي" ; root = "علم"} ;
+lin 'نُورْدِي_A' = wmkA {fem_pl = "نُورْدِيات" ; fem_sg = "نُورْدِيَّة" ; masc_pl = "نُورْدِيُّون" ; masc_sg = "نُورْدِي" ; root = "نورد"} ;
+
 
 lin 'وَصَل_V' = wmkV { cls = FormI ; imperfect = "يَصِل" ; perfect = "وَصَل" ; root = "وصل" } ;
 lin 'نَجَح_V' = wmkV { cls = FormI ; imperfect = "يَنْجَح" ; perfect = "نَجَح" ; root = "نجح" } ;
