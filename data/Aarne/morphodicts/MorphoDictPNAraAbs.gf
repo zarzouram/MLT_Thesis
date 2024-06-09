@@ -1,11 +1,11 @@
 abstract MorphoDictPNAraAbs = Cat ** {
 -- N
-fun 'آرثر_N' : N ;
+fun 'آرثر_sn_N' : N ;
 
 -- SN
 fun 'آرثر_sn_PN' : PN ;
 
 -- GN
-fun 'آرثر_PN' : PN ;
-fun 'بارت_PN' : PN ;
+fun 'آرثر_gn_PN' : PN ;
+fun 'بارت_gn_PN' : PN ;
 }

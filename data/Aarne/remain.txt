@@ -7,9 +7,3 @@
 [ ]     intMonthday
 [ ]     december_Month
 [ ]     intYear
-[ ]     malgovik_7_LN
-[ ]     magdalena_1_GN
-[ ]     andersson_2_SN
-[ ]     Oscar_Gn
-[ ]     ulf_7_GN
-[ ]     kristersson_3_SN

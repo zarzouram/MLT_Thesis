@@ -233,15 +233,15 @@ fun literacy_NP : NP ;
 fun percent_Adv : Adv ;
 fun inhabitant_1_MU : MU ;
 fun human_development_CN : CN ;
-fun hdi_NP : NP ; --No PN from NP
-fun freedom_in_the_world_1_N : NP ;
-fun freedom_in_the_world_N : NP ; --No PN from NP
 fun prime_ministerFem_CN : CN ;
 fun prime_ministerMasc_CN : CN ;
 fun prime_minister_1_CN : CN ;
 fun age_of_majority_NP : NP ;
 fun democracy_index_NP : NP ;
 fun gross_domestic_product_NP : NP ;
+--fun freedom_in_the_world_1_N : NP ;
+fun freedom_in_the_world_NP : NP ; --No PN from NP
+fun hdi_NP : NP ; --No PN from NP
 fun wto_NP : NP ;
 fun take_office_VP : VP ;
 }

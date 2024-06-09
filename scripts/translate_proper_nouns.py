@@ -110,7 +110,7 @@ if __name__ == "__main__":
                             (_\d\d?)?           # G.4 Identification Number
                             (_(?:{nt_regex}))   # G.5 Noun identifier
                           )
-                          (.*)    # G.6 The rest of linearization function
+                          (.;*)    # G.6 The rest of linearization function
                           """
     lin_funs_regex = re.compile(lin_funs_regex, flags=re.VERBOSE)
 
