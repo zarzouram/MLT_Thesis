@@ -130,6 +130,8 @@ def construct_concrete_pnoun(data_row: pd.Series) -> str:
     if pnt == "LN" or pnt == "SN":
         str_lin = STR_LIN_LN_SN.format(word_ar, pnt_mod, word_suffix)
     elif pnt == "GN":
+        gender_suffix = "m" if g_masc == 1 else "f"
+        word_suffix = word_suffix + gender_suffix
         str_lin = STR_LIN_GN.format(word_ar,
                                     "masc" if g_masc == 1 else "fem",
                                     word_suffix)

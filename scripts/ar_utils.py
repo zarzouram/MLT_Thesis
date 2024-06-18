@@ -1,10 +1,9 @@
-from typing import List
 from unicodedata import normalize
 
 from pyarabic.araby import DIACRITICS, SHADDA, name
 
 
-def reorder_shadda(ar_string: List[str]) -> str:
+def reorder_shadda(ar_string: str) -> str:
     """unicodedata.normalize put shadda before diacritics"""
     list_ar_str = list(ar_string)
 
