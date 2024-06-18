@@ -909,4 +909,5 @@ lin 'ويسلر_sn_PN' = mkPN 'ويسلر_sn_N' ;
 lin 'ويلر_sn_PN' = mkPN 'ويلر_sn_N' ;
 lin 'ويلينغتون_sn_PN' = mkPN 'ويلينغتون_sn_N' ;
 lin 'وين_sn_PN' = mkPN 'وين_sn_N' ;
-lin 'يطارد_sn_PN' = mkPN 'يطارد_sn_N' ;\n}
+lin 'يطارد_sn_PN' = mkPN 'يطارد_sn_N' ;
+}
