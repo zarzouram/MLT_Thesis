@@ -1,5 +1,6 @@
 import argparse
 import re
+
 # from distutils.dir_util import copy_tree, remove_tree
 from pathlib import Path
 from typing import Literal
@@ -220,7 +221,7 @@ if __name__ == "__main__":
         text = f"concrete MorphoDict{pnt}Ara of MorphoDict{pnt}AraAbs ="
         text += r"CatAra ** open ParadigmsAra in {" + "\n"
         text += "\n".join(df_functions["concrete"].to_list())
-        text += r"\n}"
+        text += "\n}"
         morpho_path = morpho_dicts_dir / STR_MORPHO_NAME.format(pnt, "")
         with open(morpho_path, mode="w", encoding="utf-8") as fobj:
             fobj.write(text)
