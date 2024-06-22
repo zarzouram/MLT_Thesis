@@ -26,7 +26,7 @@ STR_LIN_N_HUM = (
 )
 # Other linearizations
 STR_LIN_LN_SN = r"lin '{0:}{2:}_{1:}' = mk{1:} '{0:}{2:}_N' ;"
-STR_LIN_GN = r"lin '{0:}{2:}_PN' = mkPN " + r'"{0:}_N" {1:} hum;'
+STR_LIN_GN = r"lin '{0:}{2:}_PN' = mkPN " + r'"{0:}" {1:} hum;'
 # Abstract function
 STR_ABS_ARA = r"fun '{0:}_{1:}' : {1:} ;"
 # WordNet entry (between single quote)
