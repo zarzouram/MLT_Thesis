@@ -217,6 +217,17 @@ fun 'إِجْمَالِي_N' : N ;
 fun 'مِهْنَة_N' : N ;
 fun 'تِجارَة_N' : N ;
 fun 'عَالَمِي_A' : A ;
+fun 'تَمْثيلِي_A' : A ;
+fun 'بَريدِي_A' : A ;
+fun 'شَعْب_N' : N ;
+fun 'أُمَّة_N' : N ;
+fun 'مُتَّحِد_A' : A ;
+fun 'مُرْتَبِط_A' : A ;
+fun 'حَظْر_N' : N ;
+fun 'سِلاح_N' : N ;
+fun 'كِيمْيائي_A' : A ;
+fun 'مُؤَسَّسَة_N' : N ;
+fun 'تَمْويل_N' : N ;
 
 --changed type
 fun life_expectancy_CN : CN ;
@@ -239,9 +250,14 @@ fun prime_minister_1_CN : CN ;
 fun age_of_majority_NP : NP ;
 fun democracy_index_NP : NP ;
 fun gross_domestic_product_NP : NP ;
+fun weaponry_NP : NP ;
 --fun freedom_in_the_world_1_N : NP ;
 fun freedom_in_the_world_NP : NP ; --No PN from NP
 fun hdi_NP : NP ; --No PN from NP
 fun wto_NP : NP ;
+fun upu_NP : NP ;
+fun un_NP : NP ;
 fun take_office_VP : VP ;
+fun opcw_NP : NP ;
+fun ifc_NP : NP ;
 }

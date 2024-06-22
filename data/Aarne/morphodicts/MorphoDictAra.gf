@@ -155,10 +155,17 @@ lin 'فَرْد_N' = wmkN { g = masc ; pl = "أَفْراد" ; sg = "فَرْد"
 lin 'مُؤَشِّر_N' = wmkN { g = masc ; pl = "مُؤَشِّرات" ; sg = "مُؤَشِّر" } ;
 lin 'أُس_N' = wmkN { g = masc ; pl = "آساس" ; sg = "أُس" } ;
 lin 'مَنْصِب_N' = wmkN { g = masc ; pl = "مَناصِب" ; root = "نصب" ; sg = "مَنْصِب" } ;
+lin 'شَعْب_N' = wmkN { g = masc ; pl = "شُعوب" ; root = "شعب" ; sg = "شَعْب" } ;
 lin 'ناتِج_N' = wmkN { g = masc ; root = "نتج" ; sg = "ناتِج" } ;
 lin 'إِجْمَالِي_N' = mkN nohum (wmkN { g = masc ; root = "جمل" ; sg = "إِجْمَالِيّ" }) ;
 lin 'تِجارَة_N' = mkN nohum (wmkN { g = fem ; root = "تجر" ; sg = "تِجارَة" }) ;
 lin 'مِهْنَة_N' = mkN nohum (wmkN { g = fem ; pl = "مِهَن" ; root = "مهن" ; sg = "مِهْنَة" }) ;
+lin 'أُمَّة_N' = mkN nohum (wmkN { g = fem ; pl = "أُمَم" ; root = "أمم" ; sg = "أُمَّة" }) ;
+lin 'حَظْر_N' = wmkN { g = masc ; root = "حظر" ; sg = "حَظْر" } ;
+lin 'سِلاح_N' = wmkN { g = masc ; pl = "أَسْلِحَة" ; root = "سلح" ; sg = "سِلاح" } ;
+lin 'مُؤَسَّسَة_N' = wmkN { g = fem ; pl = "مُؤَسَّسَات" ; root = "أسس" ; sg = "مُؤَسَّسَة" } ;
+lin 'تَمْويل_N' = wmkN { g = fem ; pl = "تَمْويلات" ; root = "مول" ; sg = "تَمْويل" } ;
+
 
 lin 'مُمْتَلِئ_A' = wmkA { fem_pl = "مُمْتَلِئَات" ; fem_sg = "مُمْتَلِئَة" ; masc_pl = "مُمْتَلِئُون" ; masc_sg = "مُمْتَلِئ" ; root = "ملء" } ;
 lin 'إِجْمَالِي_A' = wmkA { fem_pl = "إِجْمَالِيَّات" ; fem_sg = "إِجْمَالِيَّة" ; masc_pl = "إِجْمَالِيُّون" ; masc_sg = "إِجْمَالِي" ; root = "جمل" } ;
@@ -194,7 +201,7 @@ lin 'اِسْتِبْدادِي_A' = wmkA { fem_pl = "اِسْتِبْدادِي
 lin 'وَسِيط_A' = wmkA { fem_pl = "وُسَطَاء" ; fem_sg = "وَسِيط" ; masc_pl = "وُسَطَاء" ; masc_sg = "وَسِيط" ; root = "وسط" } ;
 lin 'مَحَلِّي_A' = wmkA { fem_pl = "مَحَلِّيَّات" ; fem_sg = "مَحَلِّيَّة" ; masc_pl = "مَحَلِّيُّون" ; masc_sg = "مَحَلِّي" ; root = "خلل" } ;
 lin 'تَالِي_A' = wmkA { fem_pl = "تَالِيات" ; fem_sg = "تَالِية" ; masc_pl = "تَالِيون" ; masc_sg = "تَالِي" } ;
-lin 'مُتَوَسِّط_A' = wmkA { fem_pl = "مُتَوَسِّطَات" ; fem_sg = "مُتَوَسِّطَة" ; masc_pl = "مُتَوَسِّطُون" ; masc_sg = "مُتَوَسِّط" ; root = "وسط" } ;
+lin 'مُتَوَسِّط_A' = wmkA { fem_pl = "مُتَوَسِّطَات" ; fem_sg = "مُتَوَسِّطَة" ; masc_pl = "مُتَوَسِّطُون" ; masc_sg = "مُتَوَسِّط" ; root = "وسط"} ;
 lin 'مُتَوَقَّع_A' = wmkA {fem_pl = "مُتَوَقَّعَات" ; fem_sg = "مُتَوَقَّعَة" ; masc_pl = "مُتَوَقَّعون" ; masc_sg = "مُتَوَقَّع" ; root = "وقع"} ;
 lin 'سُكَّانِي_A' = wmkA {fem_pl = "سُكَّانِيَّات" ; fem_sg = "سُكَّانِيَّة" ; masc_pl = "سُكَّانِيُّون" ; masc_sg = "سُكَّانِي" ; root = "سكن"} ;
 lin 'سُوَيْدِي_A' = wmkA { fem_pl = "سُوَيْدِيَّات" ; fem_sg = "سُوَيْدِيَّة" ; masc_pl = "سُوَيْدِيَّون" ; masc_sg = "سُوَيْدِيَّة" } ;
@@ -202,7 +209,12 @@ lin 'بَشَرِي_A' = wmkA { fem_pl = "بَشَرِيَّات" ; fem_sg = "ب
 lin 'مُنَظِم_A' = wmkA {fem_pl = "مُنَظِمات" ; fem_sg = "مُنَظِمة" ; masc_pl = "مُنَظِمون" ; masc_sg = "مُنَظِم" ; root = "نظم"} ;
 lin 'عَالَمِي_A' = wmkA {fem_pl = "عَالَمِيَّات" ; fem_sg = "عَالَمِيَّة" ; masc_pl = "عَالَمِيُّون" ; masc_sg = "عَالَمِي" ; root = "علم"} ;
 lin 'نُورْدِي_A' = wmkA {fem_pl = "نُورْدِيات" ; fem_sg = "نُورْدِيَّة" ; masc_pl = "نُورْدِيُّون" ; masc_sg = "نُورْدِي" ; root = "نورد"} ;
-
+lin 'تَمْثيلِي_A' = wmkA { fem_pl = "تَمْثيلِيَّات" ; fem_sg = "تَمْثيلِيَّة" ; masc_pl = "تَمْثيلِيّون" ; masc_sg = "تَمْثيلِيّ" ; root = "مثل"} ;
+lin 'بَريدِي_A' = wmkA { fem_pl = "بَريدِيَّات" ; fem_sg = "بَريدِيَّة" ; masc_pl = "بَريدِيّون" ; masc_sg = "بَريدِيّ" ; root = "بريد"} ;
+lin 'مُتَّحِد_A' = wmkA { fem_pl = "مُتَّحِدات" ; fem_sg = "مُتَّحِدة" ; masc_pl = "مُتَّحِدون" ; masc_sg = "مُتَّحِد" ; root = "وحد"} ;
+lin 'مُتَّحِد_A' = wmkA { fem_pl = "مُتَّحِدات" ; fem_sg = "مُتَّحِدة" ; masc_pl = "مُتَّحِدون" ; masc_sg = "مُتَّحِد" ; root = "وحد"} ;
+lin 'مُرْتَبِط_A' = wmkA { fem_pl = "مُرْتَبِطات" ; fem_sg = "مُرْتَبِطة" ; masc_pl = "مُرْتَبِطون" ; masc_sg = "مُرْتَبِط" ; root = "ربط"} ;
+lin 'كِيمْيائي_A' = wmkA { fem_pl = "كِيمْيائِيََات" ; fem_sg = "كِيمْيائِيَّة" ; masc_pl = "كِيمْيائِيُّون" ; masc_sg = "كِيمْيائيّ"} ;
 
 lin 'وَصَل_V' = wmkV { cls = FormI ; imperfect = "يَصِل" ; perfect = "وَصَل" ; root = "وصل" } ;
 lin 'نَجَح_V' = wmkV { cls = FormI ; imperfect = "يَنْجَح" ; perfect = "نَجَح" ; root = "نجح" } ;

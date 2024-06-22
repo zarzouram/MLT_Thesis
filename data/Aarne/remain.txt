@@ -1,8 +1,3 @@
-[ ]     wto_PN
-[ ]     upu_PN
-[ ]     un_PN
-[ ]     opcw_PN
-[ ]     ifc_PN
 [ ]     dayMonthYearAdv
 [ ]     intMonthday
 [ ]     december_Month
